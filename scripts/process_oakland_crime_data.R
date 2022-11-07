@@ -3,12 +3,6 @@ library(sf)
 library(readxl)
 library(zoo)
 
-# Save for backup the archived files from Oakland
-download.file("https://data.oaklandca.gov/api/views/ppgh-7dqv/rows.csv?accessType=DOWNLOAD&bom=true&format=true",
-              "data/source/oakland/oakland_crimes.csv")
-
-# import the latest file
-oakland_crime <- read_csv("data/source/oakland/oakland_crimes.csv") %>% janitor::clean_names()
 
 # Create cleaned date, month, hour columns for tracker charts
 # eliminate unnecessarily duplicative date,location fields

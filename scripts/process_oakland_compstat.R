@@ -680,6 +680,6 @@ past_crime_all <- rbind(past_crime_citywide,past_crime_area1,past_crime_area2,pa
 # save 2018-2019 annual file and rds archive
 write_csv(past_crime_all, "data/output/annual/oakland_crime_annual.csv")
 saveRDS(past_crime_all, "scripts/rds/oakland_crime_annual.rds")
-# rm(past_crime_citywide,past_crime_area1,past_crime_area2,past_crime_area3,past_crime_area4,past_crime_area5)
+rm(past_crime_citywide,past_crime_area1,past_crime_area2,past_crime_area3,past_crime_area4,past_crime_area5,past_crime_oakland)
 
 
