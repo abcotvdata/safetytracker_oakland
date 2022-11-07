@@ -3,40 +3,12 @@ library(sf)
 library(readxl)
 library(zoo)
 
-# load RDS for the annual and the latest weekly
-recent_crime_all <- readRDS("script/oakland_crime_recent.rds")
-annual_crime_all <- readRDS("script/oakland_crime_annual.rds")
+# Save for backup the archived files from Oakland
+download.file("https://data.oaklandca.gov/api/views/ppgh-7dqv/rows.csv?accessType=DOWNLOAD&bom=true&format=true",
+              "data/source/oakland/oakland_crimes.csv")
 
-
-recent_crime_all$description <- recent_crime_all$category
-
-recent_crime_all$category <- case_when(recent_crime_all$description == "Homicide – 187(a)PC" ~ "Murder",
-                                       recent_crime_all$description == "Homicide – All Other *" ~ "Subtotal",
-                                       recent_crime_all$description == "Aggravated Assault" ~ "Aggravated Assault",
-                                       recent_crime_all$description == "Assault with a firearm – 245(a)(2)PC" ~ "Subtotal",
-                                       recent_crime_all$description == "Subtotal - Homicides + Firearm Assault" ~ "Subtotal",
-                                       recent_crime_all$description == "Shooting occupied home or vehicle – 246PC" ~ "Subtotal",
-                                       recent_crime_all$description == "Non-firearm aggravated assaults" ~ "Subtotal",
-                                       recent_crime_all$description == "Rape" ~ "Sexual Assault",
-                                       recent_crime_all$description == "Robbery" ~ "Robbery",
-                                       recent_crime_all$description == "Firearm" ~ "Subtotal",
-                                       recent_crime_all$description == "Knife" ~ "Subtotal",
-                                       recent_crime_all$description == "Strong-arm" ~ "Subtotal",
-                                       recent_crime_all$description == "Other dangerous weapon" ~ "Subtotal",
-                                       recent_crime_all$description == "Residential robbery – 212.5(a)PC" ~ "Subtotal",
-                                       recent_crime_all$description == "Carjacking – 215(a) PC" ~ "Subtotal",
-                                       recent_crime_all$description == "Burglary" ~ "Burglary",
-                                       recent_crime_all$description == "Auto" ~ "Subtotal",
-                                       recent_crime_all$description == "Residential" ~ "Subtotal",
-                                       recent_crime_all$description == "Commercial" ~ "Subtotal",
-                                       recent_crime_all$description == "Other (Includes boats, aircraft, and so on)" ~ "Subtotal",
-                                       recent_crime_all$description == "Unknown" ~ "Subtotal",
-                                       recent_crime_all$description == "Motor Vehicle Theft" ~ "Motor Vehicle Theft",
-                                       recent_crime_all$description == "Larceny" ~ "Larceny",
-                                       recent_crime_all$description == "Arson" ~ "Arson",
-                                       recent_crime_all$description == "Total" ~ "Total",
-                                       TRUE ~ recent_crime_all$description)
-                               
+# import the latest file
+oakland_crime <- read_csv("data/source/oakland/oakland_crimes.csv") %>% janitor::clean_names()
 
 # Create cleaned date, month, hour columns for tracker charts
 # eliminate unnecessarily duplicative date,location fields
