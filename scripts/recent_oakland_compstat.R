@@ -94,7 +94,7 @@ recent_crime_oakland <- recent_crime_oakland %>% filter(category %in%
                                                         "Arson",
                                                         "Total"))
 
-recent_crime_oakland <- recent_crime_oakland %>% select(2:7)
+recent_crime_oakland <- recent_crime_oakland %>% select(2:9)
 
 recent_crime_oakland$weekly_total <- gsub(",","",recent_crime_oakland$weekly_total)
 recent_crime_oakland$ytd20 <- gsub(",","",recent_crime_oakland$ytd20)
@@ -209,7 +209,7 @@ recent_crime_oakland <- recent_crime_oakland %>% filter(category %in%
                                                         "Arson",
                                                         "Total"))
 
-recent_crime_oakland <- recent_crime_oakland %>% select(2:7)
+recent_crime_oakland <- recent_crime_oakland %>% select(2:9)
 
 recent_crime_oakland$weekly_total <- gsub(",","",recent_crime_oakland$weekly_total)
 recent_crime_oakland$ytd20 <- gsub(",","",recent_crime_oakland$ytd20)
@@ -324,7 +324,7 @@ recent_crime_oakland <- recent_crime_oakland %>% filter(category %in%
                                                         "Arson",
                                                         "Total"))
 
-recent_crime_oakland <- recent_crime_oakland %>% select(2:7)
+recent_crime_oakland <- recent_crime_oakland %>% select(2:9)
 
 recent_crime_oakland$weekly_total <- gsub(",","",recent_crime_oakland$weekly_total)
 recent_crime_oakland$ytd20 <- gsub(",","",recent_crime_oakland$ytd20)
@@ -440,7 +440,7 @@ recent_crime_oakland <- recent_crime_oakland %>% filter(category %in%
                                                         "Arson",
                                                         "Total"))
 
-recent_crime_oakland <- recent_crime_oakland %>% select(2:7)
+recent_crime_oakland <- recent_crime_oakland %>% select(2:9)
 
 recent_crime_oakland$weekly_total <- gsub(",","",recent_crime_oakland$weekly_total)
 recent_crime_oakland$ytd20 <- gsub(",","",recent_crime_oakland$ytd20)
@@ -556,7 +556,7 @@ recent_crime_oakland <- recent_crime_oakland %>% filter(category %in%
                                                         "Arson",
                                                         "Total"))
 
-recent_crime_oakland <- recent_crime_oakland %>% select(2:7)
+recent_crime_oakland <- recent_crime_oakland %>% select(2:9)
 
 recent_crime_oakland$weekly_total <- gsub(",","",recent_crime_oakland$weekly_total)
 recent_crime_oakland$ytd20 <- gsub(",","",recent_crime_oakland$ytd20)
@@ -672,7 +672,7 @@ recent_crime_oakland <- recent_crime_oakland %>% filter(category %in%
                                                         "Arson",
                                                         "Total"))
 
-recent_crime_oakland <- recent_crime_oakland %>% select(2:7)
+recent_crime_oakland <- recent_crime_oakland %>% select(2:9)
 
 recent_crime_oakland$weekly_total <- gsub(",","",recent_crime_oakland$weekly_total)
 recent_crime_oakland$ytd20 <- gsub(",","",recent_crime_oakland$ytd20)
