@@ -5,7 +5,7 @@ library(tidyr)
 ### AREA 1 ###
 
 # Load the file we want for 2021 (December / Year End)
-pdftext <- pdf_text("data/source/oakland/OPD_2021_Area_1_ACR_end_of_year_report_PUBLIC_SNF001.pdf") %>% strsplit(split = "\n")
+pdftext <- pdf_text("data/source/annual/OPD_2021_Area_1_ACR_end_of_year_report_PUBLIC_SNF001.pdf") %>% strsplit(split = "\n")
 
 # Grab individual text values for Page 1
 rawtext1 <- pdftext[[1]][1] %>% trimws()
@@ -116,7 +116,7 @@ past_crime_area1 <- past_crime_oakland
 ### AREA 2 ###
 
 # Load the file we want for 2021 (December / Year End)
-pdftext <- pdf_text("data/source/oakland/OPD_2021_Area_2_ACR_end_of_year_report_PUBLIC_SNF001.pdf") %>% strsplit(split = "\n")
+pdftext <- pdf_text("data/source/annual/OPD_2021_Area_2_ACR_end_of_year_report_PUBLIC_SNF001.pdf") %>% strsplit(split = "\n")
 
 # Grab individual text values for Page 1
 rawtext1 <- pdftext[[1]][1] %>% trimws()
@@ -227,7 +227,7 @@ past_crime_area2 <- past_crime_oakland
 ### AREA 3 ###
 
 # Load the file we want for 2021 (December / Year End)
-pdftext <- pdf_text("data/source/oakland/OPD_2021_Area_3_ACR_end_of_year_report_PUBLIC_SNF001.pdf") %>% strsplit(split = "\n")
+pdftext <- pdf_text("data/source/annual/OPD_2021_Area_3_ACR_end_of_year_report_PUBLIC_SNF001.pdf") %>% strsplit(split = "\n")
 
 # Grab individual text values for Page 1
 rawtext1 <- pdftext[[1]][1] %>% trimws()
@@ -339,7 +339,7 @@ past_crime_area3 <- past_crime_oakland
 ### AREA 4 ###
 
 # Load the file we want for 2021 (December / Year End)
-pdftext <- pdf_text("data/source/oakland/OPD_2021_Area_4_ACR_end_of_year_report_PUBLIC_SNF001.pdf") %>% strsplit(split = "\n")
+pdftext <- pdf_text("data/source/annual/OPD_2021_Area_4_ACR_end_of_year_report_PUBLIC_SNF001.pdf") %>% strsplit(split = "\n")
 
 # Grab individual text values for Page 1
 rawtext1 <- pdftext[[1]][1] %>% trimws()
@@ -451,7 +451,7 @@ past_crime_area4 <- past_crime_oakland
 ### AREA 5 ###
 
 # Load the file we want for 2021 (December / Year End)
-pdftext <- pdf_text("data/source/oakland/OPD_2021_Area_5_ACR_end_of_year_report_PUBLIC_SNF001.pdf") %>% strsplit(split = "\n")
+pdftext <- pdf_text("data/source/annual/OPD_2021_Area_5_ACR_end_of_year_report_PUBLIC_SNF001.pdf") %>% strsplit(split = "\n")
 
 # Grab individual text values for Page 1
 rawtext1 <- pdftext[[1]][1] %>% trimws()
@@ -563,7 +563,7 @@ past_crime_area5 <- past_crime_oakland
 ### CITY WIDE ###
 
 # Load the file we want for 2021 (December / Year End)
-pdftext <- pdf_text("data/source/oakland/OPD_2021_Citywide_WCR_end_of_year_report_PUBLIC_SNF001.pdf") %>% strsplit(split = "\n")
+pdftext <- pdf_text("data/source/annual/OPD_2021_Citywide_WCR_end_of_year_report_PUBLIC_SNF001.pdf") %>% strsplit(split = "\n")
 
 # Grab individual text values for Page 1
 rawtext1 <- pdftext[[1]][1] %>% trimws()
@@ -678,8 +678,8 @@ past_crime_all <- rbind(past_crime_citywide,past_crime_area1,past_crime_area2,pa
 # names(past_crime_all) <- c("category","total2018_rev","total2019","district")
 
 # save 2018-2019 annual file and rds archive
-write_csv(past_crime_all, "data/output/oakland/annual/oakland_crime_annual.csv")
-saveRDS(past_crime_all, "scripts/sf/rds/oakland_crime_annual.rds")
+write_csv(past_crime_all, "data/output/annual/oakland_crime_annual.csv")
+saveRDS(past_crime_all, "scripts/rds/oakland_crime_annual.rds")
 # rm(past_crime_citywide,past_crime_area1,past_crime_area2,past_crime_area3,past_crime_area4,past_crime_area5)
 
 
