@@ -258,24 +258,24 @@ robberypal1 <- colorBin(c("#99a0a5",
                              "#2787d6",
                              "#0058f6",
                              "#003ca6",
-                             "#00215c"), robberies_beat$rate_last12, bins = robberybins1,na.color = "#51585f")
+                             "#00215c"), robberies_district$rate_last12, bins = robberybins1,na.color = "#51585f")
 
 robberypal2 <- colorBin(c("#99a0a5",
                              "#2787d6",
                              "#0058f6",
                              "#003ca6",
-                             "#00215c"), robberies_beat$last12mos, bins = robberybins2,na.color = "#51585f")
+                             "#00215c"), robberies_district$last12mos, bins = robberybins2,na.color = "#51585f")
 
 
 # Create quick labels for robberies map
 robberylabel <- paste(sep="",
                      "<popuptitle>",
-                     robberies_beat$last12mos,
+                     robberies_district$last12mos,
                      " robberies </popuptitle><br>",
                      " in the last 12 months in <b>",
-                     robberies_beat$beat,
+                     robberies_district$beat,
                      "</b>, home to an estimated ",
-                     prettyNum(robberies_beat$population, big.mark=","),
+                     prettyNum(robberies_district$population, big.mark=","),
                      " people.
 <br>
 <table>      
@@ -287,52 +287,52 @@ robberylabel <- paste(sep="",
 			<tr>
 				<td>2019</td>
 				<td>",
-robberies_beat$total19,
+robberies_district$total19,
 "</td>
 				<td>",
-round(robberies_beat$rate19,0),
+round(robberies_district$rate19,0),
 "</td>
 			</tr>
 			<tr>
 				<td>2020</td>
 				<td>",
-robberies_beat$total20,
+robberies_district$total20,
 "</td>
 				<td>",
-round(robberies_beat$rate20,0),
+round(robberies_district$rate20,0),
 "</td>
 			</tr>
 						<tr>
 				<td>2021</td>
 				<td>",
-robberies_beat$total21,
+robberies_district$total21,
 "</td>
 				<td>",
-round(robberies_beat$rate21,0),
+round(robberies_district$rate21,0),
 "</td>
 			</tr>
 						<tr>
 				<td>Last 12 months</td>
 				<td>",
-robberies_beat$last12mos,
+robberies_district$last12mos,
 "</td>
 				<td>",
-round(robberies_beat$rate_last12,0),
+round(robberies_district$rate_last12,0),
 "</td>
 			</tr>
 						<tr>
 				<td>3-year Average</td>
 				<td>",
-round(robberies_beat$avg_prior3years,0),
+round(robberies_district$avg_prior3years,0),
 "</td>
 				<td>",
-round(robberies_beat$rate_prior3years,0),
+round(robberies_district$rate_prior3years,0),
 "</td>
 			</tr>
 </table>")
 
 # Creating police beats map for types of crimes
-oakland_robbery_map <- leaflet(robberies_beat, options = leafletOptions(zoomControl = FALSE, zoomSnap = 0.5, zoomDelta=0.5)) %>%
+oakland_robbery_map <- leaflet(robberies_district, options = leafletOptions(zoomControl = FALSE, zoomSnap = 0.5, zoomDelta=0.5)) %>%
   htmlwidgets::onRender("function(el, x) {
 L.control.zoom({ position: 'topright' }).addTo(this)
 }") %>%
@@ -363,14 +363,14 @@ L.control.zoom({ position: 'topright' }).addTo(this)
         $('input.search-input')[0].placeholder = 'Search street, place or zip code'
         }") %>%
   addLegend(opacity = 0.6,
-            values = robberies_beat$rate_last12, 
+            values = robberies_district$rate_last12, 
             pal = robberypal1,
             position = "bottomleft", 
             title = paste(sep="","<popuptitle>Robbery Rate<br><popupchatter>Robberies/100K people<br>Citywide: ",prettyNum(round(robberies_city$rate_last12,0), big.mark=",")),
             group = "Rate",
             className = "info legend Rate") %>%
   addLegend(opacity = 0.6,
-            values = robberies_beat$last12mos, 
+            values = robberies_district$last12mos, 
             pal = robberypal2,
             position = "bottomleft", 
             title = paste(sep="","<popuptitle>Robberies<br><popupchatter>Total robberies<br>Citywide: ",prettyNum(round(robberies_city$last12mos,0), big.mark=",")),

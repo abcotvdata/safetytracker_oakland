@@ -59,6 +59,12 @@ rawtext48 <- pdftext[[1]][48] %>% trimws()
 rawtext49 <- pdftext[[1]][49] %>% trimws()
 rawtext50 <- pdftext[[1]][50] %>% trimws()
 
+# Get latest date in our file and save for
+# automating the updated date text in building tracker
+asofdate <- sub(".* – ", "", rawtext6)
+asofdate <- dmy(asofdate)
+saveRDS(asofdate,"scripts/rds/asofdate.rds")
+
 # Bind those into a one-column table
 recent_crime_oakland <- rbind(rawtext1,rawtext2,rawtext3,rawtext4,rawtext5,rawtext6,rawtext7,rawtext8,rawtext9,rawtext10,rawtext11,rawtext12,rawtext13,rawtext14,rawtext15,rawtext16,rawtext17,rawtext18,rawtext19,rawtext20,rawtext21,rawtext22,rawtext23,rawtext24,rawtext25,rawtext26,rawtext27,rawtext28,rawtext29,rawtext30,rawtext31,rawtext32,rawtext33,rawtext34,rawtext35,rawtext36,rawtext37,rawtext38,rawtext39,rawtext40,rawtext41,rawtext42,rawtext43,rawtext44,rawtext45,rawtext46,rawtext47,rawtext48,rawtext49,rawtext50)
 rm(rawtext1,rawtext2,rawtext3,rawtext4,rawtext5,rawtext6,rawtext7,rawtext8,rawtext9,rawtext10,rawtext11,rawtext12,rawtext13,rawtext14,rawtext15,rawtext16,rawtext17,rawtext18,rawtext19,rawtext20,rawtext21,rawtext22,rawtext23,rawtext24,rawtext25,rawtext26,rawtext27,rawtext28,rawtext29,rawtext30,rawtext31,rawtext32,rawtext33,rawtext34,rawtext35,rawtext36,rawtext37,rawtext38,rawtext39,rawtext40,rawtext41,rawtext42,rawtext43,rawtext44,rawtext45,rawtext46,rawtext47,rawtext48,rawtext49,rawtext50)
@@ -81,6 +87,7 @@ recent_crime_oakland <- recent_crime_oakland %>% filter(category %in%
                                                         "Assault with a firearm – 245(a)(2)PC",
                                                         "Subtotal - Homicides + Firearm Assault",
                                                         "Shooting occupied home or vehicle – 246PC",
+                                                        "Shooting unoccupied home or vehicle – 247(b)PC",
                                                         "Non-firearm aggravated assaults",
                                                         "Rape","Robbery",
                                                         "Firearm","Knife",
@@ -196,6 +203,7 @@ recent_crime_oakland <- recent_crime_oakland %>% filter(category %in%
                                                         "Assault with a firearm – 245(a)(2)PC",
                                                         "Subtotal - Homicides + Firearm Assault",
                                                         "Shooting occupied home or vehicle – 246PC",
+                                                        "Shooting unoccupied home or vehicle – 247(b)PC",
                                                         "Non-firearm aggravated assaults",
                                                         "Rape","Robbery",
                                                         "Firearm","Knife",
@@ -311,6 +319,7 @@ recent_crime_oakland <- recent_crime_oakland %>% filter(category %in%
                                                         "Assault with a firearm – 245(a)(2)PC",
                                                         "Subtotal - Homicides + Firearm Assault",
                                                         "Shooting occupied home or vehicle – 246PC",
+                                                        "Shooting unoccupied home or vehicle – 247(b)PC",
                                                         "Non-firearm aggravated assaults",
                                                         "Rape","Robbery",
                                                         "Firearm","Knife",
@@ -427,6 +436,7 @@ recent_crime_oakland <- recent_crime_oakland %>% filter(category %in%
                                                         "Assault with a firearm – 245(a)(2)PC",
                                                         "Subtotal - Homicides + Firearm Assault",
                                                         "Shooting occupied home or vehicle – 246PC",
+                                                        "Shooting unoccupied home or vehicle – 247(b)PC",
                                                         "Non-firearm aggravated assaults",
                                                         "Rape","Robbery",
                                                         "Firearm","Knife",
@@ -543,6 +553,7 @@ recent_crime_oakland <- recent_crime_oakland %>% filter(category %in%
                                                         "Assault with a firearm – 245(a)(2)PC",
                                                         "Subtotal - Homicides + Firearm Assault",
                                                         "Shooting occupied home or vehicle – 246PC",
+                                                        "Shooting unoccupied home or vehicle – 247(b)PC",
                                                         "Non-firearm aggravated assaults",
                                                         "Rape","Robbery",
                                                         "Firearm","Knife",
@@ -637,6 +648,11 @@ rawtext48 <- pdftext[[1]][48] %>% trimws()
 rawtext49 <- pdftext[[1]][49] %>% trimws()
 rawtext50 <- pdftext[[1]][50] %>% trimws()
 
+# automating the updated date text in building tracker
+asofdate <- sub(".* – ", "", rawtext6)
+asofdate <- dmy(asofdate)
+saveRDS(asofdate,"scripts/rds/asofdate.rds")
+
 # Bind those into a one-column table
 recent_crime_oakland <- rbind(rawtext1,rawtext2,rawtext3,rawtext4,rawtext5,rawtext6,rawtext7,rawtext8,rawtext9,rawtext10,rawtext11,rawtext12,rawtext13,rawtext14,rawtext15,rawtext16,rawtext17,rawtext18,rawtext19,rawtext20,rawtext21,rawtext22,rawtext23,rawtext24,rawtext25,rawtext26,rawtext27,rawtext28,rawtext29,rawtext30,rawtext31,rawtext32,rawtext33,rawtext34,rawtext35,rawtext36,rawtext37,rawtext38,rawtext39,rawtext40,rawtext41,rawtext42,rawtext43,rawtext44,rawtext45,rawtext46,rawtext47,rawtext48,rawtext49,rawtext50)
 rm(rawtext1,rawtext2,rawtext3,rawtext4,rawtext5,rawtext6,rawtext7,rawtext8,rawtext9,rawtext10,rawtext11,rawtext12,rawtext13,rawtext14,rawtext15,rawtext16,rawtext17,rawtext18,rawtext19,rawtext20,rawtext21,rawtext22,rawtext23,rawtext24,rawtext25,rawtext26,rawtext27,rawtext28,rawtext29,rawtext30,rawtext31,rawtext32,rawtext33,rawtext34,rawtext35,rawtext36,rawtext37,rawtext38,rawtext39,rawtext40,rawtext41,rawtext42,rawtext43,rawtext44,rawtext45,rawtext46,rawtext47,rawtext48,rawtext49,rawtext50)
@@ -659,6 +675,7 @@ recent_crime_oakland <- recent_crime_oakland %>% filter(category %in%
                                                         "Assault with a firearm – 245(a)(2)PC",
                                                         "Subtotal - Homicides + Firearm Assault",
                                                         "Shooting occupied home or vehicle – 246PC",
+                                                        "Shooting unoccupied home or vehicle – 247(b)PC",
                                                         "Non-firearm aggravated assaults",
                                                         "Rape","Robbery",
                                                         "Firearm","Knife",
@@ -695,13 +712,62 @@ recent_crime_oakland[is.na(recent_crime_oakland)] <- 0
 recent_crime_oakland$district <- "Citywide"
 recent_crime_citywide <- recent_crime_oakland
 
-
-######
+# Combine and prepare file for storing and processing for trackers
 recent_crime_all <- rbind(recent_crime_citywide,recent_crime_area1,recent_crime_area2,recent_crime_area3,recent_crime_area4,recent_crime_area5)
 
-# save 2018-2019 annual file and rds archive
+recent_crime_all$description <- recent_crime_all$category
+
+recent_crime_all$description <- case_when(recent_crime_all$description == "Homicide – 187(a)PC" ~ "Murder",
+                                          recent_crime_all$description == "Homicide – All Other *" ~ "All Other Homicides",
+                                          recent_crime_all$description == "Aggravated Assault" ~ "Aggravated Assault",
+                                          recent_crime_all$description == "Assault with a firearm – 245(a)(2)PC" ~ "Aggravated Assault (Firearm)",
+                                          recent_crime_all$description == "Subtotal - Homicides + Firearm Assault" ~ "Combined subtotal of homicides and firearms-related aggravated assaults",
+                                          recent_crime_all$description == "Shooting occupied home or vehicle – 246PC" ~ "Aggravated Assault (Shooting occupied home or vehicle)",
+                                          recent_crime_all$description == "Shooting unoccupied home or vehicle – 247(b)PC" ~ "Aggravated Assault (Shooting unoccupied home or vehicle)",
+                                          recent_crime_all$description == "Non-firearm aggravated assaults" ~ "Aggravated Assault (Non Firearm)",
+                                          recent_crime_all$description == "Rape" ~ "Sexual Assault",
+                                          recent_crime_all$description == "Robbery" ~ "Robbery",
+                                          recent_crime_all$description == "Firearm" ~ "Robbery (Firearm)",
+                                          recent_crime_all$description == "Knife" ~ "Robbery (Knife)",
+                                          recent_crime_all$description == "Strong-arm" ~ "Robbery (Strong-arm)",
+                                          recent_crime_all$description == "Other dangerous weapon" ~ "Robbery (other dangerous weapon)",
+                                          recent_crime_all$description == "Residential robbery – 212.5(a)PC" ~ "Residential Robbery",
+                                          recent_crime_all$description == "Carjacking – 215(a) PC" ~ "Carjacking",
+                                          recent_crime_all$description == "Burglary" ~ "Burglary",
+                                          recent_crime_all$description == "Auto" ~ "Burglary (Motor Vehicle)",
+                                          recent_crime_all$description == "Residential" ~ "Burglary (Residential)",
+                                          recent_crime_all$description == "Commercial" ~ "Burglary (Commercial)",
+                                          recent_crime_all$description == "Other (Includes boats, aircraft, and so on)" ~ "Burglary (Boats, Aircraft, Other)",
+                                          recent_crime_all$description == "Unknown" ~ "Burglary (Unknown)",
+                                          recent_crime_all$description == "Motor Vehicle Theft" ~ "Motor Vehicle Theft",
+                                          recent_crime_all$description == "Larceny" ~ "Larceny",
+                                          recent_crime_all$description == "Arson" ~ "Arson",
+                                          recent_crime_all$description == "Total" ~ "Total",
+                                          TRUE ~ recent_crime_all$description)
+
+recent_crime_all$category <- case_when(recent_crime_all$description == "Murder" ~ "Murder",
+                                       recent_crime_all$description == "Aggravated Assault" ~ "Aggravated Assault",
+                                       recent_crime_all$description == "Sexual Assault" ~ "Sexual Assault",
+                                       recent_crime_all$description == "Robbery" ~ "Robbery",
+                                       recent_crime_all$description == "Burglary" ~ "Burglary",
+                                       recent_crime_all$description == "Motor Vehicle Theft" ~ "Motor Vehicle Theft",
+                                       recent_crime_all$description == "Larceny" ~ "Larceny",
+                                       recent_crime_all$description == "Arson" ~ "Arson",
+                                       TRUE ~ "Total/Subcategory")
+
+recent_crime_all$type <- case_when(recent_crime_all$category == "Murder" ~ "Violent",
+                                   recent_crime_all$category == "Aggravated Assault" ~ "Violent",
+                                   recent_crime_all$category == "Sexual Assault" ~ "Violent",
+                                   recent_crime_all$category == "Robbery" ~ "Violent",
+                                   recent_crime_all$category == "Burglary" ~ "Property",
+                                   recent_crime_all$category == "Motor Vehicle Theft" ~ "Property",
+                                   recent_crime_all$category == "Larceny" ~ "Property",
+                                   recent_crime_all$category == "Arson" ~ "Property",
+                                   TRUE ~ "Total/Subcategory")
+
+recent_crime_all$updated <- asofdate
+
+# save the recent YTD annual file and rds archive
 write_csv(recent_crime_all, "data/output/recent/oakland_crime_recent.csv")
 saveRDS(recent_crime_all, "scripts/rds/oakland_crime_recent.rds")
-rm(recent_crime_citywide,recent_crime_area1,recent_crime_area2,recent_crime_area3,recent_crime_area4,recent_crime_area5)
-
-
+rm(pdftext,recent_crime_oakland,recent_crime_citywide,recent_crime_area1,recent_crime_area2,recent_crime_area3,recent_crime_area4,recent_crime_area5)

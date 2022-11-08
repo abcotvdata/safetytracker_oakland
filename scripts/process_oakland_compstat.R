@@ -81,6 +81,7 @@ past_crime_oakland <- past_crime_oakland %>% filter(category %in%
                                         "Assault with a firearm – 245(a)(2)PC",
                                         "Subtotal - Homicides + Firearm Assault",
                                         "Shooting occupied home or vehicle – 246PC",
+                                        "Shooting unoccupied home or vehicle – 247(b)PC",
                                         "Non-firearm aggravated assaults",
                                         "Rape","Robbery",
                                         "Firearm","Knife",
@@ -192,6 +193,7 @@ past_crime_oakland <- past_crime_oakland %>% filter(category %in%
                                                         "Assault with a firearm – 245(a)(2)PC",
                                                         "Subtotal - Homicides + Firearm Assault",
                                                         "Shooting occupied home or vehicle – 246PC",
+                                                        "Shooting unoccupied home or vehicle – 247(b)PC",
                                                         "Non-firearm aggravated assaults",
                                                         "Rape","Robbery",
                                                         "Firearm","Knife",
@@ -303,6 +305,7 @@ past_crime_oakland <- past_crime_oakland %>% filter(category %in%
                                                         "Assault with a firearm – 245(a)(2)PC",
                                                         "Subtotal - Homicides + Firearm Assault",
                                                         "Shooting occupied home or vehicle – 246PC",
+                                                        "Shooting unoccupied home or vehicle – 247(b)PC",
                                                         "Non-firearm aggravated assaults",
                                                         "Rape","Robbery",
                                                         "Firearm","Knife",
@@ -415,6 +418,7 @@ past_crime_oakland <- past_crime_oakland %>% filter(category %in%
                                                         "Assault with a firearm – 245(a)(2)PC",
                                                         "Subtotal - Homicides + Firearm Assault",
                                                         "Shooting occupied home or vehicle – 246PC",
+                                                        "Shooting unoccupied home or vehicle – 247(b)PC",
                                                         "Non-firearm aggravated assaults",
                                                         "Rape","Robbery",
                                                         "Firearm","Knife",
@@ -527,6 +531,7 @@ past_crime_oakland <- past_crime_oakland %>% filter(category %in%
                                                         "Assault with a firearm – 245(a)(2)PC",
                                                         "Subtotal - Homicides + Firearm Assault",
                                                         "Shooting occupied home or vehicle – 246PC",
+                                                        "Shooting unoccupied home or vehicle – 247(b)PC",
                                                         "Non-firearm aggravated assaults",
                                                         "Rape","Robbery",
                                                         "Firearm","Knife",
@@ -625,9 +630,15 @@ past_crime_oakland <- as.data.frame(past_crime_oakland)
 # name the column temporarily
 names(past_crime_oakland) <- c("rawtext")
 # remove the long white space on each end of each line
-past_crime_oakland$rawtext2 <- strsplit(past_crime_oakland$rawtext, "\\s+\\s+")
+past_crime_oakland$rawtext2 <- sub("\\s+\\s+.*", "", past_crime_oakland$rawtext)
+past_crime_oakland$rawtext3 <- sub(".*?\\s+\\s+",'',past_crime_oakland$rawtext)
+past_crime_oakland$rawtext3 <- past_crime_oakland$rawtext3 %>% trimws()
+past_crime_oakland$rawtext3 <- strsplit(past_crime_oakland$rawtext3, "\\s+")
+# past_crime_oakland$rawtext2 <- strsplit (past_crime_oakland$rawtext, "\\s+")
+
 # flatten the list this creates in processed column
-past_crime_oakland <- past_crime_oakland %>% unnest_wider(rawtext2)
+past_crime_oakland <- past_crime_oakland %>% unnest_wider(rawtext3) %>% select(1:10)
+
 # name the columns temporarily
 names(past_crime_oakland) = c("rawtext","category",
                               "total17","total18","total19","total20","total21",
@@ -639,6 +650,7 @@ past_crime_oakland <- past_crime_oakland %>% filter(category %in%
                                                         "Assault with a firearm – 245(a)(2)PC",
                                                         "Subtotal - Homicides + Firearm Assault",
                                                         "Shooting occupied home or vehicle – 246PC",
+                                                        "Shooting unoccupied home or vehicle – 247(b)PC",
                                                         "Non-firearm aggravated assaults",
                                                         "Rape","Robbery",
                                                         "Firearm","Knife",
@@ -671,15 +683,63 @@ past_crime_oakland[is.na(past_crime_oakland)] <- 0
 past_crime_oakland$district <- "Citywide"
 past_crime_citywide <- past_crime_oakland
 
-
-######
-
+# Combine past crime all files and prepare for storing/processing for trackers
 past_crime_all <- rbind(past_crime_citywide,past_crime_area1,past_crime_area2,past_crime_area3,past_crime_area4,past_crime_area5)
-# names(past_crime_all) <- c("category","total2018_rev","total2019","district")
+
+# change field name for recoding crime categories and types for consistency
+past_crime_all$description <- past_crime_all$category
+
+past_crime_all$description <- case_when(past_crime_all$description == "Homicide – 187(a)PC" ~ "Murder",
+                                          past_crime_all$description == "Homicide – All Other *" ~ "All Other Homicides",
+                                          past_crime_all$description == "Aggravated Assault" ~ "Aggravated Assault",
+                                          past_crime_all$description == "Assault with a firearm – 245(a)(2)PC" ~ "Aggravated Assault (Firearm)",
+                                          past_crime_all$description == "Subtotal - Homicides + Firearm Assault" ~ "Combined subtotal of homicides and firearms-related aggravated assaults",
+                                          past_crime_all$description == "Shooting occupied home or vehicle – 246PC" ~ "Aggravated Assault (Shooting occupied home or vehicle)",
+                                          past_crime_all$description == "Shooting unoccupied home or vehicle – 247(b)PC" ~ "Aggravated Assault (Shooting unoccupied home or vehicle)",
+                                          past_crime_all$description == "Non-firearm aggravated assaults" ~ "Aggravated Assault (Non Firearm)",
+                                          past_crime_all$description == "Rape" ~ "Sexual Assault",
+                                          past_crime_all$description == "Robbery" ~ "Robbery",
+                                          past_crime_all$description == "Firearm" ~ "Robbery (Firearm)",
+                                          past_crime_all$description == "Knife" ~ "Robbery (Knife)",
+                                          past_crime_all$description == "Strong-arm" ~ "Robbery (Strong-arm)",
+                                          past_crime_all$description == "Other dangerous weapon" ~ "Robbery (other dangerous weapon)",
+                                          past_crime_all$description == "Residential robbery – 212.5(a)PC" ~ "Residential Robbery",
+                                          past_crime_all$description == "Carjacking – 215(a) PC" ~ "Carjacking",
+                                          past_crime_all$description == "Burglary" ~ "Burglary",
+                                          past_crime_all$description == "Auto" ~ "Burglary (Motor Vehicle)",
+                                          past_crime_all$description == "Residential" ~ "Burglary (Residential)",
+                                          past_crime_all$description == "Commercial" ~ "Burglary (Commercial)",
+                                          past_crime_all$description == "Other (includes boats, aircraft, and so on)" ~ "Burglary (Boats, Aircraft, Other)",
+                                          past_crime_all$description == "Unknown" ~ "Burglary (Unknown)",
+                                          past_crime_all$description == "Motor Vehicle Theft" ~ "Motor Vehicle Theft",
+                                          past_crime_all$description == "Larceny" ~ "Larceny",
+                                          past_crime_all$description == "Arson" ~ "Arson",
+                                          past_crime_all$description == "Total" ~ "Total",
+                                          TRUE ~ past_crime_all$description)
+
+past_crime_all$category <- case_when(past_crime_all$description == "Murder" ~ "Murder",
+                                       past_crime_all$description == "Aggravated Assault" ~ "Aggravated Assault",
+                                       past_crime_all$description == "Sexual Assault" ~ "Sexual Assault",
+                                       past_crime_all$description == "Robbery" ~ "Robbery",
+                                       past_crime_all$description == "Burglary" ~ "Burglary",
+                                       past_crime_all$description == "Motor Vehicle Theft" ~ "Motor Vehicle Theft",
+                                       past_crime_all$description == "Larceny" ~ "Larceny",
+                                       past_crime_all$description == "Arson" ~ "Arson",
+                                       TRUE ~ "Total/Subcategory")
+
+past_crime_all$type <- case_when(past_crime_all$category == "Murder" ~ "Violent",
+                                   past_crime_all$category == "Aggravated Assault" ~ "Violent",
+                                   past_crime_all$category == "Sexual Assault" ~ "Violent",
+                                   past_crime_all$category == "Robbery" ~ "Violent",
+                                   past_crime_all$category == "Burglary" ~ "Property",
+                                   past_crime_all$category == "Motor Vehicle Theft" ~ "Property",
+                                   past_crime_all$category == "Larceny" ~ "Property",
+                                   past_crime_all$category == "Arson" ~ "Property",
+                                   TRUE ~ "Total/Subcategory")
 
 # save 2018-2019 annual file and rds archive
 write_csv(past_crime_all, "data/output/annual/oakland_crime_annual.csv")
 saveRDS(past_crime_all, "scripts/rds/oakland_crime_annual.rds")
-rm(past_crime_citywide,past_crime_area1,past_crime_area2,past_crime_area3,past_crime_area4,past_crime_area5,past_crime_oakland)
+rm(pdftext,past_crime_citywide,past_crime_area1,past_crime_area2,past_crime_area3,past_crime_area4,past_crime_area5,past_crime_oakland)
 
 
