@@ -193,13 +193,13 @@ sf_population <- 815201
 <h2>ABC7 is tracking crime and safety across Oakland and in your neighborhood. 
 
 You can choose which crime to explore: <select onchange="window.location=this.value">
-<option value="https://abcotvdata.github.io/safetytracker_bayarea/Oakland_Safety_Tracker.html">Homicides</option>
-<option value="https://abcotvdata.github.io/safetytracker_bayarea/Oakland_Safety_Tracker_Assaults.html">Assaults</option>
-<option value="https://abcotvdata.github.io/safetytracker_bayarea/Oakland_Safety_Tracker_VehicleThefts.html">Vehicle Thefts</option>
-<option value="https://abcotvdata.github.io/safetytracker_bayarea/Oakland_Safety_Tracker_Burglaries.html">Burglaries</option>
-<option value="https://abcotvdata.github.io/safetytracker_bayarea/Oakland_Safety_Tracker_Robberies.html">Robberies</option>
-<option value="https://abcotvdata.github.io/safetytracker_bayarea/Oakland_Safety_Tracker_SexualAssaults.html">Sexual Assaults</option>
-<option value="https://abcotvdata.github.io/safetytracker_bayarea/Oakland_Safety_Tracker_Thefts.html">Thefts</option>
+<option value="https://abcotvdata.github.io/safetytracker_oakland/Oakland_Safety_Tracker.html">Homicides</option>
+<option value="https://abcotvdata.github.io/safetytracker_oakland/Oakland_Safety_Tracker_Assaults.html">Assaults</option>
+<option value="https://abcotvdata.github.io/safetytracker_oakland/Oakland_Safety_Tracker_VehicleThefts.html">Vehicle Thefts</option>
+<option value="https://abcotvdata.github.io/safetytracker_oakland/Oakland_Safety_Tracker_Burglaries.html">Burglaries</option>
+<option value="https://abcotvdata.github.io/safetytracker_oakland/Oakland_Safety_Tracker_Robberies.html">Robberies</option>
+<option value="https://abcotvdata.github.io/safetytracker_oakland/Oakland_Safety_Tracker_SexualAssaults.html">Sexual Assaults</option>
+<option value="https://abcotvdata.github.io/safetytracker_oakland/Oakland_Safety_Tracker_Thefts.html">Thefts</option>
 </select></h2>
 
 <div class="cardContainer">
@@ -238,7 +238,7 @@ One way to think about the danger: three years ago, the murder rate was <h8>`r m
 <br>
 <!-- <subhead>Risk of being murdered in Oakland vs. other causes of death in Harris County</subhead> -->
 
-<iframe title="Risk of homicide in San Francisco vs. other causes of death" aria-label="Bar Chart" id="datawrapper-chart-pvQo6" src="https://datawrapper.dwcdn.net/pvQo6/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="402" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+<iframe title="Risk of homicide in Oakland vs. other causes of death" aria-label="Bar Chart" id="datawrapper-chart-V16iO" src="https://datawrapper.dwcdn.net/V16iO/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="402" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
 </script>
 
 The risk is not the same neighborhood to neighborhood.
@@ -415,8 +415,7 @@ oakland_murder_map
 <br>
 <!-- <subhead>Homicides yearly, 2018 through last 12 mos</subhead> -->
 
-<iframe title="Homicides year by year in San Francisco" aria-label="Column Chart" id="datawrapper-chart-ydu4n" src="https://datawrapper.dwcdn.net/ydu4n/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
-</script>
+<iframe title="Homicides year by year in Oakland" aria-label="Column Chart" id="datawrapper-chart-4xJii" src="https://datawrapper.dwcdn.net/4xJii/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
 
   <br>
 <br>
@@ -436,5 +435,5 @@ oakland_murder_map
 
 <!-- <subhead> comparison to other cities chart </subhead> -->
 
-<iframe title="2021 homicide rate comparison in select major cities" aria-label="Bar Chart" id="datawrapper-chart-0Z5eV" src="https://datawrapper.dwcdn.net/0Z5eV/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="436"  data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+<iframe title="2021 homicide rate comparison in select major cities" aria-label="Bar Chart" id="datawrapper-chart-pxJU3" src="https://datawrapper.dwcdn.net/pxJU3/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="436" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
 </script>
