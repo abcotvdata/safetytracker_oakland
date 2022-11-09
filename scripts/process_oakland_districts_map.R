@@ -48,7 +48,8 @@ districts_geo <- districts_geo %>% st_transform(4326)
 districts_geo <- st_make_valid(districts_geo)
 districts_geo <- districts_geo %>% select(2,5,6)
 names(districts_geo) <- c("district","population","geometry")
-
+st_geometry(districts_geo$geometry)
+  
 # saving a clean geojson and separate RDS for use in tracker
 file.remove("data/output/geo/oakland_districts.geojson")
 st_write(districts_geo,"data/output/geo/oakland_districts.geojson")

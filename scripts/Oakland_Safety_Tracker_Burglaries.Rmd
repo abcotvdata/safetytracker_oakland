@@ -243,17 +243,17 @@ Click on any neighborhood on the map to see detailed numbers, rates and trends. 
 
 # Set bins for numbers of crimes for burglaries map
 burglarybins1 <- c(0,
-                500,
-                700,
-                850,
                 1000,
-                1200)
+                2000,
+                4000,
+                6000,
+                7500)
 burglarybins2 <- c(0,
-                   250,
-                500,
-                750,
+                   500,
                 1000,
-                1200)
+                2000,
+                3000,
+                4000)
 burglarypal1 <- colorBin(c("#99a0a5",
                              "#2787d6",
                              "#0058f6",

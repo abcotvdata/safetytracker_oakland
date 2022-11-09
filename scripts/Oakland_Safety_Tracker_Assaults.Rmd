@@ -246,16 +246,16 @@ Click on any neighborhood on the map to see detailed numbers, rates and trends. 
 # Set bins for numbers of crimes for assaults map
 assaultbins1 <- c(0,
                 200,
-                300,
-                500,
-                750,
-                1500)
+                700,
+                800,
+                1000,
+                1200)
 assaultbins2 <- c(0,
                 200,
-                500,
-                750,
+                300,
+                600,
                 1000,
-                2000)
+                1200)
 assaultpal1 <- colorBin(c("#99a0a5",
                              "#2787d6",
                              "#0058f6",
