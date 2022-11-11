@@ -341,7 +341,7 @@ oakland_theft_map <- leaflet(thefts_district, options = leafletOptions(zoomContr
   htmlwidgets::onRender("function(el, x) {
 L.control.zoom({ position: 'topright' }).addTo(this)
 }") %>%
-  setView(-122.25, 37.8, zoom = 11.5) %>% 
+  setView(-122.25, 37.79, zoom = 11.5) %>% 
   addProviderTiles(provider = "CartoDB.Positron") %>%
   addPolygons(color = "white", 
               popup = theftlabel,

@@ -43,12 +43,24 @@ sum(districts_geo$population) # tally is 441881
 
 # Round the population figure; rounded to nearest thousand
 districts_geo$population <- round(districts_geo$population,-3)
+
 # Prep for tracker use
 districts_geo <- districts_geo %>% st_transform(4326)
 districts_geo <- st_make_valid(districts_geo)
 districts_geo <- districts_geo %>% select(2,5,6)
+
+
+# set names for cols for use in trackers later
 names(districts_geo) <- c("district","population","geometry")
 st_geometry(districts_geo$geometry)
+
+# Quick define of the areas 
+districts_geo$placename <- case_when(districts_geo$district == "1"~ "West Oakland",
+                                     districts_geo$district == "2"~ "Westlake, Temescal and Rockridge",
+                                     districts_geo$district == "3"~ "Highland Park, San Antonio and Glenview",
+                                     districts_geo$district == "4"~ "Melrose, Lockwood Gardens and Laurel",
+                                     districts_geo$district == "5"~ "Eastmont, Elmhurst and Oakland International Airport")
+
   
 # saving a clean geojson and separate RDS for use in tracker
 file.remove("data/output/geo/oakland_districts.geojson")
