@@ -104,7 +104,14 @@ citywide_crime <- citywide_crime %>%
 
 # create a quick long-term annual table
 citywide_yearly <- citywide_crime %>% select(4:10,12)
+# add additional years from state archive of reported ucr crimes back to 2000
+yearly_archive <- read_csv("data/source/annual/oakland_annual_state.csv")
+yearly_archive$category <- ifelse(yearly_archive$category=="Homicide","Murder",yearly_archive$category)
+yearly_archive$category <- ifelse(yearly_archive$category=="Rape","Sexual Assault",yearly_archive$category)
+citywide_yearly <- right_join(citywide_yearly,yearly_archive %>% select(1:17,23),by="category") %>% select(1,9:25,2:8)
+# save for annual charts  
 write_csv(citywide_yearly,"data/output/yearly/citywide_yearly.csv")
+
 
 # Now make individual crime files for trackers
 # filter precinct versions - using beat for code consistency
@@ -167,3 +174,13 @@ thefts_city %>% select(4:9,12) %>%  write_csv("data/output/yearly/thefts_city.cs
 burglaries_city %>% select(4:9,12) %>%  write_csv("data/output/yearly/burglaries_city.csv")
 robberies_city %>% select(4:9,12) %>%  write_csv("data/output/yearly/robberies_city.csv")
 assaults_city %>% select(4:9,12) %>%  write_csv("data/output/yearly/assaults_city.csv")
+
+### Some tables for charts for our pages
+sf_crime_totals %>% write_csv("data/output/yearly/totals_by_type.csv")
+citywide_yearly %>% filter(category=="Murder") %>% write_csv("data/output/yearly/murders_city.csv")
+citywide_yearly %>% filter(category=="Sexual Assault") %>%  write_csv("data/output/yearly/sexassaults_city.csv")
+citywide_yearly %>% filter(category=="Motor Vehicle Theft") %>%  write_csv("data/output/yearly/autothefts_city.csv")
+citywide_yearly %>% filter(category=="Larceny Theft") %>%  write_csv("data/output/yearly/thefts_city.csv")
+citywide_yearly %>% filter(category=="Burglary") %>%  write_csv("data/output/yearly/burglaries_city.csv")
+citywide_yearly %>% filter(category=="Robbery") %>%  write_csv("data/output/yearly/robberies_city.csv")
+citywide_yearly %>% filter(category=="Aggravated Assault") %>%  write_csv("data/output/yearly/assaults_city.csv")
