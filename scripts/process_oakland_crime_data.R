@@ -108,7 +108,7 @@ citywide_yearly <- citywide_crime %>% select(4:10,12)
 yearly_archive <- read_csv("data/source/annual/oakland_annual_state.csv")
 yearly_archive$category <- ifelse(yearly_archive$category=="Homicide","Murder",yearly_archive$category)
 yearly_archive$category <- ifelse(yearly_archive$category=="Rape","Sexual Assault",yearly_archive$category)
-citywide_yearly <- right_join(citywide_yearly,yearly_archive %>% select(1:17,23),by="category") %>% select(1,9:25,2:8)
+citywide_yearly <- right_join(citywide_yearly,yearly_archive %>% select(1:17,23),by="category") %>% select(1,9:25,2:6,8)
 # save for annual charts  
 write_csv(citywide_yearly,"data/output/yearly/citywide_yearly.csv")
 
@@ -167,16 +167,16 @@ saveRDS(autothefts_city,"scripts/rds/autothefts_city.rds")
 
 ### Some tables for charts for our pages
 # sf_crime_totals %>% write_csv("data/output/yearly/totals_by_type.csv")
-murders_city %>% select(4:9,12) %>% write_csv("data/output/yearly/murders_city.csv")
-sexassaults_city %>% select(4:9,12) %>%  write_csv("data/output/yearly/sexassaults_city.csv")
-autothefts_city %>% select(4:9,12) %>%  write_csv("data/output/yearly/autothefts_city.csv")
-thefts_city %>% select(4:9,12) %>%  write_csv("data/output/yearly/thefts_city.csv")
-burglaries_city %>% select(4:9,12) %>%  write_csv("data/output/yearly/burglaries_city.csv")
-robberies_city %>% select(4:9,12) %>%  write_csv("data/output/yearly/robberies_city.csv")
-assaults_city %>% select(4:9,12) %>%  write_csv("data/output/yearly/assaults_city.csv")
+#murders_city %>% select(4:9,12) %>% write_csv("data/output/yearly/murders_city.csv")
+#sexassaults_city %>% select(4:9,12) %>%  write_csv("data/output/yearly/sexassaults_city.csv")
+#autothefts_city %>% select(4:9,12) %>%  write_csv("data/output/yearly/autothefts_city.csv")
+#thefts_city %>% select(4:9,12) %>%  write_csv("data/output/yearly/thefts_city.csv")
+#burglaries_city %>% select(4:9,12) %>%  write_csv("data/output/yearly/burglaries_city.csv")
+#robberies_city %>% select(4:9,12) %>%  write_csv("data/output/yearly/robberies_city.csv")
+#assaults_city %>% select(4:9,12) %>%  write_csv("data/output/yearly/assaults_city.csv")
 
 ### Some tables for charts for our pages
-sf_crime_totals %>% write_csv("data/output/yearly/totals_by_type.csv")
+#sf_crime_totals %>% write_csv("data/output/yearly/totals_by_type.csv")
 citywide_yearly %>% filter(category=="Murder") %>% write_csv("data/output/yearly/murders_city.csv")
 citywide_yearly %>% filter(category=="Sexual Assault") %>%  write_csv("data/output/yearly/sexassaults_city.csv")
 citywide_yearly %>% filter(category=="Motor Vehicle Theft") %>%  write_csv("data/output/yearly/autothefts_city.csv")
