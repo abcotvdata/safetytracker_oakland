@@ -234,6 +234,8 @@ Burglaries over the last 12 months are <h8>`r ifelse(burglaries_city$inc_prior3y
 
 The city averaged <h8>`r round(burglaries_city$last12mos/52,0)`</h8> burglaries a week over the last 12 months. In 2019, that number was <h8>`r round(burglaries_city$total19/52,0)`</h8> a week.
 
+Police generally define burglary as someone illegally entering a home, business or vehicle to steal something of value or commit some other felony.
+
 <subhead>A closer look at Oakland burglaries neighborhood by neighborhood</subhead>
 
 The risk is not the same neighborhood to neighborhood. ABC7's data team looked at the Oakland Police Department's data by neighborhood from 2019 through `r format(asofdate, "%B %d, %Y")`.
@@ -279,7 +281,7 @@ burglarylabel <- paste(sep="",
                      " burglaries </popuptitle><br>",
                      " in the last 12 months in Police District <b>",
                      burglaries_district$district,
-                     "</b>, which includes the ",
+                     "</b>, which includes the <b>",
                      burglaries_district$placename,
                      "</b>, home to an estimated ",
                      prettyNum(burglaries_district$population, big.mark=","),

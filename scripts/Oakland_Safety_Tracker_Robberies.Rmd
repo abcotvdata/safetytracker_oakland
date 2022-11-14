@@ -234,6 +234,8 @@ Robberies over the last 12 months are <h8>`r ifelse(robberies_city$inc_prior3yea
 
 The city averaged <h8>`r round(robberies_city$last12mos/52,0)`</h8> robberies a week over the last 12 months. In 2019, that number was <h8>`r round(robberies_city$total19/52,0)`</h8> a week.
 
+Robbery is generally defined by police as taking something of value from someone by force or threatening force. So while someone taking a smartphone from someone's bag would be theft, taking it while pointing a firearm at the person would be robbery.
+
 <subhead>A closer look at Oakland robberies neighborhood by neighborhood</subhead>
 
 The risk is not the same neighborhood to neighborhood. ABC7's data team looked at the Oakland Police Department's data by neighborhood from 2019 through `r format(asofdate, "%B %d, %Y")`.
@@ -279,7 +281,7 @@ robberylabel <- paste(sep="",
                      " robberies </popuptitle><br>",
                      " in the last 12 months in Police District <b>",
                      robberies_district$district,
-                     "</b>, which includes the ",
+                     "</b>, which includes the <b>",
                      robberies_district$placename,
                      "</b>, home to an estimated ",
                      prettyNum(robberies_district$population, big.mark=","),
