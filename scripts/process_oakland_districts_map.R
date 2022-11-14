@@ -55,7 +55,7 @@ names(districts_geo) <- c("district","population","geometry")
 st_geometry(districts_geo$geometry)
 
 # Quick define of the areas 
-districts_geo$placename <- case_when(districts_geo$district == "1"~ "West Oakland",
+districts_geo$placename <- case_when(districts_geo$district == "1"~ "West Oakland and Middle Harbor",
                                      districts_geo$district == "2"~ "Westlake, Temescal and Rockridge",
                                      districts_geo$district == "3"~ "Highland Park, San Antonio and Glenview",
                                      districts_geo$district == "4"~ "Melrose, Lockwood Gardens and Laurel",
@@ -72,7 +72,7 @@ saveRDS(districts_geo,"scripts/rds/oakland_districts.rds")
 # Set bins for beats pop map
 popbins <- c(0,75000,90000,10000,105000,200000, Inf)
 poppal <- colorBin("YlOrRd", districts_geo$population, bins = popbins)
-poplabel <- paste(sep = "<br>", districts_geo$district,prettyNum(districts_geo$population, big.mark = ","))
+poplabel <- paste(sep = "<br>", districts_geo$district,districts_geo$placename,prettyNum(districts_geo$population, big.mark = ","))
 
 oakland_districts_map <- leaflet(districts_geo) %>%
   setView(-122.25, 37.8, zoom = 11.5) %>% 
