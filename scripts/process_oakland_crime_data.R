@@ -166,16 +166,6 @@ saveRDS(thefts_city,"scripts/rds/thefts_city.rds")
 saveRDS(autothefts_city,"scripts/rds/autothefts_city.rds")
 
 ### Some tables for charts for our pages
-# sf_crime_totals %>% write_csv("data/output/yearly/totals_by_type.csv")
-#murders_city %>% select(4:9,12) %>% write_csv("data/output/yearly/murders_city.csv")
-#sexassaults_city %>% select(4:9,12) %>%  write_csv("data/output/yearly/sexassaults_city.csv")
-#autothefts_city %>% select(4:9,12) %>%  write_csv("data/output/yearly/autothefts_city.csv")
-#thefts_city %>% select(4:9,12) %>%  write_csv("data/output/yearly/thefts_city.csv")
-#burglaries_city %>% select(4:9,12) %>%  write_csv("data/output/yearly/burglaries_city.csv")
-#robberies_city %>% select(4:9,12) %>%  write_csv("data/output/yearly/robberies_city.csv")
-#assaults_city %>% select(4:9,12) %>%  write_csv("data/output/yearly/assaults_city.csv")
-
-### Some tables for charts for our pages
 #sf_crime_totals %>% write_csv("data/output/yearly/totals_by_type.csv")
 citywide_yearly %>% filter(category=="Murder") %>% write_csv("data/output/yearly/murders_city.csv")
 citywide_yearly %>% filter(category=="Sexual Assault") %>%  write_csv("data/output/yearly/sexassaults_city.csv")
