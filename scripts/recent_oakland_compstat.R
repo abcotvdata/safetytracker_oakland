@@ -3,10 +3,18 @@ library(tidyverse)
 library(tidyr)
 library(lubridate)
 
+# citywide
+# https://cityofoakland2.app.box.com/s/xqloqg6rpaljxz6h0cajle6skmoea5ct
+#1 https://cityofoakland2.app.box.com/s/2gmg1912khb9t6nhalhl1rg6gscn4y86
+#2 https://cityofoakland2.app.box.com/s/xfa5h508r77eysje2etevwio80e1o0gk
+#3 https://cityofoakland2.app.box.com/s/x81lhgwlpsj7o8gn4iiw9oujhpfjgql9
+#4 https://cityofoakland2.app.box.com/s/ih1xz8vyo7btuhu8fb5qhy4wzbapy1t8
+#5 https://cityofoakland2.app.box.com/s/yfpjz8dw2zoum7cxoml0h908b6xme8ah
+
 ### AREA 1 ###
 
 # Load the file we want for 2021 (December / Year End)
-pdftext <- pdf_text("data/source/recent/221128_Area 1 Weekly Crime Report 21Nov - 27Nov2022.pdf") %>% strsplit(split = "\n")
+pdftext <- pdf_text("data/source/recent/221205_Area 1 Weekly Crime Report 28Nov - 04Dec2022.pdf") %>% strsplit(split = "\n")
 
 # Grab individual text values for Page 1
 rawtext1 <- pdftext[[1]][1] %>% trimws()
@@ -128,7 +136,7 @@ recent_crime_area1 <- recent_crime_oakland
 ### AREA 2 ###
 
 # Load the file we want for 2021 (December / Year End)
-pdftext <- pdf_text("data/source/recent/221128_Area 2 Weekly Crime Report 21Nov - 27Nov2022.pdf") %>% strsplit(split = "\n")
+pdftext <- pdf_text("data/source/recent/221205_Area 2 Weekly Crime Report 28Nov - 04Dec2022.pdf") %>% strsplit(split = "\n")
 
 # Grab individual text values for Page 1
 rawtext1 <- pdftext[[1]][1] %>% trimws()
@@ -244,7 +252,7 @@ recent_crime_area2 <- recent_crime_oakland
 ### AREA 3 ###
 
 # Load the file we want for 2021 (December / Year End)
-pdftext <- pdf_text("data/source/recent/221128_Area 3 Weekly Crime Report 21Nov - 27Nov2022.pdf") %>% strsplit(split = "\n")
+pdftext <- pdf_text("data/source/recent/221205_Area 3 Weekly Crime Report 28Nov - 04Dec2022.pdf") %>% strsplit(split = "\n")
 
 # Grab individual text values for Page 1
 rawtext1 <- pdftext[[1]][1] %>% trimws()
@@ -361,7 +369,7 @@ recent_crime_area3 <- recent_crime_oakland
 ### AREA 4 ###
 
 # Load the file we want for 2021 (December / Year End)
-pdftext <- pdf_text("data/source/recent/221128_Area 4 Weekly Crime Report 21Nov - 27Nov2022.pdf") %>% strsplit(split = "\n")
+pdftext <- pdf_text("data/source/recent/221205_Area 4 Weekly Crime Report 28Nov - 04Dec2022.pdf") %>% strsplit(split = "\n")
 
 # Grab individual text values for Page 1
 rawtext1 <- pdftext[[1]][1] %>% trimws()
@@ -478,7 +486,7 @@ recent_crime_area4 <- recent_crime_oakland
 ### AREA 5 ###
 
 # Load the file we want for 2021 (December / Year End)
-pdftext <- pdf_text("data/source/recent/221128_Area 5 Weekly Crime Report 21Nov - 27Nov2022.pdf") %>% strsplit(split = "\n")
+pdftext <- pdf_text("data/source/recent/221205_Area 5 Weekly Crime Report 28Nov - 04Dec2022.pdf") %>% strsplit(split = "\n")
 
 # Grab individual text values for Page 1
 rawtext1 <- pdftext[[1]][1] %>% trimws()
@@ -595,7 +603,7 @@ recent_crime_area5 <- recent_crime_oakland
 ### CITY WIDE ###
 
 # Load the file we want for 2021 (December / Year End)
-pdftext <- pdf_text("data/source/recent/221128_Citywide Weekly Crime Report 21Nov - 27Nov2022.pdf") %>% strsplit(split = "\n")
+pdftext <- pdf_text("data/source/recent/221205_Citywide Weekly Crime Report 28Nov - 04Dec2022.pdf") %>% strsplit(split = "\n")
 
 # Grab individual text values for Page 1
 rawtext1 <- pdftext[[1]][1] %>% trimws()
