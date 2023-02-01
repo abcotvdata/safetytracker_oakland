@@ -66,9 +66,9 @@ district_crime$rate_prior3years <-
 # district_crime <- district_crime %>% select(1,4,5,6,26:28,36:40,44:55,29,42)
 # for map/table making purposes, changing Inf and NaN in calc fields to NA
 district_crime <- district_crime %>%
-  mutate(across(where(is.numeric), ~na_if(., Inf)))
+  mutate_if(is.numeric, ~ifelse(. == Inf, NA, .))
 district_crime <- district_crime %>%
-  mutate(across(where(is.numeric), ~na_if(., "NaN")))
+  mutate_if(is.numeric, ~ifelse(. == "NaN", NA, .))
 
 # create a quick long-term annual table
 district_yearly <- district_crime %>% select(1,5:11,13) %>% st_drop_geometry()
@@ -98,9 +98,9 @@ citywide_crime$rate_prior3years <-
   round((citywide_crime$avg_prior3years/oakland_population)*100000,1)
 # for map/table making purposes, changing Inf and NaN in calc fields to NA
 citywide_crime <- citywide_crime %>%
-  mutate(across(where(is.numeric), ~na_if(., Inf)))
+  mutate_if(is.numeric, ~ifelse(. == Inf, NA, .))
 citywide_crime <- citywide_crime %>%
-  mutate(across(where(is.numeric), ~na_if(., "NaN")))
+  mutate_if(is.numeric, ~ifelse(. == "NaN", NA, .))
 
 # create a quick long-term annual table
 citywide_yearly <- citywide_crime %>% select(4:10,12)
