@@ -194,14 +194,24 @@ rm(extracted_file,extracted_name,files_area1,files_area2,files_area3,
    files_list_area5,files_list_city,input_string,url_area1,url_area2,
    url_area3,url_area4,url_area5,url_citywide)
 
+library(webshot2)
+webshot("https://cityofoakland2.app.box.com/s/xqloqg6rpaljxz6h0cajle6skmoea5ct/file/1126933586867",
+        delay = 20,
+        selector = ".bcpr-container",
+        "r.pdf")
+
+webshot("https://www.cnn.com/", "r.pdf") # Can also output to PDF
+
+
+
+
 library(RSelenium)
 
-rs <- rsDriver(port = 4441L, browser = "firefox")
-
-remDr$open()
+rD <- rsDriver(browser="firefox", port=4545L, verbose=F)
+remDr <- rD[["client"]]
 
 # Navigate to website
-remDr$navigate("https://cityofoakland2.app.box.com/s/2gmg1912khb9t6nhalhl1rg6gscn4y86/file/1126937986327")
+remDr$navigate(download_citywide)
 
 Sys.sleep(3)   # slight delay to let page load
 
@@ -209,9 +219,13 @@ Sys.sleep(3)   # slight delay to let page load
 btn <- remDr$findElement('xpath', '//*[@id="app"]/div[5]/span/div/span/div/header/div[2]/button[2]')
 btn$clickElement()
 
-Sys.sleep(3) # slight delay to let page load
+Sys.sleep(2) # slight delay to let page load
 
-rs$server$stop()
+remDr$screenshot(display = FALSE, useViewer = FALSE, file = "OAKScreen.pdf")
+
+rD$server$stop()
+# rD[["server"]]$stop()
+
 
 # mime type for pdf
 # application/pdf
