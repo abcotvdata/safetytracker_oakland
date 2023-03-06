@@ -3,6 +3,8 @@ library(tidyverse)
 library(tidyr)
 library(lubridate)
 
+# Still not updated beyond Feb5 as of Wed Feb22 - in PDFs or data file
+
 # citywide
 # https://cityofoakland2.app.box.com/s/xqloqg6rpaljxz6h0cajle6skmoea5ct
 #1 https://cityofoakland2.app.box.com/s/2gmg1912khb9t6nhalhl1rg6gscn4y86
