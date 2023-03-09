@@ -233,7 +233,7 @@ Per 100,000 people<br>2020 to 2022</p>
 <br>
 Sexual assaults over the last 12 months are <h8>`r ifelse(sexassaults_city$inc_prior3yearavgtolast12>=0," up"," down")` `r ifelse(sexassaults_city$inc_prior3yearavgtolast12>=0,sexassaults_city$inc_prior3yearavgtolast12,substring(sexassaults_city$inc_prior3yearavgtolast12,2))`%</h8> compared to the annual average over the last three years, according to Oakland Police Department data through `r format(asofdate, "%B %d")`.
 
-Oakland Police Department stopped posting its weekly crime reports for the public on Feb. 5, 2023, and has not responded to questions about why.
+Oakland Police Department stopped making its weekly crime reports public on Feb. 5, 2023, citing technical difficulties with its data infrastructure.
 
 The city averaged <h8>`r round(sexassaults_city$last12mos/52,0)`</h8> sexual assaults a week over the last 12 months. In 2019, that number was <h8>`r round(sexassaults_city$total19/52,0)`</h8> a week.
 
