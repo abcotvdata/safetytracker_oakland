@@ -13,10 +13,20 @@ library(lubridate)
 #4 https://cityofoakland2.app.box.com/s/ih1xz8vyo7btuhu8fb5qhy4wzbapy1t8
 #5 https://cityofoakland2.app.box.com/s/yfpjz8dw2zoum7cxoml0h908b6xme8ah
 
+dir_path <- "data/source/recent"
+
 ### AREA 1 ###
 
 # Load the file we want for 2021 (December / Year End)
-pdftext <- pdf_text("data/source/recent/230626_Area 1 Weekly Crime Report 19Jun23 - 25Jun23.pdf") %>% strsplit(split = "\n")
+# pdftext <- pdf_text("data/source/recent/230626_Area 1 Weekly Crime Report 19Jun23 - 25Jun23.pdf") %>% strsplit(split = "\n")
+
+# Find files containing "Area 1 Weekly" in their name
+files <- list.files(dir_path, pattern = "Area 1 Weekly", full.names = TRUE)
+
+# Load the first matching file
+if (length(files) > 0) {
+  pdftext <- pdf_text(files[1]) %>% strsplit(split = "\n")
+}
 
 # Grab individual text values for Page 1
 rawtext1 <- pdftext[[1]][1] %>% trimws()
@@ -138,7 +148,15 @@ recent_crime_area1 <- recent_crime_oakland
 ### AREA 2 ###
 
 # Load the file we want for 2021 (December / Year End)
-pdftext <- pdf_text("data/source/recent/230626_Area 2 Weekly Crime Report 19Jun23 - 25Jun23.pdf") %>% strsplit(split = "\n")
+# pdftext <- pdf_text("data/source/recent/230626_Area 2 Weekly Crime Report 19Jun23 - 25Jun23.pdf") %>% strsplit(split = "\n")
+
+# Find files containing "Area 1 Weekly" in their name
+files <- list.files(dir_path, pattern = "Area 2 Weekly", full.names = TRUE)
+
+# Load the first matching file
+if (length(files) > 0) {
+  pdftext <- pdf_text(files[1]) %>% strsplit(split = "\n")
+}
 
 # Grab individual text values for Page 1
 rawtext1 <- pdftext[[1]][1] %>% trimws()
@@ -254,7 +272,15 @@ recent_crime_area2 <- recent_crime_oakland
 ### AREA 3 ###
 
 # Load the file we want for 2021 (December / Year End)
-pdftext <- pdf_text("data/source/recent/230626_Area 3 Weekly Crime Report 19Jun23 - 25Jun23.pdf") %>% strsplit(split = "\n")
+# pdftext <- pdf_text("data/source/recent/230626_Area 3 Weekly Crime Report 19Jun23 - 25Jun23.pdf") %>% strsplit(split = "\n")
+
+# Find files containing "Area 1 Weekly" in their name
+files <- list.files(dir_path, pattern = "Area 3 Weekly", full.names = TRUE)
+
+# Load the first matching file
+if (length(files) > 0) {
+  pdftext <- pdf_text(files[1]) %>% strsplit(split = "\n")
+}
 
 # Grab individual text values for Page 1
 rawtext1 <- pdftext[[1]][1] %>% trimws()
@@ -371,7 +397,15 @@ recent_crime_area3 <- recent_crime_oakland
 ### AREA 4 ###
 
 # Load the file we want for 2021 (December / Year End)
-pdftext <- pdf_text("data/source/recent/230626_Area 4 Weekly Crime Report 19Jun23 - 25Jun23.pdf") %>% strsplit(split = "\n")
+# pdftext <- pdf_text("data/source/recent/230626_Area 4 Weekly Crime Report 19Jun23 - 25Jun23.pdf") %>% strsplit(split = "\n")
+
+# Find files containing "Area 1 Weekly" in their name
+files <- list.files(dir_path, pattern = "Area 4 Weekly", full.names = TRUE)
+
+# Load the first matching file
+if (length(files) > 0) {
+  pdftext <- pdf_text(files[1]) %>% strsplit(split = "\n")
+}
 
 # Grab individual text values for Page 1
 rawtext1 <- pdftext[[1]][1] %>% trimws()
@@ -488,7 +522,15 @@ recent_crime_area4 <- recent_crime_oakland
 ### AREA 5 ###
 
 # Load the file we want for 2021 (December / Year End)
-pdftext <- pdf_text("data/source/recent/230626_Area 5 Weekly Crime Report 19Jun23 - 25Jun23.pdf") %>% strsplit(split = "\n")
+# pdftext <- pdf_text("data/source/recent/230626_Area 5 Weekly Crime Report 19Jun23 - 25Jun23.pdf") %>% strsplit(split = "\n")
+
+# Find files containing "Area 1 Weekly" in their name
+files <- list.files(dir_path, pattern = "Area 5 Weekly", full.names = TRUE)
+
+# Load the first matching file
+if (length(files) > 0) {
+  pdftext <- pdf_text(files[1]) %>% strsplit(split = "\n")
+}
 
 # Grab individual text values for Page 1
 rawtext1 <- pdftext[[1]][1] %>% trimws()
@@ -605,7 +647,15 @@ recent_crime_area5 <- recent_crime_oakland
 ### CITY WIDE ###
 
 # Load the file we want for 2021 (December / Year End)
-pdftext <- pdf_text("data/source/recent/230626_Citywide Weekly Crime Report 19Jun23 - 25Jun23.pdf") %>% strsplit(split = "\n")
+# pdftext <- pdf_text("data/source/recent/230626_Citywide Weekly Crime Report 19Jun23 - 25Jun23.pdf") %>% strsplit(split = "\n")
+
+# Find files containing "Area 1 Weekly" in their name
+files <- list.files(dir_path, pattern = "Citywide Weekly", full.names = TRUE)
+
+# Load the first matching file
+if (length(files) > 0) {
+  pdftext <- pdf_text(files[1]) %>% strsplit(split = "\n")
+}
 
 # Grab individual text values for Page 1
 rawtext1 <- pdftext[[1]][1] %>% trimws()
@@ -782,5 +832,3 @@ recent_crime_all$updated <- asofdate
 write_csv(recent_crime_all, "data/output/recent/oakland_crime_recent.csv")
 saveRDS(recent_crime_all, "scripts/rds/oakland_crime_recent.rds")
 rm(pdftext,recent_crime_oakland,recent_crime_citywide,recent_crime_area1,recent_crime_area2,recent_crime_area3,recent_crime_area4,recent_crime_area5)
-
-

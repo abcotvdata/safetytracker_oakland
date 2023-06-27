@@ -2,8 +2,13 @@
 library(rvest)
 library(tidyverse)
 library(stringr)
-# library(xml2)
-# library(XML)
+library(RSelenium)
+
+# Get a list of files in the directory
+dir_path <- "data/source/recent"
+files <- list.files(dir_path, full.names = TRUE)
+# Delete all files in the directory
+file.remove(files)
 
 # download the webpage
 # Load the webpage
@@ -194,38 +199,70 @@ rm(extracted_file,extracted_name,files_area1,files_area2,files_area3,
    files_list_area5,files_list_city,input_string,url_area1,url_area2,
    url_area3,url_area4,url_area5,url_citywide)
 
-library(webshot2)
-webshot("https://cityofoakland2.app.box.com/s/xqloqg6rpaljxz6h0cajle6skmoea5ct/file/1126933586867",
-        delay = 20,
-        selector = ".bcpr-container",
-        "r.pdf")
 
-webshot("https://www.cnn.com/", "r.pdf") # Can also output to PDF
+# Set the download directory
+download_dir <- file.path(getwd(), "data/source/recent/")
 
+# Create a custom Firefox profile
+fprof <- makeFirefoxProfile(list(
+  "browser.download.dir" = download_dir,
+  "browser.download.folderList" = 2L,
+  "browser.helperApps.neverAsk.saveToDisk" = "application/pdf", # MIME type of file to download
+  "pdfjs.disabled" = TRUE
+))
 
-
-
-library(RSelenium)
-
-rD <- rsDriver(browser="firefox", port=4545L, verbose=F)
+# Start the RSelenium driver with the custom profile
+rD <- rsDriver(browser="firefox", port=4545L, verbose=F, extraCapabilities = fprof)
 remDr <- rD[["client"]]
 
 # Navigate to website
 remDr$navigate(download_citywide)
-
-Sys.sleep(3)   # slight delay to let page load
-
+Sys.sleep(5)   # slight delay to let page load
 # Find button by CSS path and click it
 btn <- remDr$findElement('xpath', '//*[@id="app"]/div[5]/span/div/span/div/header/div[2]/button[2]')
 btn$clickElement()
+Sys.sleep(5)   # slight delay to let page load
 
-Sys.sleep(2) # slight delay to let page load
 
-remDr$screenshot(display = FALSE, useViewer = FALSE, file = "OAKScreen.pdf")
+# Navigate to website
+remDr$navigate(download_area1)
+Sys.sleep(5)   # slight delay to let page load
+# Find button by CSS path and click it
+btn <- remDr$findElement('xpath', '//*[@id="app"]/div[5]/span/div/span/div/header/div[2]/button[2]')
+btn$clickElement()
+Sys.sleep(5)   # slight delay to let page load
+
+# Navigate to website
+remDr$navigate(download_area2)
+Sys.sleep(5)   # slight delay to let page load
+# Find button by CSS path and click it
+btn <- remDr$findElement('xpath', '//*[@id="app"]/div[5]/span/div/span/div/header/div[2]/button[2]')
+btn$clickElement()
+Sys.sleep(5)   # slight delay to let page load
+
+# Navigate to website
+remDr$navigate(download_area3)
+Sys.sleep(5)   # slight delay to let page load
+# Find button by CSS path and click it
+btn <- remDr$findElement('xpath', '//*[@id="app"]/div[5]/span/div/span/div/header/div[2]/button[2]')
+btn$clickElement()
+Sys.sleep(5)   # slight delay to let page load
+
+# Navigate to website
+remDr$navigate(download_area4)
+Sys.sleep(5)   # slight delay to let page load
+# Find button by CSS path and click it
+btn <- remDr$findElement('xpath', '//*[@id="app"]/div[5]/span/div/span/div/header/div[2]/button[2]')
+btn$clickElement()
+Sys.sleep(5)   # slight delay to let page load
+
+# Navigate to website
+remDr$navigate(download_area5)
+Sys.sleep(5)   # slight delay to let page load
+# Find button by CSS path and click it
+btn <- remDr$findElement('xpath', '//*[@id="app"]/div[5]/span/div/span/div/header/div[2]/button[2]')
+btn$clickElement()
+Sys.sleep(10)   # slight delay to let page load
 
 rD$server$stop()
-# rD[["server"]]$stop()
 
-
-# mime type for pdf
-# application/pdf
