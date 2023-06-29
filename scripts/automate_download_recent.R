@@ -212,15 +212,8 @@ fprof <- makeFirefoxProfile(list(
 ))
 
 # Start the RSelenium driver with the custom profile
-# rD <- rsDriver(browser="firefox", port=4545L, verbose=F, extraCapabilities = fprof)
-# remDr <- rD[["client"]]
-
-remDr <- remoteDriver(
-  remoteServerAddr = "localhost",
-  port = 4444,
-  browserName = "firefox"
-)
-
+rD <- rsDriver(browser="firefox", port=4545L, verbose=F, extraCapabilities = fprof)
+remDr <- rD[["client"]]
 
 # Navigate to website
 remDr$navigate(download_citywide)
