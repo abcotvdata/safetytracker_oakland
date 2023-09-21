@@ -1,5 +1,7 @@
 # Load required packages
 library(rvest)
+library(tidyverse)
+library(stringr)
 library(RSelenium)
 
 # Function to extract file information from a URL
