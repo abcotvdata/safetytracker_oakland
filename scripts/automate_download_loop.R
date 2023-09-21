@@ -52,7 +52,7 @@ fprof <- makeFirefoxProfile(list(
 ))
 
 # Start the RSelenium driver with the custom profile
-rD <- rsDriver(browser = "firefox", port = 4545L, verbose = F, extraCapabilities = fprof)
+rD <- rsDriver(browser = "firefox", port = 99L, verbose = F, extraCapabilities = fprof)
 remDr <- rD[["client"]]
 
 # Download files from each URL
