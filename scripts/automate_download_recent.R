@@ -219,7 +219,7 @@ remDr <- rD[["client"]]
 remDr$navigate(download_citywide)
 Sys.sleep(5)   # slight delay to let page load
 # Find button by CSS path and click it
-btn <- remDr$findElement('xpath', '//*[@id="app"]/div[5]/span/div/span/div/header/div[2]/button[2]')
+btn <- remDr$findElement('xpath', '//*[@id="app"]/div[5]/span/div/span/div/header/div[2]/span/button')
 btn$clickElement()
 Sys.sleep(5)   # slight delay to let page load
 
@@ -228,7 +228,7 @@ Sys.sleep(5)   # slight delay to let page load
 remDr$navigate(download_area1)
 Sys.sleep(5)   # slight delay to let page load
 # Find button by CSS path and click it
-btn <- remDr$findElement('xpath', '//*[@id="app"]/div[5]/span/div/span/div/header/div[2]/button[2]')
+btn <- remDr$findElement('xpath', '//*[@id="app"]/div[5]/span/div/span/div/header/div[2]/span/button')
 btn$clickElement()
 Sys.sleep(5)   # slight delay to let page load
 
@@ -236,7 +236,7 @@ Sys.sleep(5)   # slight delay to let page load
 remDr$navigate(download_area2)
 Sys.sleep(5)   # slight delay to let page load
 # Find button by CSS path and click it
-btn <- remDr$findElement('xpath', '//*[@id="app"]/div[5]/span/div/span/div/header/div[2]/button[2]')
+btn <- remDr$findElement('xpath', '//*[@id="app"]/div[5]/span/div/span/div/header/div[2]/span/button')
 btn$clickElement()
 Sys.sleep(5)   # slight delay to let page load
 
@@ -244,7 +244,7 @@ Sys.sleep(5)   # slight delay to let page load
 remDr$navigate(download_area3)
 Sys.sleep(5)   # slight delay to let page load
 # Find button by CSS path and click it
-btn <- remDr$findElement('xpath', '//*[@id="app"]/div[5]/span/div/span/div/header/div[2]/button[2]')
+btn <- remDr$findElement('xpath', '//*[@id="app"]/div[5]/span/div/span/div/header/div[2]/span/button')
 btn$clickElement()
 Sys.sleep(5)   # slight delay to let page load
 
@@ -252,7 +252,7 @@ Sys.sleep(5)   # slight delay to let page load
 remDr$navigate(download_area4)
 Sys.sleep(5)   # slight delay to let page load
 # Find button by CSS path and click it
-btn <- remDr$findElement('xpath', '//*[@id="app"]/div[5]/span/div/span/div/header/div[2]/button[2]')
+btn <- remDr$findElement('xpath', '//*[@id="app"]/div[5]/span/div/span/div/header/div[2]/span/button')
 btn$clickElement()
 Sys.sleep(5)   # slight delay to let page load
 
@@ -260,7 +260,7 @@ Sys.sleep(5)   # slight delay to let page load
 remDr$navigate(download_area5)
 Sys.sleep(5)   # slight delay to let page load
 # Find button by CSS path and click it
-btn <- remDr$findElement('xpath', '//*[@id="app"]/div[5]/span/div/span/div/header/div[2]/button[2]')
+btn <- remDr$findElement('xpath', '//*[@id="app"]/div[5]/span/div/span/div/header/div[2]/span/button')
 btn$clickElement()
 Sys.sleep(10)   # slight delay to let page load
 
