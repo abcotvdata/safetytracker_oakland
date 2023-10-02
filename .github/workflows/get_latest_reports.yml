@@ -1,4 +1,4 @@
-name: Get Oakland latest weekly crime data reports
+name: Get Oakland weekly crime reports
 
 # Set to update at 11 a.m. Monday; if files don't post, manually run later
 on:
