@@ -3,6 +3,12 @@ library(rvest)
 library(tidyverse)
 library(stringr)
 
+# Get a list of files in the directory
+dir_path <- "data/source/recent"
+files <- list.files(dir_path, full.names = TRUE)
+# Delete all files in the directory
+file.remove(files)
+
 # Function to extract file information from a URL
 extract_files_info <- function(url) {
   webpage <- read_html(url)
