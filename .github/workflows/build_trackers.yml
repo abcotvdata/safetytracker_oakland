@@ -21,10 +21,11 @@ jobs:
           brew install gdal
       - name: Install dependencies and packages
         run: Rscript -e 'install.packages(c("sf","tidyverse","leaflet","leaflet.extras","leaflet.providers","htmlwidgets","htmltools","rmarkdown"))'
-      - name: Process recent and past data
+      - name: Process recent data
         run: Rscript scripts/recent_oakland_compstat.R
+      - name: Merge with past data
         run: Rscript scripts/process_oakland_crime_data.R
-      - name: Render all markdowns from central script
+      - name: Render markdowns from central script
         run: Rscript scripts/run_markdowns.R
       - name: Commit results
         run: |
