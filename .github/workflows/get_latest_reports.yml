@@ -1,9 +1,9 @@
 name: Get Oakland latest weekly crime data reports
 
-# Controls when the workflow will run
+# Set to update at 11 a.m. Monday; if files don't post, manually run later
 on:
   schedule:
-    - cron: '0 8 * * 2'
+    - cron: '0 14 * * 1'
       # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
