@@ -216,7 +216,7 @@ sf_population <- 815201
 <div class="card" style="background-color:#99a0a5;">
 <p>Average Aggravated Assaults<br>
 <bignumber>`r prettyNum(round(assaults_city$avg_prior3years,0), big.mark=",")`<br></bignumber><p>
-Yearly average<br>2020 to 2022</p>
+Yearly average<br>2021 to 2023</p>
 </div>
 <div class="card" style="background-color:#99a0a5;">
 <p>Aggravated Assault Rate<br>
@@ -232,13 +232,13 @@ Per 100,000 people<br>2020 to 2022</p>
 <br>
 Aggravated assaults over the last 12 months are <h8>`r ifelse(assaults_city$inc_prior3yearavgtolast12>=0," up"," down")` `r ifelse(assaults_city$inc_prior3yearavgtolast12>=0,assaults_city$inc_prior3yearavgtolast12,substring(assaults_city$inc_prior3yearavgtolast12,2))`%</h8> compared to the annual average over the last three years, according to the Oakland Police Department data through `r format(asofdate, "%B %d")`.
 
-The city averaged <h8>`r prettyNum(round(assaults_city$last12mos/52,0), big.mark=",")`</h8> aggravated assaults a week over the last 12 months. In 2019, that number was <h8>`r prettyNum(round(assaults_city$total19/52,0), big.mark=",")`</h8> a week.
+The city averaged <h8>`r prettyNum(round(assaults_city$last12mos/52,0), big.mark=",")`</h8> aggravated assaults a week over the last 12 months. In 2019, that number was <h8>`r prettyNum(round(assaults_city$total20/52,0), big.mark=",")`</h8> a week.
 
 The totals include only aggravated assaults, which police generally define as someone being attacked or seriously injured by another person, whether or not they used a firearm or other weapon.
 
 <subhead>A closer look at Oakland assaults neighborhood by neighborhood</subhead>
 
-The danger is not the same neighborhood to neighborhood. ABC7's data team looked at the Oakland Police Department's data by neighborhood from 2019 through `r format(asofdate, "%B %d, %Y")`.
+The danger is not the same neighborhood to neighborhood. ABC7's data team looked at the Oakland Police Department's data by neighborhood from 2020 through `r format(asofdate, "%B %d, %Y")`.
 
 The map color codes each neighborhood by the aggravated assault rate over the last 12 months. The three darker blues represent neighborhoods with assault rates that are higher than the citywide rate. You can also click the box in the bottom right corner to see neighborhoods by the number of aggravated assaults.
 
@@ -294,15 +294,6 @@ assaultlabel <- paste(sep="",
 				<th>Rate</th>
 			</tr>
 			<tr>
-				<td>2019</td>
-				<td>",
-assaults_district$total19,
-"</td>
-				<td>",
-prettyNum(round(assaults_district$rate19,0), big.mark=","),
-"</td>
-			</tr>
-			<tr>
 				<td>2020</td>
 				<td>",
 assaults_district$total20,
@@ -311,7 +302,7 @@ assaults_district$total20,
 prettyNum(round(assaults_district$rate20,0), big.mark=","),
 "</td>
 			</tr>
-						<tr>
+			<tr>
 				<td>2021</td>
 				<td>",
 assaults_district$total21,
@@ -320,13 +311,22 @@ assaults_district$total21,
 prettyNum(round(assaults_district$rate21,0), big.mark=","),
 "</td>
 			</tr>
-									<tr>
+						<tr>
 				<td>2022</td>
 				<td>",
 assaults_district$total22,
 "</td>
 				<td>",
 prettyNum(round(assaults_district$rate22,0), big.mark=","),
+"</td>
+			</tr>
+									<tr>
+				<td>2023</td>
+				<td>",
+assaults_district$total23,
+"</td>
+				<td>",
+prettyNum(round(assaults_district$rate23,0), big.mark=","),
 "</td>
 			</tr>
 						<tr>
@@ -416,7 +416,7 @@ oakland_assault_map
 ```
 <br>
 <br>
-<!-- <subhead>Assaults month by month, 2019 through last month</subhead> -->
+<!-- <subhead>Assaults month by month, 2020 through last month</subhead> -->
 <iframe title="Aggravated assaults year by year in Oakland" aria-label="Column Chart" id="datawrapper-chart-0CHmp" src="https://datawrapper.dwcdn.net/0CHmp/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
 <br>
 <br>
