@@ -12,6 +12,7 @@ oakland_crime <- left_join(annual_crime_all,recent_crime_all %>% select(4,5,9,10
                            by=c("description"="description","district"="district")) 
 
 # Extract the last 12 months into a new column
+oakland_crime$ytd24 <- as.numeric(oakland_crime$ytd24)
 oakland_crime$last12mos <- (oakland_crime$total23-oakland_crime$ytd23)+oakland_crime$ytd24
 oakland_crime <- oakland_crime %>% select(7:9,1:6,11,10,13,12)
 
