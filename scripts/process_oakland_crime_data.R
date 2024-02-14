@@ -109,7 +109,8 @@ citywide_yearly <- citywide_crime %>% select(4:9,12)
 yearly_archive <- read_csv("data/source/annual/oakland_annual_state.csv")
 yearly_archive$category <- ifelse(yearly_archive$category=="Homicide","Murder",yearly_archive$category)
 yearly_archive$category <- ifelse(yearly_archive$category=="Rape","Sexual Assault",yearly_archive$category)
-citywide_yearly <- right_join(citywide_yearly,yearly_archive %>% select(1:18,23),by="category") %>% select(1,8:25,2:7)
+citywide_yearly <- right_join(citywide_yearly,yearly_archive %>% select(1:19,23),by="category") 
+citywide_yearly <- citywide_yearly %>% select(1,8:26,2:7)
 # save for annual charts  
 write_csv(citywide_yearly,"data/output/yearly/citywide_yearly.csv")
 
