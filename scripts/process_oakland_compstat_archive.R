@@ -6,8 +6,8 @@ library(tidyr)
 
 ### AREA 1 ###
 
-# Load the file we want for 2021 (December / Year End)
-pdftext <- pdf_text("data/source/annual/OPD6_2022_Area_1_ACR_end_of_year_report_PUBLIC_SNF001.pdf") %>% strsplit(split = "\n")
+# Load the file we want for 2023 (December / Year End)
+pdftext <- pdf_text("data/source/annual/OPD6_2023_Area_1_ACR_end_of_year_report_PUBLIC_SNF001.pdf") %>% strsplit(split = "\n")
 
 # Grab individual text values for Page 1
 rawtext1 <- pdftext[[1]][1] %>% trimws()
@@ -74,7 +74,7 @@ past_crime_oakland$rawtext2 <- strsplit(past_crime_oakland$rawtext, "\\s+\\s+")
 past_crime_oakland <- past_crime_oakland %>% unnest_wider(rawtext2, names_sep = "_")
 # name the columns temporarily
 names(past_crime_oakland) = c("rawtext","category",
-                              "total18","total19","total20","total21","total22",
+                              "total19","total20","total21","total22", "total23",
                               "change","average","change_21_vs_avg")
 
 past_crime_oakland <- past_crime_oakland %>% filter(category %in% 
@@ -99,17 +99,17 @@ past_crime_oakland <- past_crime_oakland %>% filter(category %in%
 
 past_crime_oakland <- past_crime_oakland %>% select(2:7)
 
-past_crime_oakland$total18 <- gsub(",","",past_crime_oakland$total18)
 past_crime_oakland$total19 <- gsub(",","",past_crime_oakland$total19)
 past_crime_oakland$total20 <- gsub(",","",past_crime_oakland$total20)
 past_crime_oakland$total21 <- gsub(",","",past_crime_oakland$total21)
 past_crime_oakland$total22 <- gsub(",","",past_crime_oakland$total22)
+past_crime_oakland$total23 <- gsub(",","",past_crime_oakland$total23)
 
-past_crime_oakland$total18 <- as.numeric(past_crime_oakland$total18)
 past_crime_oakland$total19 <- as.numeric(past_crime_oakland$total19)
 past_crime_oakland$total20 <- as.numeric(past_crime_oakland$total20)
 past_crime_oakland$total21 <- as.numeric(past_crime_oakland$total21)
 past_crime_oakland$total22 <- as.numeric(past_crime_oakland$total22)
+past_crime_oakland$total23 <- as.numeric(past_crime_oakland$total23)
 
 past_crime_oakland[is.na(past_crime_oakland)] <- 0
 
@@ -118,8 +118,8 @@ past_crime_area1 <- past_crime_oakland
 
 ### AREA 2 ###
 
-# Load the file we want for 2021 (December / Year End)
-pdftext <- pdf_text("data/source/annual/OPD6_2022_Area_2_ACR_end_of_year_report_PUBLIC_SNF001.pdf") %>% strsplit(split = "\n")
+# Load the file we want for 2023 (December / Year End)
+pdftext <- pdf_text("data/source/annual/OPD6_2023_Area_2_ACR_end_of_year_report_PUBLIC_SNF001.pdf") %>% strsplit(split = "\n")
 
 # Grab individual text values for Page 1
 rawtext1 <- pdftext[[1]][1] %>% trimws()
@@ -186,7 +186,7 @@ past_crime_oakland$rawtext2 <- strsplit(past_crime_oakland$rawtext, "\\s+\\s+")
 past_crime_oakland <- past_crime_oakland %>% unnest_wider(rawtext2, names_sep = "_")
 # name the columns temporarily
 names(past_crime_oakland) = c("rawtext","category",
-                              "total18","total19","total20","total21","total22",
+                              "total19","total20","total21","total22", "total23",
                               "change","average","change_21_vs_avg")
 
 past_crime_oakland <- past_crime_oakland %>% filter(category %in% 
@@ -211,17 +211,17 @@ past_crime_oakland <- past_crime_oakland %>% filter(category %in%
 
 past_crime_oakland <- past_crime_oakland %>% select(2:7)
 
-past_crime_oakland$total18 <- gsub(",","",past_crime_oakland$total18)
 past_crime_oakland$total19 <- gsub(",","",past_crime_oakland$total19)
 past_crime_oakland$total20 <- gsub(",","",past_crime_oakland$total20)
 past_crime_oakland$total21 <- gsub(",","",past_crime_oakland$total21)
 past_crime_oakland$total22 <- gsub(",","",past_crime_oakland$total22)
+past_crime_oakland$total23 <- gsub(",","",past_crime_oakland$total23)
 
-past_crime_oakland$total18 <- as.numeric(past_crime_oakland$total18)
 past_crime_oakland$total19 <- as.numeric(past_crime_oakland$total19)
 past_crime_oakland$total20 <- as.numeric(past_crime_oakland$total20)
 past_crime_oakland$total21 <- as.numeric(past_crime_oakland$total21)
 past_crime_oakland$total22 <- as.numeric(past_crime_oakland$total22)
+past_crime_oakland$total23 <- as.numeric(past_crime_oakland$total23)
 
 past_crime_oakland[is.na(past_crime_oakland)] <- 0
 
@@ -230,8 +230,8 @@ past_crime_area2 <- past_crime_oakland
 
 ### AREA 3 ###
 
-# Load the file we want for 2021 (December / Year End)
-pdftext <- pdf_text("data/source/annual/OPD6_2022_Area_3_ACR_end_of_year_report_PUBLIC_SNF001.pdf") %>% strsplit(split = "\n")
+# Load the file we want for 2023 (December / Year End)
+pdftext <- pdf_text("data/source/annual/OPD6_2023_Area_3_ACR_end_of_year_report_PUBLIC_SNF001.pdf") %>% strsplit(split = "\n")
 
 # Grab individual text values for Page 1
 rawtext1 <- pdftext[[1]][1] %>% trimws()
@@ -298,7 +298,7 @@ past_crime_oakland$rawtext2 <- strsplit(past_crime_oakland$rawtext, "\\s+\\s+")
 past_crime_oakland <- past_crime_oakland %>% unnest_wider(rawtext2, names_sep = "_")
 # name the columns temporarily
 names(past_crime_oakland) = c("rawtext","category",
-                              "total18","total19","total20","total21","total22",
+                              "total19","total20","total21","total22", "total23",
                               "change","average","change_21_vs_avg")
 
 past_crime_oakland <- past_crime_oakland %>% filter(category %in% 
@@ -323,17 +323,17 @@ past_crime_oakland <- past_crime_oakland %>% filter(category %in%
 
 past_crime_oakland <- past_crime_oakland %>% select(2:7)
 
-past_crime_oakland$total18 <- gsub(",","",past_crime_oakland$total18)
 past_crime_oakland$total19 <- gsub(",","",past_crime_oakland$total19)
 past_crime_oakland$total20 <- gsub(",","",past_crime_oakland$total20)
 past_crime_oakland$total21 <- gsub(",","",past_crime_oakland$total21)
 past_crime_oakland$total22 <- gsub(",","",past_crime_oakland$total22)
+past_crime_oakland$total23 <- gsub(",","",past_crime_oakland$total23)
 
-past_crime_oakland$total18 <- as.numeric(past_crime_oakland$total18)
 past_crime_oakland$total19 <- as.numeric(past_crime_oakland$total19)
 past_crime_oakland$total20 <- as.numeric(past_crime_oakland$total20)
 past_crime_oakland$total21 <- as.numeric(past_crime_oakland$total21)
 past_crime_oakland$total22 <- as.numeric(past_crime_oakland$total22)
+past_crime_oakland$total23 <- as.numeric(past_crime_oakland$total23)
 
 past_crime_oakland[is.na(past_crime_oakland)] <- 0
 
@@ -343,8 +343,8 @@ past_crime_area3 <- past_crime_oakland
 
 ### AREA 4 ###
 
-# Load the file we want for 2021 (December / Year End)
-pdftext <- pdf_text("data/source/annual/OPD6_2022_Area_4_ACR_end_of_year_report_PUBLIC_SNF001.pdf") %>% strsplit(split = "\n")
+# Load the file we want for 2023 (December / Year End)
+pdftext <- pdf_text("data/source/annual/OPD6_2023_Area_4_ACR_end_of_year_report_PUBLIC_SNF001.pdf") %>% strsplit(split = "\n")
 
 # Grab individual text values for Page 1
 rawtext1 <- pdftext[[1]][1] %>% trimws()
@@ -411,7 +411,7 @@ past_crime_oakland$rawtext2 <- strsplit(past_crime_oakland$rawtext, "\\s+\\s+")
 past_crime_oakland <- past_crime_oakland %>% unnest_wider(rawtext2, names_sep = "_")
 # name the columns temporarily
 names(past_crime_oakland) = c("rawtext","category",
-                              "total18","total19","total20","total21","total22",
+                              "total19","total20","total21","total22", "total23",
                               "change","average","change_21_vs_avg")
 
 past_crime_oakland <- past_crime_oakland %>% filter(category %in% 
@@ -436,17 +436,17 @@ past_crime_oakland <- past_crime_oakland %>% filter(category %in%
 
 past_crime_oakland <- past_crime_oakland %>% select(2:7)
 
-past_crime_oakland$total18 <- gsub(",","",past_crime_oakland$total18)
 past_crime_oakland$total19 <- gsub(",","",past_crime_oakland$total19)
 past_crime_oakland$total20 <- gsub(",","",past_crime_oakland$total20)
 past_crime_oakland$total21 <- gsub(",","",past_crime_oakland$total21)
 past_crime_oakland$total22 <- gsub(",","",past_crime_oakland$total22)
+past_crime_oakland$total23 <- gsub(",","",past_crime_oakland$total23)
 
-past_crime_oakland$total18 <- as.numeric(past_crime_oakland$total18)
 past_crime_oakland$total19 <- as.numeric(past_crime_oakland$total19)
 past_crime_oakland$total20 <- as.numeric(past_crime_oakland$total20)
 past_crime_oakland$total21 <- as.numeric(past_crime_oakland$total21)
 past_crime_oakland$total22 <- as.numeric(past_crime_oakland$total22)
+past_crime_oakland$total23 <- as.numeric(past_crime_oakland$total23)
 
 past_crime_oakland[is.na(past_crime_oakland)] <- 0
 
@@ -456,8 +456,8 @@ past_crime_area4 <- past_crime_oakland
 
 ### AREA 5 ###
 
-# Load the file we want for 2021 (December / Year End)
-pdftext <- pdf_text("data/source/annual/OPD6_2022_Area_5_ACR_end_of_year_report_PUBLIC_SNF001.pdf") %>% strsplit(split = "\n")
+# Load the file we want for 2023 (December / Year End)
+pdftext <- pdf_text("data/source/annual/OPD6_2023_Area_5_ACR_end_of_year_report_PUBLIC_SNF001.pdf") %>% strsplit(split = "\n")
 
 # Grab individual text values for Page 1
 rawtext1 <- pdftext[[1]][1] %>% trimws()
@@ -524,7 +524,7 @@ past_crime_oakland$rawtext2 <- strsplit(past_crime_oakland$rawtext, "\\s+\\s+")
 past_crime_oakland <- past_crime_oakland %>% unnest_wider(rawtext2, names_sep = "_")
 # name the columns temporarily
 names(past_crime_oakland) = c("rawtext","category",
-                              "total18","total19","total20","total21","total22",
+                              "total19","total20","total21","total22", "total23",
                               "change","average","change_21_vs_avg")
 
 past_crime_oakland <- past_crime_oakland %>% filter(category %in% 
@@ -549,17 +549,17 @@ past_crime_oakland <- past_crime_oakland %>% filter(category %in%
 
 past_crime_oakland <- past_crime_oakland %>% select(2:7)
 
-past_crime_oakland$total18 <- gsub(",","",past_crime_oakland$total18)
 past_crime_oakland$total19 <- gsub(",","",past_crime_oakland$total19)
 past_crime_oakland$total20 <- gsub(",","",past_crime_oakland$total20)
 past_crime_oakland$total21 <- gsub(",","",past_crime_oakland$total21)
 past_crime_oakland$total22 <- gsub(",","",past_crime_oakland$total22)
+past_crime_oakland$total23 <- gsub(",","",past_crime_oakland$total23)
 
-past_crime_oakland$total18 <- as.numeric(past_crime_oakland$total18)
 past_crime_oakland$total19 <- as.numeric(past_crime_oakland$total19)
 past_crime_oakland$total20 <- as.numeric(past_crime_oakland$total20)
 past_crime_oakland$total21 <- as.numeric(past_crime_oakland$total21)
 past_crime_oakland$total22 <- as.numeric(past_crime_oakland$total22)
+past_crime_oakland$total23 <- as.numeric(past_crime_oakland$total23)
 
 past_crime_oakland[is.na(past_crime_oakland)] <- 0
 
@@ -569,8 +569,8 @@ past_crime_area5 <- past_crime_oakland
 
 ### CITY WIDE ###
 
-# Load the file we want for 2021 (December / Year End)
-pdftext <- pdf_text("data/source/annual/OPD6_2022_Citywide_WCR_end_of_year_report_PUBLIC_SNF001.pdf") %>% strsplit(split = "\n")
+# Load the file we want for 2023 (December / Year End)
+pdftext <- pdf_text("data/source/annual/OPD6_2023_Citywide_WCR_end_of_year_report_PUBLIC_SNF001.pdf") %>% strsplit(split = "\n")
 
 # Grab individual text values for Page 1
 rawtext1 <- pdftext[[1]][1] %>% trimws()
@@ -643,7 +643,7 @@ past_crime_oakland <- past_crime_oakland %>% unnest_wider(rawtext3, names_sep = 
 
 # name the columns temporarily
 names(past_crime_oakland) = c("rawtext","category",
-                              "total18","total19","total20","total21","total22",
+                              "total19","total20","total21","total22", "total23",
                               "change","average","change_21_vs_avg")
 
 past_crime_oakland <- past_crime_oakland %>% filter(category %in% 
@@ -668,17 +668,17 @@ past_crime_oakland <- past_crime_oakland %>% filter(category %in%
 
 past_crime_oakland <- past_crime_oakland %>% select(2:7)
 
-past_crime_oakland$total18 <- gsub(",","",past_crime_oakland$total18)
 past_crime_oakland$total19 <- gsub(",","",past_crime_oakland$total19)
 past_crime_oakland$total20 <- gsub(",","",past_crime_oakland$total20)
 past_crime_oakland$total21 <- gsub(",","",past_crime_oakland$total21)
 past_crime_oakland$total22 <- gsub(",","",past_crime_oakland$total22)
+past_crime_oakland$total23 <- gsub(",","",past_crime_oakland$total23)
 
-past_crime_oakland$total18 <- as.numeric(past_crime_oakland$total18)
 past_crime_oakland$total19 <- as.numeric(past_crime_oakland$total19)
 past_crime_oakland$total20 <- as.numeric(past_crime_oakland$total20)
 past_crime_oakland$total21 <- as.numeric(past_crime_oakland$total21)
 past_crime_oakland$total22 <- as.numeric(past_crime_oakland$total22)
+past_crime_oakland$total23 <- as.numeric(past_crime_oakland$total23)
 
 past_crime_oakland[is.na(past_crime_oakland)] <- 0
 
@@ -739,7 +739,7 @@ past_crime_all$type <- case_when(past_crime_all$category == "Murder" ~ "Violent"
                                    past_crime_all$category == "Arson" ~ "Property",
                                    TRUE ~ "Total/Subcategory")
 
-# save 2018-2019 annual file and rds archive
+# save annual file and rds archive
 write_csv(past_crime_all, "data/output/annual/oakland_crime_annual.csv")
 saveRDS(past_crime_all, "scripts/rds/oakland_crime_annual.rds")
 rm(pdftext,past_crime_citywide,past_crime_area1,past_crime_area2,past_crime_area3,past_crime_area4,past_crime_area5,past_crime_oakland)
