@@ -1,4 +1,4 @@
-category,weekly_total,ytd21,ytd22,ytd23,ytd_change,threeyr_ytd_average,ytd23_vs_3yr_avg,district,description,type,updated
+category,weekly_total,ytd22,ytd23,ytd24,ytd_change,threeyr_ytd_average,ytd23_vs_3yr_avg,district,description,type,updated
 Murder,1,10,11,11,0,11,0,Citywide,Murder,Violent,2024-02-11
 Total/Subcategory,0,2,0,0,0,1,0,Citywide,All Other Homicides,Total/Subcategory,2024-02-11
 Aggravated Assault,36,351,343,271,0,322,0,Citywide,Aggravated Assault,Violent,2024-02-11
@@ -130,17 +130,17 @@ Larceny,6,134,168,63,0,122,0,Area 4,Larceny,Property,2024-02-11
 Arson,0,1,1,3,0,2,0,Area 4,Arson,Property,2024-02-11
 Total/Subcategory,40,550,722,576,0,616,0,Area 4,Total,Total/Subcategory,2024-02-11
 Murder,0,2,4,1,0,2,0,Area 5,Murder,Violent,2024-02-11
-Total/Subcategory,0,1,0,0,0,0,0,Area 5,All Other Homicides,Total/Subcategory,2024-02-11
+Total/Subcategory,0,1,0,-,0,0,0,Area 5,All Other Homicides,Total/Subcategory,2024-02-11
 Aggravated Assault,8,72,70,65,0,69,0,Area 5,Aggravated Assault,Violent,2024-02-11
 Total/Subcategory,2,8,9,9,0,9,0,Area 5,Aggravated Assault (Firearm),Total/Subcategory,2024-02-11
 Total/Subcategory,2,11,13,10,0,11,0,Area 5,Combined subtotal of homicides and firearms-related aggravated assaults,Total/Subcategory,2024-02-11
 Total/Subcategory,0,10,9,7,0,9,0,Area 5,Aggravated Assault (Shooting occupied home or vehicle),Total/Subcategory,2024-02-11
 Total/Subcategory,0,8,6,1,0,5,0,Area 5,Aggravated Assault (Shooting unoccupied home or vehicle),Total/Subcategory,2024-02-11
 Total/Subcategory,6,46,46,48,0,47,0,Area 5,Aggravated Assault (Non Firearm),Total/Subcategory,2024-02-11
-Sexual Assault,0,2,3,0,0,2,0,Area 5,Sexual Assault,Violent,2024-02-11
+Sexual Assault,0,2,3,-,0,2,0,Area 5,Sexual Assault,Violent,2024-02-11
 Robbery,3,69,39,70,0,59,0,Area 5,Robbery,Violent,2024-02-11
 Total/Subcategory,1,45,19,33,0,32,0,Area 5,Robbery (Firearm),Total/Subcategory,2024-02-11
-Total/Subcategory,0,0,1,0,0,0,0,Area 5,Robbery (Knife),Total/Subcategory,2024-02-11
+Total/Subcategory,0,0,1,-,0,0,0,Area 5,Robbery (Knife),Total/Subcategory,2024-02-11
 Total/Subcategory,2,8,9,15,0,11,0,Area 5,Robbery (Strong-arm),Total/Subcategory,2024-02-11
 Total/Subcategory,0,2,1,1,0,1,0,Area 5,Robbery (other dangerous weapon),Total/Subcategory,2024-02-11
 Total/Subcategory,0,1,3,2,0,2,0,Area 5,Residential Robbery,Total/Subcategory,2024-02-11
@@ -153,5 +153,5 @@ Total/Subcategory,0,3,6,5,0,5,0,Area 5,"Burglary (Boats, Aircraft, Other)",Total
 Total/Subcategory,0,0,5,9,0,5,0,Area 5,Burglary (Unknown),Total/Subcategory,2024-02-11
 Motor Vehicle Theft,14,238,275,289,0,267,0,Area 5,Motor Vehicle Theft,Property,2024-02-11
 Larceny,4,115,160,33,0,103,0,Area 5,Larceny,Property,2024-02-11
-Arson,0,6,2,0,0,3,0,Area 5,Arson,Property,2024-02-11
+Arson,0,6,2,-,0,3,0,Area 5,Arson,Property,2024-02-11
 Total/Subcategory,30,574,640,514,0,576,0,Area 5,Total,Total/Subcategory,2024-02-11
