@@ -215,7 +215,7 @@ sf_population <- 815201
 <div class="card" style="background-color:#99a0a5;">
 <p>Average Vehicle Thefts<br>
 <bignumber>`r prettyNum(round(autothefts_city$avg_prior3years,0), big.mark=",")`<br></bignumber><p>
-Yearly average<br>2020 to 2022</p>
+Yearly average<br>2021 to 2023</p>
 </div>
 <div class="card" style="background-color:#99a0a5;">
 <p>Vehicle Theft Rate<br>
@@ -225,13 +225,13 @@ Per 100,000 people<br>Last 12 months</p>
 <div class="card" style="background-color:#99a0a5;">
 <p>Average Vehicle Theft Rate<br>
 <bignumber>`r prettyNum(round(autothefts_city$rate_prior3years,0), big.mark=",")`<br></bignumber><p>
-Per 100,000 people<br>2020 to 2022</p>
+Per 100,000 people<br>2021 to 2023</p>
 </div>
 </div>
 <br>
 Vehicle thefts over the last 12 months are <h8>`r ifelse(autothefts_city$inc_prior3yearavgtolast12>=0," up"," down")` `r ifelse(autothefts_city$inc_prior3yearavgtolast12>=0,autothefts_city$inc_prior3yearavgtolast12,substring(autothefts_city$inc_prior3yearavgtolast12,2))`%</h8> compared to the annual average over the last three years, according to Oakland Police Department data through `r format(asofdate, "%B %d")`.
 
-The city averaged <h8>`r round(autothefts_city$last12mos/52,0)`</h8> stolen vehicles a week over the last 12 months. In 2019, that number was <h8>`r round(autothefts_city$total19/52,0)`</h8> a week.
+The city averaged <h8>`r round(autothefts_city$last12mos/52,0)`</h8> stolen vehicles a week over the last 12 months. In 2020, that number was <h8>`r round(autothefts_city$total20/52,0)`</h8> a week.
 
 The totals included here are for theft of a motor vehicle, and do not include thefts of parts of vehicles or thefts of personal valuables from vehicles.
 
@@ -291,15 +291,6 @@ autotheftlabel <- paste(sep="",
 				<th>Rate</th>
 			</tr>
 			<tr>
-				<td>2019</td>
-				<td>",
-autothefts_district$total19,
-"</td>
-				<td>",
-prettyNum(round(autothefts_district$rate19,0),big.mark =","),
-"</td>
-			</tr>
-			<tr>
 				<td>2020</td>
 				<td>",
 autothefts_district$total20,
@@ -308,7 +299,7 @@ autothefts_district$total20,
 prettyNum(round(autothefts_district$rate20,0),big.mark =","),
 "</td>
 			</tr>
-						<tr>
+			<tr>
 				<td>2021</td>
 				<td>",
 autothefts_district$total21,
@@ -317,13 +308,22 @@ autothefts_district$total21,
 prettyNum(round(autothefts_district$rate21,0),big.mark =","),
 "</td>
 			</tr>
-									<tr>
+						<tr>
 				<td>2022</td>
 				<td>",
 autothefts_district$total22,
 "</td>
 				<td>",
 prettyNum(round(autothefts_district$rate22,0),big.mark =","),
+"</td>
+			</tr>
+									<tr>
+				<td>2023</td>
+				<td>",
+autothefts_district$total23,
+"</td>
+				<td>",
+prettyNum(round(autothefts_district$rate23,0),big.mark =","),
 "</td>
 			</tr>
 						<tr>
@@ -413,7 +413,7 @@ oakland_autotheft_map
 ```
 <br>
 <br>
-<!-- <subhead>Auto thefts year by year, 2019 through last month</subhead> -->
+<!-- <subhead>Auto thefts year by year, 2020 through last month</subhead> -->
 <iframe title="Vehicle thefts year by year in Oakland" aria-label="Column Chart" id="datawrapper-chart-s6QNG" src="https://datawrapper.dwcdn.net/s6QNG/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
 <br>
 <br>
