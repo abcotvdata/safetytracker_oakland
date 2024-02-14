@@ -226,13 +226,13 @@ Per 100,000 people<br>Last 12 months</p>
 <div class="card" style="background-color:#99a0a5;">
 <p>Average Robbery Rate<br>
 <bignumber>`r round(robberies_city$rate_prior3years,0)`<br></bignumber><p>
-Per 100,000 people<br>2020 to 2022</p>
+Per 100,000 people<br>2021 to 2023</p>
 </div>
 </div>
 <br>
 Robberies over the last 12 months are <h8>`r ifelse(robberies_city$inc_prior3yearavgtolast12>=0," up"," down")` `r ifelse(robberies_city$inc_prior3yearavgtolast12>=0,robberies_city$inc_prior3yearavgtolast12,substring(robberies_city$inc_prior3yearavgtolast12,2))`%</h8> compared to the annual average over the last three years, according to Oakland Police Department data through `r format(asofdate, "%B %d")`.
 
-The city averaged <h8>`r round(robberies_city$last12mos/52,0)`</h8> robberies a week over the last 12 months. In 2019, that number was <h8>`r round(robberies_city$total19/52,0)`</h8> a week.
+The city averaged <h8>`r round(robberies_city$last12mos/52,0)`</h8> robberies a week over the last 12 months. In 2020, that number was <h8>`r round(robberies_city$total20/52,0)`</h8> a week.
 
 Robbery is generally defined by police as taking something of value from someone by force or threatening force. So while someone taking a smartphone from someone's bag would be theft, taking it while pointing a firearm at the person would be robbery.
 
@@ -294,15 +294,6 @@ robberylabel <- paste(sep="",
 				<th>Rate</th>
 			</tr>
 			<tr>
-				<td>2019</td>
-				<td>",
-robberies_district$total19,
-"</td>
-				<td>",
-round(robberies_district$rate19,0),
-"</td>
-			</tr>
-			<tr>
 				<td>2020</td>
 				<td>",
 robberies_district$total20,
@@ -311,7 +302,7 @@ robberies_district$total20,
 round(robberies_district$rate20,0),
 "</td>
 			</tr>
-						<tr>
+			<tr>
 				<td>2021</td>
 				<td>",
 robberies_district$total21,
@@ -320,13 +311,22 @@ robberies_district$total21,
 round(robberies_district$rate21,0),
 "</td>
 			</tr>
-									<tr>
+						<tr>
 				<td>2022</td>
 				<td>",
 robberies_district$total22,
 "</td>
 				<td>",
 round(robberies_district$rate22,0),
+"</td>
+			</tr>
+									<tr>
+				<td>2023</td>
+				<td>",
+robberies_district$total23,
+"</td>
+				<td>",
+round(robberies_district$rate23,0),
 "</td>
 			</tr>
 						<tr>
@@ -416,7 +416,7 @@ oakland_robbery_map
 ```
 <br>
 <br>
-<!-- <subhead>Robberies year by year, 2019 through last month</subhead> -->
+<!-- <subhead>Robberies year by year, 2020 through last month</subhead> -->
 <iframe title="Robberies year by year in Oakland" aria-label="Column Chart" id="datawrapper-chart-NNor8" src="https://datawrapper.dwcdn.net/NNor8/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
 <br>
 <br>
