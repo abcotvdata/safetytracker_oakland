@@ -12,7 +12,7 @@ oakland_crime <- left_join(annual_crime_all,recent_crime_all %>% select(4,5,9,10
                            by=c("description"="description","district"="district")) 
 
 # Extract the last 12 months into a new column
-oakland_crime$last12mos <- (oakland_crime$total22-oakland_crime$ytd22)+oakland_crime$ytd23
+oakland_crime$last12mos <- (oakland_crime$total23-oakland_crime$ytd23)+oakland_crime$ytd24
 oakland_crime <- oakland_crime %>% select(7:9,1:6,11,10,13,12)
 
 # write csv of Oakland crime as a backup
@@ -43,21 +43,21 @@ district_crime <- full_join(districts_geo, district_crime, by="district")
 district_crime[is.na(district_crime)] <- 0
 
 # add 3-year totals and annualized averages
-district_crime$total_prior3years <- district_crime$total20+
-  district_crime$total21+
-  district_crime$total22
+district_crime$total_prior3years <- district_crime$total21+
+  district_crime$total22+
+  district_crime$total23
 district_crime$avg_prior3years <- round((district_crime$total_prior3years/3),1)
 
 # now add the increases or change percentages
-district_crime$inc_19to22 <- round(district_crime$total22/district_crime$total19*100-100,1)
-district_crime$inc_19tolast12 <- round(district_crime$last12mos/district_crime$total19*100-100,1)
-district_crime$inc_22tolast12 <- round(district_crime$last12mos/district_crime$total22*100-100,1)
+district_crime$inc_20to23 <- round(district_crime$total23/district_crime$total20*100-100,1)
+district_crime$inc_20tolast12 <- round(district_crime$last12mos/district_crime$total20*100-100,1)
+district_crime$inc_23tolast12 <- round(district_crime$last12mos/district_crime$total23*100-100,1)
 district_crime$inc_prior3yearavgtolast12 <- round((district_crime$last12mos/district_crime$avg_prior3years)*100-100,0)
 # add crime rates for each year
-district_crime$rate19 <- round((district_crime$total19/district_crime$population)*100000,1)
 district_crime$rate20 <- round((district_crime$total20/district_crime$population)*100000,1)
 district_crime$rate21 <- round((district_crime$total21/district_crime$population)*100000,1)
 district_crime$rate22 <- round((district_crime$total22/district_crime$population)*100000,1)
+district_crime$rate23 <- round((district_crime$total23/district_crime$population)*100000,1)
 district_crime$rate_last12 <- round((district_crime$last12mos/district_crime$population)*100000,1)
 district_crime$rate_prior3years <- 
   round((district_crime$avg_prior3years/district_crime$population)*100000,1)
@@ -77,21 +77,21 @@ write_csv(district_yearly,"data/output/yearly/district_yearly.csv")
 # add zeros where there were no crimes tallied that year
 # citywide_crime[is.na(citywide_crime)] <- 0
 # add 3-year annualized averages
-citywide_crime$total_prior3years <- citywide_crime$total20+
-  citywide_crime$total21+
-  citywide_crime$total22
+citywide_crime$total_prior3years <- citywide_crime$total21+
+  citywide_crime$total22+
+  citywide_crime$total23
 citywide_crime$avg_prior3years <- round((citywide_crime$total_prior3years/3),1)
 
 # now add the increases or change percentages
-citywide_crime$inc_19to22 <- round(citywide_crime$total22/citywide_crime$total19*100-100,1)
-citywide_crime$inc_19tolast12 <- round(citywide_crime$last12mos/citywide_crime$total19*100-100,1)
-citywide_crime$inc_22tolast12 <- round(citywide_crime$last12mos/citywide_crime$total22*100-100,1)
+citywide_crime$inc_20to23 <- round(citywide_crime$total23/citywide_crime$total20*100-100,1)
+citywide_crime$inc_20tolast12 <- round(citywide_crime$last12mos/citywide_crime$total20*100-100,1)
+citywide_crime$inc_23tolast12 <- round(citywide_crime$last12mos/citywide_crime$total23*100-100,1)
 citywide_crime$inc_prior3yearavgtolast12 <- round((citywide_crime$last12mos/citywide_crime$avg_prior3years)*100-100,0)
 # add crime rates for each year
-citywide_crime$rate19 <- round((citywide_crime$total19/oakland_population)*100000,1)
 citywide_crime$rate20 <- round((citywide_crime$total20/oakland_population)*100000,1)
 citywide_crime$rate21 <- round((citywide_crime$total21/oakland_population)*100000,1)
 citywide_crime$rate22 <- round((citywide_crime$total22/oakland_population)*100000,1)
+citywide_crime$rate23 <- round((citywide_crime$total22/oakland_population)*100000,1)
 citywide_crime$rate_last12 <- round((citywide_crime$last12mos/oakland_population)*100000,1)
 # 3 yr rate
 citywide_crime$rate_prior3years <- 
