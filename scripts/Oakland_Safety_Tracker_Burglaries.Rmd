@@ -232,13 +232,13 @@ Per 100,000 people<br>2020 to 2022</p>
 <br>
 Burglaries over the last 12 months are <h8>`r ifelse(burglaries_city$inc_prior3yearavgtolast12>=0," up"," down")` `r ifelse(burglaries_city$inc_prior3yearavgtolast12>=0,burglaries_city$inc_prior3yearavgtolast12,substring(burglaries_city$inc_prior3yearavgtolast12,2))`%</h8> compared to the annual average over the last three years, according to the Oakland Police Department data through `r format(asofdate, "%B %d")`.
 
-The city averaged <h8>`r round(burglaries_city$last12mos/52,0)`</h8> burglaries a week over the last 12 months. In 2019, that number was <h8>`r round(burglaries_city$total19/52,0)`</h8> a week.
+The city averaged <h8>`r round(burglaries_city$last12mos/52,0)`</h8> burglaries a week over the last 12 months. In 2020, that number was <h8>`r round(burglaries_city$total20/52,0)`</h8> a week.
 
 Police generally define burglary as someone illegally entering a home, business or vehicle to steal something of value or commit some other felony.
 
 <subhead>A closer look at Oakland burglaries neighborhood by neighborhood</subhead>
 
-The risk is not the same neighborhood to neighborhood. ABC7's data team looked at the Oakland Police Department's data by neighborhood from 2019 through `r format(asofdate, "%B %d, %Y")`.
+The risk is not the same neighborhood to neighborhood. ABC7's data team looked at the Oakland Police Department's data by neighborhood from 2020 through `r format(asofdate, "%B %d, %Y")`.
 
 The map color codes each neighborhood by the burglary rate over the last 12 months. The three darker blues represent neighborhoods with burglary rates that are higher than the citywide rate. You can also click the box in the bottom right corner to see neighborhoods by the number of burglaries.
 
@@ -294,15 +294,6 @@ burglarylabel <- paste(sep="",
 				<th>Rate</th>
 			</tr>
 			<tr>
-				<td>2019</td>
-				<td>",
-burglaries_district$total19,
-"</td>
-				<td>",
-round(burglaries_district$rate19,0),
-"</td>
-			</tr>
-			<tr>
 				<td>2020</td>
 				<td>",
 burglaries_district$total20,
@@ -311,7 +302,7 @@ burglaries_district$total20,
 round(burglaries_district$rate20,0),
 "</td>
 			</tr>
-						<tr>
+			<tr>
 				<td>2021</td>
 				<td>",
 burglaries_district$total21,
@@ -320,13 +311,22 @@ burglaries_district$total21,
 round(burglaries_district$rate21,0),
 "</td>
 			</tr>
-									<tr>
+						<tr>
 				<td>2022</td>
 				<td>",
 burglaries_district$total22,
 "</td>
 				<td>",
 round(burglaries_district$rate22,0),
+"</td>
+			</tr>
+									<tr>
+				<td>2023</td>
+				<td>",
+burglaries_district$total23,
+"</td>
+				<td>",
+round(burglaries_district$rate23,0),
 "</td>
 			</tr>
 						<tr>
@@ -416,7 +416,7 @@ oakland_burglary_map
 ```
 <br>
 <br>
-<!-- <subhead>Burglaries month by month, 2019 through last month</subhead> -->
+<!-- <subhead>Burglaries month by month, 2020 through last month</subhead> -->
 <iframe title="Burglaries year by year in Oakland" aria-label="Column Chart" id="datawrapper-chart-kqnJe" src="https://datawrapper.dwcdn.net/kqnJe/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="400" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();</script>
 <br>
 <br>
