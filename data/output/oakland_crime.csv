@@ -1,157 +1,157 @@
 district,description,type,category,total19,total20,total21,total22,total23,ytd24,ytd23,last12mos,updated
-Citywide,Murder,Violent,Murder,75,102,123,120,120,67,100,87,2024-10-27
-Citywide,All Other Homicides,Total/Subcategory,Total/Subcategory,3,7,11,2,6,4,5,5,2024-10-27
-Citywide,Aggravated Assault,Violent,Aggravated Assault,2745,3319,3611,3222,3531,2697,3156,3072,2024-10-27
-Citywide,Aggravated Assault (Firearm),Total/Subcategory,Total/Subcategory,286,498,606,456,509,301,441,369,2024-10-27
-Citywide,Combined subtotal of homicides and firearms-related aggravated assaults,Total/Subcategory,Total/Subcategory,364,607,740,578,635,372,546,461,2024-10-27
-Citywide,Aggravated Assault (Shooting occupied home or vehicle),Total/Subcategory,Total/Subcategory,244,426,541,340,368,219,324,263,2024-10-27
-Citywide,Aggravated Assault (Shooting unoccupied home or vehicle),Total/Subcategory,Total/Subcategory,117,216,267,161,144,80,134,90,2024-10-27
-Citywide,Aggravated Assault (Non Firearm),Total/Subcategory,Total/Subcategory,2098,2179,2197,2265,2510,2097,2257,2350,2024-10-27
-Citywide,Sexual Assault,Violent,Sexual Assault,205,222,171,179,185,149,168,166,2024-10-27
-Citywide,Robbery,Violent,Robbery,2817,2420,2728,2680,3690,2433,3188,2935,2024-10-27
-Citywide,Robbery (Firearm),Total/Subcategory,Total/Subcategory,1035,805,1122,1107,1656,993,1422,1227,2024-10-27
-Citywide,Robbery (Knife),Total/Subcategory,Total/Subcategory,140,173,112,101,146,99,130,115,2024-10-27
-Citywide,Robbery (Strong-arm),Total/Subcategory,Total/Subcategory,1252,972,794,779,1028,813,875,966,2024-10-27
-Citywide,Robbery (other dangerous weapon),Total/Subcategory,Total/Subcategory,88,78,73,89,86,77,74,89,2024-10-27
-Citywide,Residential Robbery,Total/Subcategory,Total/Subcategory,99,89,98,63,108,83,88,103,2024-10-27
-Citywide,Carjacking,Total/Subcategory,Total/Subcategory,203,303,529,541,666,368,599,435,2024-10-27
-Citywide,Burglary,Property,Burglary,14992,8712,10584,13994,17256,7121,15856,8521,2024-10-27
-Citywide,Burglary (Motor Vehicle),Total/Subcategory,Total/Subcategory,12366,6234,8480,11081,13637,4898,12747,5788,2024-10-27
-Citywide,Burglary (Residential),Total/Subcategory,Total/Subcategory,1809,1252,1105,1130,1381,843,1218,1006,2024-10-27
-Citywide,Burglary (Commercial),Total/Subcategory,Total/Subcategory,624,963,757,1499,1627,986,1531,1082,2024-10-27
-Citywide,"Burglary (Boats, Aircraft, Other)",Total/Subcategory,Total/Subcategory,169,191,177,163,228,201,353,76,2024-10-27
+Citywide,Murder,Violent,Murder,75,102,123,120,120,67,103,84,2024-11-03
+Citywide,All Other Homicides,Total/Subcategory,Total/Subcategory,3,7,11,2,6,4,6,4,2024-11-03
+Citywide,Aggravated Assault,Violent,Aggravated Assault,2745,3319,3611,3222,3531,2742,3220,3053,2024-11-03
+Citywide,Aggravated Assault (Firearm),Total/Subcategory,Total/Subcategory,286,498,606,456,509,307,455,361,2024-11-03
+Citywide,Combined subtotal of homicides and firearms-related aggravated assaults,Total/Subcategory,Total/Subcategory,364,607,740,578,635,378,564,449,2024-11-03
+Citywide,Aggravated Assault (Shooting occupied home or vehicle),Total/Subcategory,Total/Subcategory,244,426,541,340,368,220,331,257,2024-11-03
+Citywide,Aggravated Assault (Shooting unoccupied home or vehicle),Total/Subcategory,Total/Subcategory,117,216,267,161,144,80,135,89,2024-11-03
+Citywide,Aggravated Assault (Non Firearm),Total/Subcategory,Total/Subcategory,2098,2179,2197,2265,2510,2135,2299,2346,2024-11-03
+Citywide,Sexual Assault,Violent,Sexual Assault,205,222,171,179,185,154,172,167,2024-11-03
+Citywide,Robbery,Violent,Robbery,2817,2420,2728,2680,3690,2468,3254,2904,2024-11-03
+Citywide,Robbery (Firearm),Total/Subcategory,Total/Subcategory,1035,805,1122,1107,1656,1010,1445,1221,2024-11-03
+Citywide,Robbery (Knife),Total/Subcategory,Total/Subcategory,140,173,112,101,146,100,134,112,2024-11-03
+Citywide,Robbery (Strong-arm),Total/Subcategory,Total/Subcategory,1252,972,794,779,1028,820,897,951,2024-11-03
+Citywide,Robbery (other dangerous weapon),Total/Subcategory,Total/Subcategory,88,78,73,89,86,79,77,88,2024-11-03
+Citywide,Residential Robbery,Total/Subcategory,Total/Subcategory,99,89,98,63,108,83,89,102,2024-11-03
+Citywide,Carjacking,Total/Subcategory,Total/Subcategory,203,303,529,541,666,376,612,430,2024-11-03
+Citywide,Burglary,Property,Burglary,14992,8712,10584,13994,17256,7167,16090,8333,2024-11-03
+Citywide,Burglary (Motor Vehicle),Total/Subcategory,Total/Subcategory,12366,6234,8480,11081,13637,4912,12913,5636,2024-11-03
+Citywide,Burglary (Residential),Total/Subcategory,Total/Subcategory,1809,1252,1105,1130,1381,848,1242,987,2024-11-03
+Citywide,Burglary (Commercial),Total/Subcategory,Total/Subcategory,624,963,757,1499,1627,1010,1573,1064,2024-11-03
+Citywide,"Burglary (Boats, Aircraft, Other)",Total/Subcategory,Total/Subcategory,169,191,177,163,228,206,355,79,2024-11-03
 Citywide,Burglary (Unknown),Total/Subcategory,Total/Subcategory,24,72,65,121,383,NA,NA,NA,NA
-Citywide,Motor Vehicle Theft,Property,Motor Vehicle Theft,6477,8743,9354,10247,14826,9353,12923,11256,2024-10-27
-Citywide,Larceny,Property,Larceny,7778,5990,6606,9386,7262,5815,8280,4797,2024-10-27
-Citywide,Arson,Property,Arson,152,194,173,164,110,94,100,104,2024-10-27
-Citywide,Total,Total/Subcategory,Total/Subcategory,35244,29709,33361,39994,46986,27733,43776,30943,2024-10-27
-Area 1,Murder,Violent,Murder,14,9,16,30,26,13,22,17,2024-10-27
-Area 1,All Other Homicides,Total/Subcategory,Total/Subcategory,0,1,1,1,1,1,0,2,2024-10-27
-Area 1,Aggravated Assault,Violent,Aggravated Assault,532,553,618,634,663,455,593,525,2024-10-27
-Area 1,Aggravated Assault (Firearm),Total/Subcategory,Total/Subcategory,48,65,86,81,80,46,64,62,2024-10-27
-Area 1,Combined subtotal of homicides and firearms-related aggravated assaults,Total/Subcategory,Total/Subcategory,62,75,103,112,107,60,86,81,2024-10-27
-Area 1,Aggravated Assault (Shooting occupied home or vehicle),Total/Subcategory,Total/Subcategory,49,55,83,50,63,36,55,44,2024-10-27
-Area 1,Aggravated Assault (Shooting unoccupied home or vehicle),Total/Subcategory,Total/Subcategory,13,28,38,25,18,13,16,15,2024-10-27
-Area 1,Aggravated Assault (Non Firearm),Total/Subcategory,Total/Subcategory,422,405,411,478,502,360,458,404,2024-10-27
-Area 1,Sexual Assault,Violent,Sexual Assault,48,57,45,42,40,22,40,22,2024-10-27
-Area 1,Robbery,Violent,Robbery,585,411,366,352,529,343,428,444,2024-10-27
-Area 1,Robbery (Firearm),Total/Subcategory,Total/Subcategory,187,92,131,120,206,108,155,159,2024-10-27
-Area 1,Robbery (Knife),Total/Subcategory,Total/Subcategory,33,25,15,11,20,11,18,13,2024-10-27
-Area 1,Robbery (Strong-arm),Total/Subcategory,Total/Subcategory,306,217,138,134,184,149,153,180,2024-10-27
-Area 1,Robbery (other dangerous weapon),Total/Subcategory,Total/Subcategory,14,15,11,24,10,21,9,22,2024-10-27
-Area 1,Residential Robbery,Total/Subcategory,Total/Subcategory,17,11,14,6,12,8,12,8,2024-10-27
-Area 1,Carjacking,Total/Subcategory,Total/Subcategory,28,51,57,57,97,46,81,62,2024-10-27
-Area 1,Burglary,Property,Burglary,4271,1968,3437,4274,4185,1650,4039,1796,2024-10-27
-Area 1,Burglary (Motor Vehicle),Total/Subcategory,Total/Subcategory,3884,1475,2986,3637,3478,1271,3428,1321,2024-10-27
-Area 1,Burglary (Residential),Total/Subcategory,Total/Subcategory,200,202,183,202,199,98,177,120,2024-10-27
-Area 1,Burglary (Commercial),Total/Subcategory,Total/Subcategory,142,228,201,368,384,211,357,238,2024-10-27
-Area 1,"Burglary (Boats, Aircraft, Other)",Total/Subcategory,Total/Subcategory,42,48,52,41,49,36,77,8,2024-10-27
+Citywide,Motor Vehicle Theft,Property,Motor Vehicle Theft,6477,8743,9354,10247,14826,9499,13240,11085,2024-11-03
+Citywide,Larceny,Property,Larceny,7778,5990,6606,9386,7262,5978,8440,4800,2024-11-03
+Citywide,Arson,Property,Arson,152,194,173,164,110,98,103,105,2024-11-03
+Citywide,Total,Total/Subcategory,Total/Subcategory,35244,29709,33361,39994,46986,28177,44628,30535,2024-11-03
+Area 1,Murder,Violent,Murder,14,9,16,30,26,13,23,16,2024-11-03
+Area 1,All Other Homicides,Total/Subcategory,Total/Subcategory,0,1,1,1,1,1,0,2,2024-11-03
+Area 1,Aggravated Assault,Violent,Aggravated Assault,532,553,618,634,663,467,604,526,2024-11-03
+Area 1,Aggravated Assault (Firearm),Total/Subcategory,Total/Subcategory,48,65,86,81,80,48,68,60,2024-11-03
+Area 1,Combined subtotal of homicides and firearms-related aggravated assaults,Total/Subcategory,Total/Subcategory,62,75,103,112,107,62,91,78,2024-11-03
+Area 1,Aggravated Assault (Shooting occupied home or vehicle),Total/Subcategory,Total/Subcategory,49,55,83,50,63,36,56,43,2024-11-03
+Area 1,Aggravated Assault (Shooting unoccupied home or vehicle),Total/Subcategory,Total/Subcategory,13,28,38,25,18,13,16,15,2024-11-03
+Area 1,Aggravated Assault (Non Firearm),Total/Subcategory,Total/Subcategory,422,405,411,478,502,370,464,408,2024-11-03
+Area 1,Sexual Assault,Violent,Sexual Assault,48,57,45,42,40,24,40,24,2024-11-03
+Area 1,Robbery,Violent,Robbery,585,411,366,352,529,351,446,434,2024-11-03
+Area 1,Robbery (Firearm),Total/Subcategory,Total/Subcategory,187,92,131,120,206,112,162,156,2024-11-03
+Area 1,Robbery (Knife),Total/Subcategory,Total/Subcategory,33,25,15,11,20,11,20,11,2024-11-03
+Area 1,Robbery (Strong-arm),Total/Subcategory,Total/Subcategory,306,217,138,134,184,150,160,174,2024-11-03
+Area 1,Robbery (other dangerous weapon),Total/Subcategory,Total/Subcategory,14,15,11,24,10,22,9,23,2024-11-03
+Area 1,Residential Robbery,Total/Subcategory,Total/Subcategory,17,11,14,6,12,8,12,8,2024-11-03
+Area 1,Carjacking,Total/Subcategory,Total/Subcategory,28,51,57,57,97,48,83,62,2024-11-03
+Area 1,Burglary,Property,Burglary,4271,1968,3437,4274,4185,1667,4094,1758,2024-11-03
+Area 1,Burglary (Motor Vehicle),Total/Subcategory,Total/Subcategory,3884,1475,2986,3637,3478,1279,3469,1288,2024-11-03
+Area 1,Burglary (Residential),Total/Subcategory,Total/Subcategory,200,202,183,202,199,99,179,119,2024-11-03
+Area 1,Burglary (Commercial),Total/Subcategory,Total/Subcategory,142,228,201,368,384,215,369,230,2024-11-03
+Area 1,"Burglary (Boats, Aircraft, Other)",Total/Subcategory,Total/Subcategory,42,48,52,41,49,39,77,11,2024-11-03
 Area 1,Burglary (Unknown),Total/Subcategory,Total/Subcategory,3,15,15,26,75,NA,NA,NA,NA
-Area 1,Motor Vehicle Theft,Property,Motor Vehicle Theft,830,1115,1236,1535,2282,1585,2039,1828,2024-10-27
-Area 1,Larceny,Property,Larceny,1833,1151,1391,2090,1243,983,1562,664,2024-10-27
-Area 1,Arson,Property,Arson,36,37,31,38,27,26,24,29,2024-10-27
-Area 1,Total,Total/Subcategory,Total/Subcategory,8149,5302,7141,8996,8996,5078,8747,5327,2024-10-27
-Area 2,Murder,Violent,Murder,2,2,7,5,7,7,6,8,2024-10-27
-Area 2,All Other Homicides,Total/Subcategory,Total/Subcategory,0,1,1,0,1,0,1,0,2024-10-27
-Area 2,Aggravated Assault,Violent,Aggravated Assault,232,249,284,272,390,238,356,272,2024-10-27
-Area 2,Aggravated Assault (Firearm),Total/Subcategory,Total/Subcategory,11,26,43,32,41,17,38,20,2024-10-27
-Area 2,Combined subtotal of homicides and firearms-related aggravated assaults,Total/Subcategory,Total/Subcategory,13,29,51,37,49,24,45,28,2024-10-27
-Area 2,Aggravated Assault (Shooting occupied home or vehicle),Total/Subcategory,Total/Subcategory,7,14,18,8,17,13,13,17,2024-10-27
-Area 2,Aggravated Assault (Shooting unoccupied home or vehicle),Total/Subcategory,Total/Subcategory,8,2,9,3,4,3,3,4,2024-10-27
-Area 2,Aggravated Assault (Non Firearm),Total/Subcategory,Total/Subcategory,206,207,214,229,328,205,302,231,2024-10-27
-Area 2,Sexual Assault,Violent,Sexual Assault,19,27,19,14,27,24,20,31,2024-10-27
-Area 2,Robbery,Violent,Robbery,363,256,245,259,397,307,356,348,2024-10-27
-Area 2,Robbery (Firearm),Total/Subcategory,Total/Subcategory,174,67,88,94,142,77,133,86,2024-10-27
-Area 2,Robbery (Knife),Total/Subcategory,Total/Subcategory,11,31,11,7,16,11,15,12,2024-10-27
-Area 2,Robbery (Strong-arm),Total/Subcategory,Total/Subcategory,142,126,92,107,149,171,126,194,2024-10-27
-Area 2,Robbery (other dangerous weapon),Total/Subcategory,Total/Subcategory,11,9,16,8,15,8,14,9,2024-10-27
-Area 2,Residential Robbery,Total/Subcategory,Total/Subcategory,9,8,8,5,17,8,16,9,2024-10-27
-Area 2,Carjacking,Total/Subcategory,Total/Subcategory,16,15,30,38,58,32,52,38,2024-10-27
-Area 2,Burglary,Property,Burglary,3744,2099,2256,3245,4607,1805,4228,2184,2024-10-27
-Area 2,Burglary (Motor Vehicle),Total/Subcategory,Total/Subcategory,3204,1547,1773,2524,3644,1325,3419,1550,2024-10-27
-Area 2,Burglary (Residential),Total/Subcategory,Total/Subcategory,396,327,292,316,403,169,349,223,2024-10-27
-Area 2,Burglary (Commercial),Total/Subcategory,Total/Subcategory,119,177,149,355,407,222,375,254,2024-10-27
-Area 2,"Burglary (Boats, Aircraft, Other)",Total/Subcategory,Total/Subcategory,24,31,26,29,56,55,85,26,2024-10-27
+Area 1,Motor Vehicle Theft,Property,Motor Vehicle Theft,830,1115,1236,1535,2282,1612,2091,1803,2024-11-03
+Area 1,Larceny,Property,Larceny,1833,1151,1391,2090,1243,1014,1589,668,2024-11-03
+Area 1,Arson,Property,Arson,36,37,31,38,27,27,25,29,2024-11-03
+Area 1,Total,Total/Subcategory,Total/Subcategory,8149,5302,7141,8996,8996,5176,8912,5260,2024-11-03
+Area 2,Murder,Violent,Murder,2,2,7,5,7,7,6,8,2024-11-03
+Area 2,All Other Homicides,Total/Subcategory,Total/Subcategory,0,1,1,0,1,0,1,0,2024-11-03
+Area 2,Aggravated Assault,Violent,Aggravated Assault,232,249,284,272,390,239,361,268,2024-11-03
+Area 2,Aggravated Assault (Firearm),Total/Subcategory,Total/Subcategory,11,26,43,32,41,17,38,20,2024-11-03
+Area 2,Combined subtotal of homicides and firearms-related aggravated assaults,Total/Subcategory,Total/Subcategory,13,29,51,37,49,24,45,28,2024-11-03
+Area 2,Aggravated Assault (Shooting occupied home or vehicle),Total/Subcategory,Total/Subcategory,7,14,18,8,17,13,13,17,2024-11-03
+Area 2,Aggravated Assault (Shooting unoccupied home or vehicle),Total/Subcategory,Total/Subcategory,8,2,9,3,4,3,3,4,2024-11-03
+Area 2,Aggravated Assault (Non Firearm),Total/Subcategory,Total/Subcategory,206,207,214,229,328,206,307,227,2024-11-03
+Area 2,Sexual Assault,Violent,Sexual Assault,19,27,19,14,27,23,22,28,2024-11-03
+Area 2,Robbery,Violent,Robbery,363,256,245,259,397,310,362,345,2024-11-03
+Area 2,Robbery (Firearm),Total/Subcategory,Total/Subcategory,174,67,88,94,142,78,137,83,2024-11-03
+Area 2,Robbery (Knife),Total/Subcategory,Total/Subcategory,11,31,11,7,16,11,16,11,2024-11-03
+Area 2,Robbery (Strong-arm),Total/Subcategory,Total/Subcategory,142,126,92,107,149,173,126,196,2024-11-03
+Area 2,Robbery (other dangerous weapon),Total/Subcategory,Total/Subcategory,11,9,16,8,15,8,14,9,2024-11-03
+Area 2,Residential Robbery,Total/Subcategory,Total/Subcategory,9,8,8,5,17,8,16,9,2024-11-03
+Area 2,Carjacking,Total/Subcategory,Total/Subcategory,16,15,30,38,58,32,53,37,2024-11-03
+Area 2,Burglary,Property,Burglary,3744,2099,2256,3245,4607,1817,4302,2122,2024-11-03
+Area 2,Burglary (Motor Vehicle),Total/Subcategory,Total/Subcategory,3204,1547,1773,2524,3644,1333,3463,1514,2024-11-03
+Area 2,Burglary (Residential),Total/Subcategory,Total/Subcategory,396,327,292,316,403,170,359,214,2024-11-03
+Area 2,Burglary (Commercial),Total/Subcategory,Total/Subcategory,119,177,149,355,407,228,395,240,2024-11-03
+Area 2,"Burglary (Boats, Aircraft, Other)",Total/Subcategory,Total/Subcategory,24,31,26,29,56,54,85,25,2024-11-03
 Area 2,Burglary (Unknown),Total/Subcategory,Total/Subcategory,1,17,16,21,97,NA,NA,NA,NA
-Area 2,Motor Vehicle Theft,Property,Motor Vehicle Theft,634,968,1239,1314,2220,1299,1958,1561,2024-10-27
-Area 2,Larceny,Property,Larceny,1479,1139,1242,1902,1301,1046,1403,944,2024-10-27
-Area 2,Arson,Property,Arson,14,21,16,18,10,5,7,8,2024-10-27
-Area 2,Total,Total/Subcategory,Total/Subcategory,6487,4762,5309,7029,8960,4731,8335,5356,2024-10-27
-Area 3,Murder,Violent,Murder,10,12,24,20,18,11,14,15,2024-10-27
-Area 3,All Other Homicides,Total/Subcategory,Total/Subcategory,1,0,1,0,0,1,0,1,2024-10-27
-Area 3,Aggravated Assault,Violent,Aggravated Assault,270,372,384,429,446,414,387,473,2024-10-27
-Area 3,Aggravated Assault (Firearm),Total/Subcategory,Total/Subcategory,27,72,95,79,73,58,66,65,2024-10-27
-Area 3,Combined subtotal of homicides and firearms-related aggravated assaults,Total/Subcategory,Total/Subcategory,38,84,120,99,91,70,80,81,2024-10-27
-Area 3,Aggravated Assault (Shooting occupied home or vehicle),Total/Subcategory,Total/Subcategory,27,29,38,34,47,32,43,36,2024-10-27
-Area 3,Aggravated Assault (Shooting unoccupied home or vehicle),Total/Subcategory,Total/Subcategory,9,24,29,19,15,11,15,11,2024-10-27
-Area 3,Aggravated Assault (Non Firearm),Total/Subcategory,Total/Subcategory,207,247,222,297,311,313,263,361,2024-10-27
-Area 3,Sexual Assault,Violent,Sexual Assault,32,32,30,31,40,23,35,28,2024-10-27
-Area 3,Robbery,Violent,Robbery,482,430,583,540,699,515,620,594,2024-10-27
-Area 3,Robbery (Firearm),Total/Subcategory,Total/Subcategory,172,143,218,235,301,211,269,243,2024-10-27
-Area 3,Robbery (Knife),Total/Subcategory,Total/Subcategory,22,34,21,20,15,28,14,29,2024-10-27
-Area 3,Robbery (Strong-arm),Total/Subcategory,Total/Subcategory,218,180,185,136,200,156,177,179,2024-10-27
-Area 3,Robbery (other dangerous weapon),Total/Subcategory,Total/Subcategory,14,9,11,13,17,23,13,27,2024-10-27
-Area 3,Residential Robbery,Total/Subcategory,Total/Subcategory,33,14,19,11,25,18,19,24,2024-10-27
-Area 3,Carjacking,Total/Subcategory,Total/Subcategory,23,50,129,125,141,79,128,92,2024-10-27
-Area 3,Burglary,Property,Burglary,2019,1339,1463,1722,2011,1098,1851,1258,2024-10-27
-Area 3,Burglary (Motor Vehicle),Total/Subcategory,Total/Subcategory,1522,902,1085,1227,1432,741,1340,833,2024-10-27
-Area 3,Burglary (Residential),Total/Subcategory,Total/Subcategory,381,269,236,206,248,161,223,186,2024-10-27
-Area 3,Burglary (Commercial),Total/Subcategory,Total/Subcategory,90,136,114,244,236,120,228,128,2024-10-27
-Area 3,"Burglary (Boats, Aircraft, Other)",Total/Subcategory,Total/Subcategory,22,25,22,24,36,34,58,12,2024-10-27
+Area 2,Motor Vehicle Theft,Property,Motor Vehicle Theft,634,968,1239,1314,2220,1314,2007,1527,2024-11-03
+Area 2,Larceny,Property,Larceny,1479,1139,1242,1902,1301,1065,1429,937,2024-11-03
+Area 2,Arson,Property,Arson,14,21,16,18,10,5,7,8,2024-11-03
+Area 2,Total,Total/Subcategory,Total/Subcategory,6487,4762,5309,7029,8960,4780,8497,5243,2024-11-03
+Area 3,Murder,Violent,Murder,10,12,24,20,18,11,15,14,2024-11-03
+Area 3,All Other Homicides,Total/Subcategory,Total/Subcategory,1,0,1,0,0,1,0,1,2024-11-03
+Area 3,Aggravated Assault,Violent,Aggravated Assault,270,372,384,429,446,419,394,471,2024-11-03
+Area 3,Aggravated Assault (Firearm),Total/Subcategory,Total/Subcategory,27,72,95,79,73,59,66,66,2024-11-03
+Area 3,Combined subtotal of homicides and firearms-related aggravated assaults,Total/Subcategory,Total/Subcategory,38,84,120,99,91,71,81,81,2024-11-03
+Area 3,Aggravated Assault (Shooting occupied home or vehicle),Total/Subcategory,Total/Subcategory,27,29,38,34,47,32,43,36,2024-11-03
+Area 3,Aggravated Assault (Shooting unoccupied home or vehicle),Total/Subcategory,Total/Subcategory,9,24,29,19,15,11,15,11,2024-11-03
+Area 3,Aggravated Assault (Non Firearm),Total/Subcategory,Total/Subcategory,207,247,222,297,311,317,270,358,2024-11-03
+Area 3,Sexual Assault,Violent,Sexual Assault,32,32,30,31,40,24,36,28,2024-11-03
+Area 3,Robbery,Violent,Robbery,482,430,583,540,699,517,631,585,2024-11-03
+Area 3,Robbery (Firearm),Total/Subcategory,Total/Subcategory,172,143,218,235,301,211,273,239,2024-11-03
+Area 3,Robbery (Knife),Total/Subcategory,Total/Subcategory,22,34,21,20,15,28,14,29,2024-11-03
+Area 3,Robbery (Strong-arm),Total/Subcategory,Total/Subcategory,218,180,185,136,200,157,178,179,2024-11-03
+Area 3,Robbery (other dangerous weapon),Total/Subcategory,Total/Subcategory,14,9,11,13,17,23,14,26,2024-11-03
+Area 3,Residential Robbery,Total/Subcategory,Total/Subcategory,33,14,19,11,25,18,19,24,2024-11-03
+Area 3,Carjacking,Total/Subcategory,Total/Subcategory,23,50,129,125,141,80,133,88,2024-11-03
+Area 3,Burglary,Property,Burglary,2019,1339,1463,1722,2011,1105,1876,1240,2024-11-03
+Area 3,Burglary (Motor Vehicle),Total/Subcategory,Total/Subcategory,1522,902,1085,1227,1432,742,1360,814,2024-11-03
+Area 3,Burglary (Residential),Total/Subcategory,Total/Subcategory,381,269,236,206,248,162,224,186,2024-11-03
+Area 3,Burglary (Commercial),Total/Subcategory,Total/Subcategory,90,136,114,244,236,125,232,129,2024-11-03
+Area 3,"Burglary (Boats, Aircraft, Other)",Total/Subcategory,Total/Subcategory,22,25,22,24,36,35,58,13,2024-11-03
 Area 3,Burglary (Unknown),Total/Subcategory,Total/Subcategory,4,7,6,21,59,NA,NA,NA,NA
-Area 3,Motor Vehicle Theft,Property,Motor Vehicle Theft,1061,1436,1377,1503,2178,1631,2028,1781,2024-10-27
-Area 3,Larceny,Property,Larceny,1072,925,1036,1242,1034,1039,1138,935,2024-10-27
-Area 3,Arson,Property,Arson,10,31,24,17,13,14,12,15,2024-10-27
-Area 3,Total,Total/Subcategory,Total/Subcategory,4957,4577,4922,5504,6439,4746,6085,5100,2024-10-27
-Area 4,Murder,Violent,Murder,8,19,18,21,14,6,11,9,2024-10-27
-Area 4,All Other Homicides,Total/Subcategory,Total/Subcategory,0,1,1,0,0,0,1,-1,2024-10-27
-Area 4,Aggravated Assault,Violent,Aggravated Assault,413,530,567,483,527,443,487,483,2024-10-27
-Area 4,Aggravated Assault (Firearm),Total/Subcategory,Total/Subcategory,37,56,87,58,72,42,64,50,2024-10-27
-Area 4,Combined subtotal of homicides and firearms-related aggravated assaults,Total/Subcategory,Total/Subcategory,45,76,106,79,86,48,76,58,2024-10-27
-Area 4,Aggravated Assault (Shooting occupied home or vehicle),Total/Subcategory,Total/Subcategory,25,66,80,61,46,31,42,35,2024-10-27
-Area 4,Aggravated Assault (Shooting unoccupied home or vehicle),Total/Subcategory,Total/Subcategory,16,29,36,29,17,11,18,10,2024-10-27
-Area 4,Aggravated Assault (Non Firearm),Total/Subcategory,Total/Subcategory,335,379,364,335,392,359,363,388,2024-10-27
-Area 4,Sexual Assault,Violent,Sexual Assault,21,31,21,18,19,26,17,28,2024-10-27
-Area 4,Robbery,Violent,Robbery,560,508,631,631,945,581,825,701,2024-10-27
-Area 4,Robbery (Firearm),Total/Subcategory,Total/Subcategory,193,149,295,272,499,286,437,348,2024-10-27
-Area 4,Robbery (Knife),Total/Subcategory,Total/Subcategory,29,46,27,25,37,22,34,25,2024-10-27
-Area 4,Robbery (Strong-arm),Total/Subcategory,Total/Subcategory,258,204,154,177,233,151,197,187,2024-10-27
-Area 4,Robbery (other dangerous weapon),Total/Subcategory,Total/Subcategory,18,22,11,13,13,14,10,17,2024-10-27
-Area 4,Residential Robbery,Total/Subcategory,Total/Subcategory,22,23,18,17,25,29,20,34,2024-10-27
-Area 4,Carjacking,Total/Subcategory,Total/Subcategory,40,64,126,127,138,79,127,90,2024-10-27
-Area 4,Burglary,Property,Burglary,1406,1199,890,707,1184,833,1061,956,2024-10-27
-Area 4,Burglary (Motor Vehicle),Total/Subcategory,Total/Subcategory,854,779,539,311,569,359,527,401,2024-10-27
-Area 4,Burglary (Residential),Total/Subcategory,Total/Subcategory,413,182,174,161,258,197,220,235,2024-10-27
-Area 4,Burglary (Commercial),Total/Subcategory,Total/Subcategory,104,186,137,193,284,213,269,228,2024-10-27
-Area 4,"Burglary (Boats, Aircraft, Other)",Total/Subcategory,Total/Subcategory,31,39,34,19,28,29,44,13,2024-10-27
+Area 3,Motor Vehicle Theft,Property,Motor Vehicle Theft,1061,1436,1377,1503,2178,1659,2094,1743,2024-11-03
+Area 3,Larceny,Property,Larceny,1072,925,1036,1242,1034,1059,1167,926,2024-11-03
+Area 3,Arson,Property,Arson,10,31,24,17,13,14,13,14,2024-11-03
+Area 3,Total,Total/Subcategory,Total/Subcategory,4957,4577,4922,5504,6439,4809,6226,5022,2024-11-03
+Area 4,Murder,Violent,Murder,8,19,18,21,14,6,11,9,2024-11-03
+Area 4,All Other Homicides,Total/Subcategory,Total/Subcategory,0,1,1,0,0,0,1,-1,2024-11-03
+Area 4,Aggravated Assault,Violent,Aggravated Assault,413,530,567,483,527,449,499,477,2024-11-03
+Area 4,Aggravated Assault (Firearm),Total/Subcategory,Total/Subcategory,37,56,87,58,72,43,65,50,2024-11-03
+Area 4,Combined subtotal of homicides and firearms-related aggravated assaults,Total/Subcategory,Total/Subcategory,45,76,106,79,86,49,77,58,2024-11-03
+Area 4,Aggravated Assault (Shooting occupied home or vehicle),Total/Subcategory,Total/Subcategory,25,66,80,61,46,31,44,33,2024-11-03
+Area 4,Aggravated Assault (Shooting unoccupied home or vehicle),Total/Subcategory,Total/Subcategory,16,29,36,29,17,11,19,9,2024-11-03
+Area 4,Aggravated Assault (Non Firearm),Total/Subcategory,Total/Subcategory,335,379,364,335,392,364,371,385,2024-11-03
+Area 4,Sexual Assault,Violent,Sexual Assault,21,31,21,18,19,27,18,28,2024-11-03
+Area 4,Robbery,Violent,Robbery,560,508,631,631,945,589,838,696,2024-11-03
+Area 4,Robbery (Firearm),Total/Subcategory,Total/Subcategory,193,149,295,272,499,291,441,349,2024-11-03
+Area 4,Robbery (Knife),Total/Subcategory,Total/Subcategory,29,46,27,25,37,22,35,24,2024-11-03
+Area 4,Robbery (Strong-arm),Total/Subcategory,Total/Subcategory,258,204,154,177,233,151,202,182,2024-11-03
+Area 4,Robbery (other dangerous weapon),Total/Subcategory,Total/Subcategory,18,22,11,13,13,15,11,17,2024-11-03
+Area 4,Residential Robbery,Total/Subcategory,Total/Subcategory,22,23,18,17,25,29,20,34,2024-11-03
+Area 4,Carjacking,Total/Subcategory,Total/Subcategory,40,64,126,127,138,81,129,90,2024-11-03
+Area 4,Burglary,Property,Burglary,1406,1199,890,707,1184,841,1082,943,2024-11-03
+Area 4,Burglary (Motor Vehicle),Total/Subcategory,Total/Subcategory,854,779,539,311,569,362,538,393,2024-11-03
+Area 4,Burglary (Residential),Total/Subcategory,Total/Subcategory,413,182,174,161,258,196,225,229,2024-11-03
+Area 4,Burglary (Commercial),Total/Subcategory,Total/Subcategory,104,186,137,193,284,218,273,229,2024-11-03
+Area 4,"Burglary (Boats, Aircraft, Other)",Total/Subcategory,Total/Subcategory,31,39,34,19,28,31,45,14,2024-11-03
 Area 4,Burglary (Unknown),Total/Subcategory,Total/Subcategory,4,13,6,23,45,NA,NA,NA,NA
-Area 4,Motor Vehicle Theft,Property,Motor Vehicle Theft,1234,1552,1604,1666,2396,1627,2104,1919,2024-10-27
-Area 4,Larceny,Property,Larceny,1141,1009,1095,1240,878,877,1020,735,2024-10-27
-Area 4,Arson,Property,Arson,15,24,26,22,10,16,13,13,2024-10-27
-Area 4,Total,Total/Subcategory,Total/Subcategory,4798,4873,4853,4788,5973,4409,5539,4843,2024-10-27
-Area 5,Murder,Violent,Murder,18,29,28,19,28,10,22,16,2024-10-27
-Area 5,All Other Homicides,Total/Subcategory,Total/Subcategory,2,0,2,1,3,NA,3,NA,2024-10-27
-Area 5,Aggravated Assault,Violent,Aggravated Assault,672,846,899,706,736,588,645,679,2024-10-27
-Area 5,Aggravated Assault (Firearm),Total/Subcategory,Total/Subcategory,76,137,131,91,107,72,91,88,2024-10-27
-Area 5,Combined subtotal of homicides and firearms-related aggravated assaults,Total/Subcategory,Total/Subcategory,96,166,161,111,138,82,116,104,2024-10-27
-Area 5,Aggravated Assault (Shooting occupied home or vehicle),Total/Subcategory,Total/Subcategory,76,144,183,101,91,53,78,66,2024-10-27
-Area 5,Aggravated Assault (Shooting unoccupied home or vehicle),Total/Subcategory,Total/Subcategory,35,67,86,40,46,24,44,26,2024-10-27
-Area 5,Aggravated Assault (Non Firearm),Total/Subcategory,Total/Subcategory,485,498,499,474,492,439,432,499,2024-10-27
-Area 5,Sexual Assault,Violent,Sexual Assault,36,22,23,26,21,20,20,21,2024-10-27
-Area 5,Robbery,Violent,Robbery,441,402,454,383,506,324,431,399,2024-10-27
-Area 5,Robbery (Firearm),Total/Subcategory,Total/Subcategory,162,168,184,165,237,143,198,182,2024-10-27
-Area 5,Robbery (Knife),Total/Subcategory,Total/Subcategory,26,20,23,21,24,7,20,11,2024-10-27
-Area 5,Robbery (Strong-arm),Total/Subcategory,Total/Subcategory,179,131,127,88,117,91,99,109,2024-10-27
-Area 5,Robbery (other dangerous weapon),Total/Subcategory,Total/Subcategory,17,12,12,14,12,4,11,5,2024-10-27
-Area 5,Residential Robbery,Total/Subcategory,Total/Subcategory,7,11,16,8,19,8,15,12,2024-10-27
-Area 5,Carjacking,Total/Subcategory,Total/Subcategory,50,60,92,87,97,71,88,80,2024-10-27
-Area 5,Burglary,Property,Burglary,783,647,499,511,705,451,663,493,2024-10-27
-Area 5,Burglary (Motor Vehicle),Total/Subcategory,Total/Subcategory,500,380,287,230,342,184,334,192,2024-10-27
-Area 5,Burglary (Residential),Total/Subcategory,Total/Subcategory,188,133,118,116,114,114,112,116,2024-10-27
-Area 5,Burglary (Commercial),Total/Subcategory,Total/Subcategory,78,108,69,137,170,106,164,112,2024-10-27
-Area 5,"Burglary (Boats, Aircraft, Other)",Total/Subcategory,Total/Subcategory,12,16,16,15,30,22,51,1,2024-10-27
+Area 4,Motor Vehicle Theft,Property,Motor Vehicle Theft,1234,1552,1604,1666,2396,1655,2149,1902,2024-11-03
+Area 4,Larceny,Property,Larceny,1141,1009,1095,1240,878,902,1046,734,2024-11-03
+Area 4,Arson,Property,Arson,15,24,26,22,10,17,13,14,2024-11-03
+Area 4,Total,Total/Subcategory,Total/Subcategory,4798,4873,4853,4788,5973,4486,5657,4802,2024-11-03
+Area 5,Murder,Violent,Murder,18,29,28,19,28,10,23,15,2024-11-03
+Area 5,All Other Homicides,Total/Subcategory,Total/Subcategory,2,0,2,1,3,NA,3,NA,2024-11-03
+Area 5,Aggravated Assault,Violent,Aggravated Assault,672,846,899,706,736,600,657,679,2024-11-03
+Area 5,Aggravated Assault (Firearm),Total/Subcategory,Total/Subcategory,76,137,131,91,107,73,95,85,2024-11-03
+Area 5,Combined subtotal of homicides and firearms-related aggravated assaults,Total/Subcategory,Total/Subcategory,96,166,161,111,138,83,121,100,2024-11-03
+Area 5,Aggravated Assault (Shooting occupied home or vehicle),Total/Subcategory,Total/Subcategory,76,144,183,101,91,54,82,63,2024-11-03
+Area 5,Aggravated Assault (Shooting unoccupied home or vehicle),Total/Subcategory,Total/Subcategory,35,67,86,40,46,24,44,26,2024-11-03
+Area 5,Aggravated Assault (Non Firearm),Total/Subcategory,Total/Subcategory,485,498,499,474,492,449,436,505,2024-11-03
+Area 5,Sexual Assault,Violent,Sexual Assault,36,22,23,26,21,20,20,21,2024-11-03
+Area 5,Robbery,Violent,Robbery,441,402,454,383,506,328,443,391,2024-11-03
+Area 5,Robbery (Firearm),Total/Subcategory,Total/Subcategory,162,168,184,165,237,146,201,182,2024-11-03
+Area 5,Robbery (Knife),Total/Subcategory,Total/Subcategory,26,20,23,21,24,7,20,11,2024-11-03
+Area 5,Robbery (Strong-arm),Total/Subcategory,Total/Subcategory,179,131,127,88,117,91,104,104,2024-11-03
+Area 5,Robbery (other dangerous weapon),Total/Subcategory,Total/Subcategory,17,12,12,14,12,4,12,4,2024-11-03
+Area 5,Residential Robbery,Total/Subcategory,Total/Subcategory,7,11,16,8,19,8,15,12,2024-11-03
+Area 5,Carjacking,Total/Subcategory,Total/Subcategory,50,60,92,87,97,72,91,78,2024-11-03
+Area 5,Burglary,Property,Burglary,783,647,499,511,705,455,674,486,2024-11-03
+Area 5,Burglary (Motor Vehicle),Total/Subcategory,Total/Subcategory,500,380,287,230,342,186,340,188,2024-11-03
+Area 5,Burglary (Residential),Total/Subcategory,Total/Subcategory,188,133,118,116,114,114,115,113,2024-11-03
+Area 5,Burglary (Commercial),Total/Subcategory,Total/Subcategory,78,108,69,137,170,108,165,113,2024-11-03
+Area 5,"Burglary (Boats, Aircraft, Other)",Total/Subcategory,Total/Subcategory,12,16,16,15,30,21,52,-1,2024-11-03
 Area 5,Burglary (Unknown),Total/Subcategory,Total/Subcategory,5,10,9,13,49,NA,NA,NA,NA
-Area 5,Motor Vehicle Theft,Property,Motor Vehicle Theft,1323,1862,1932,2100,2932,NA,2518,NA,2024-10-27
-Area 5,Larceny,Property,Larceny,962,798,807,959,773,679,930,522,2024-10-27
-Area 5,Arson,Property,Arson,33,33,33,24,26,15,24,17,2024-10-27
-Area 5,Total,Total/Subcategory,Total/Subcategory,4270,4639,4677,4729,5730,NA,5256,NA,2024-10-27
+Area 5,Motor Vehicle Theft,Property,Motor Vehicle Theft,1323,1862,1932,2100,2932,NA,2577,NA,2024-11-03
+Area 5,Larceny,Property,Larceny,962,798,807,959,773,703,951,525,2024-11-03
+Area 5,Arson,Property,Arson,33,33,33,24,26,17,25,18,2024-11-03
+Area 5,Total,Total/Subcategory,Total/Subcategory,4270,4639,4677,4729,5730,NA,5373,NA,2024-11-03
