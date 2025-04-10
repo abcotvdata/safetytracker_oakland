@@ -798,7 +798,7 @@ past_crime_oakland$district <- "Citywide"
 past_crime_citywide <- past_crime_oakland
 
 # Combine past crime all files and prepare for storing/processing for trackers
-past_crime_all <- rbind(past_crime_citywide,past_crime_area1,past_crime_area2,past_crime_area3,past_crime_area4,past_crime_area5)
+past_crime_all <- rbind(past_crime_citywide,past_crime_area1,past_crime_area2,past_crime_area3,past_crime_area4,past_crime_area5,past_crime_area6)
 
 # change field name for recoding crime categories and types for consistency
 past_crime_all$description <- past_crime_all$category
