@@ -149,3 +149,28 @@ Motor Vehicle Theft,1863,1945,2112,3030,1762,Area 5,Motor Vehicle Theft,Property
 Larceny,841,838,994,1177,1057,Area 5,Larceny,Property
 Arson,34,32,25,28,19,Area 5,Arson,Property
 Total/Subcategory,4712,4742,4803,6422,4576,Area 5,Total,Total/Subcategory
+Murder,31,30,25,27,22,Area 6,Murder,Violent
+Total/Subcategory,4,5,0,1,2,Area 6,All Other Homicides,Total/Subcategory
+Aggravated Assault,707,801,629,714,626,Area 6,Aggravated Assault,Violent
+Total/Subcategory,129,147,94,116,69,Area 6,Aggravated Assault (Firearm),Total/Subcategory
+Total/Subcategory,164,182,119,144,93,Area 6,Combined subtotal of homicides and firearms-related aggravated assaults,Total/Subcategory
+Total/Subcategory,111,137,88,101,56,Area 6,Aggravated Assault (Shooting occupied home or vehicle),Total/Subcategory
+Total/Subcategory,66,64,43,42,21,Area 6,Aggravated Assault (Shooting unoccupied home or vehicle),Total/Subcategory
+Total/Subcategory,401,453,404,455,480,Area 6,Aggravated Assault (Non Firearm),Total/Subcategory
+Sexual Assault,29,18,30,27,21,Area 6,Sexual Assault,Violent
+Robbery,389,400,409,512,447,Area 6,Robbery,Violent
+Total/Subcategory,171,181,167,228,194,Area 6,Robbery (Firearm),Total/Subcategory
+Total/Subcategory,17,14,13,29,22,Area 6,Robbery (Knife),Total/Subcategory
+Total/Subcategory,112,87,111,122,130,Area 6,Robbery (Strong-arm),Total/Subcategory
+Total/Subcategory,9,12,16,15,11,Area 6,Robbery (other dangerous weapon),Total/Subcategory
+Total/Subcategory,20,22,18,8,15,Area 6,Residential Robbery,Total/Subcategory
+Total/Subcategory,60,84,84,110,75,Area 6,Carjacking,Total/Subcategory
+Burglary,919,1334,2586,3146,880,Area 6,Burglary,Property
+Total/Subcategory,647,1144,2252,2815,561,Area 6,Burglary (Motor Vehicle),Total/Subcategory
+Total/Subcategory,120,87,111,143,101,Area 6,Burglary (Residential),Total/Subcategory
+Total/Subcategory,121,78,180,158,160,Area 6,Burglary (Commercial),Total/Subcategory
+Total/Subcategory,30,24,39,27,39,Area 6,"Burglary (Boats, Aircraft, Other)",Total/Subcategory
+Motor Vehicle Theft,1691,1832,1864,2377,1494,Area 6,Motor Vehicle Theft,Property
+Larceny,796,826,1398,2068,1239,Area 6,Larceny,Property
+Arson,46,43,42,23,20,Area 6,Arson,Property
+Total/Subcategory,4612,5289,6983,8895,4751,Area 6,Total,Total/Subcategory
