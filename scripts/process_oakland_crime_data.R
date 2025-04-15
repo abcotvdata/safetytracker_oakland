@@ -91,7 +91,7 @@ citywide_crime$inc_prior3yearavgtolast12 <- round((citywide_crime$last12mos/city
 # add crime rates for each year
 citywide_crime$rate21 <- round((citywide_crime$total21/oakland_population)*100000,1)
 citywide_crime$rate22 <- round((citywide_crime$total22/oakland_population)*100000,1)
-citywide_crime$rate23 <- round((citywide_crime$total22/oakland_population)*100000,1)
+citywide_crime$rate23 <- round((citywide_crime$total23/oakland_population)*100000,1)
 citywide_crime$rate24 <- round((citywide_crime$total24/oakland_population)*100000,1)
 citywide_crime$rate_last12 <- round((citywide_crime$last12mos/oakland_population)*100000,1)
 # 3 yr rate
