@@ -3,6 +3,7 @@ library(tidycensus)
 library(leaflet)
 library(leaflet.extras)
 library(leaflet.providers)
+library(janitor)
 library(sp)
 library(sf)
 
