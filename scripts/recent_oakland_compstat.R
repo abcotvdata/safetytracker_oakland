@@ -99,8 +99,8 @@ recent_crime_oakland$rawtext2 <- strsplit(recent_crime_oakland$rawtext, "\\s+\\s
 recent_crime_oakland <- recent_crime_oakland %>% unnest_wider(rawtext2, names_sep = "_")
 # name the columns temporarily
 names(recent_crime_oakland) = c("rawtext","category",
-                              "weekly_total","ytd22","ytd23", "ytd24",
-                              "ytd_change","threeyr_ytd_average","ytd23_vs_3yr_avg")
+                              "weekly_total","ytd23","ytd24", "ytd25",
+                              "ytd_change","threeyr_ytd_average","ytd25_vs_3yr_avg")
 
 recent_crime_oakland <- recent_crime_oakland %>% filter(category %in% 
                                                       c("Homicide – 187(a)PC","Homicide – All Other *",
@@ -125,17 +125,17 @@ recent_crime_oakland <- recent_crime_oakland %>% filter(category %in%
 recent_crime_oakland <- recent_crime_oakland %>% select(2:9)
 
 recent_crime_oakland$weekly_total <- gsub(",","",recent_crime_oakland$weekly_total)
-recent_crime_oakland$ytd22 <- gsub(",","",recent_crime_oakland$ytd22)
 recent_crime_oakland$ytd23 <- gsub(",","",recent_crime_oakland$ytd23)
 recent_crime_oakland$ytd24 <- gsub(",","",recent_crime_oakland$ytd24)
+recent_crime_oakland$ytd25 <- gsub(",","",recent_crime_oakland$ytd25)
 recent_crime_oakland$ytd_change <- gsub(",","",recent_crime_oakland$ytd_change)
 recent_crime_oakland$threeyr_ytd_average <- gsub(",","",recent_crime_oakland$threeyr_ytd_average)
-recent_crime_oakland$ytd23_vs_3yr_avg <- gsub(",","",recent_crime_oakland$ytd23_vs_3yr_avg)
+recent_crime_oakland$ytd25_vs_3yr_avg <- gsub(",","",recent_crime_oakland$ytd25_vs_3yr_avg)
 
 recent_crime_oakland$weekly_total <- as.numeric(recent_crime_oakland$weekly_total)
-recent_crime_oakland$ytd22 <- as.numeric(recent_crime_oakland$ytd22)
 recent_crime_oakland$ytd23 <- as.numeric(recent_crime_oakland$ytd23)
 recent_crime_oakland$ytd24 <- as.numeric(recent_crime_oakland$ytd24)
+recent_crime_oakland$ytd25 <- as.numeric(recent_crime_oakland$ytd25)
 recent_crime_oakland$ytd_change <- as.numeric(recent_crime_oakland$ytd_change)
 recent_crime_oakland$threeyr_ytd_average <- as.numeric(recent_crime_oakland$threeyr_ytd_average)
 recent_crime_oakland$ytd23_vs_3yr_avg <- as.numeric(recent_crime_oakland$ytd23_vs_3yr_avg)
@@ -223,8 +223,8 @@ recent_crime_oakland$rawtext2 <- strsplit(recent_crime_oakland$rawtext, "\\s+\\s
 recent_crime_oakland <- recent_crime_oakland %>% unnest_wider(rawtext2, names_sep = "_")
 # name the columns temporarily
 names(recent_crime_oakland) = c("rawtext","category",
-                                "weekly_total","ytd22","ytd23", "ytd24",
-                                "ytd_change","threeyr_ytd_average","ytd23_vs_3yr_avg")
+                                "weekly_total","ytd23","ytd24", "ytd25",
+                                "ytd_change","threeyr_ytd_average","ytd25_vs_3yr_avg")
 
 recent_crime_oakland <- recent_crime_oakland %>% filter(category %in% 
                                                       c("Homicide – 187(a)PC","Homicide – All Other *",
@@ -249,20 +249,20 @@ recent_crime_oakland <- recent_crime_oakland %>% filter(category %in%
 recent_crime_oakland <- recent_crime_oakland %>% select(2:9)
 
 recent_crime_oakland$weekly_total <- gsub(",","",recent_crime_oakland$weekly_total)
-recent_crime_oakland$ytd22 <- gsub(",","",recent_crime_oakland$ytd22)
 recent_crime_oakland$ytd23 <- gsub(",","",recent_crime_oakland$ytd23)
 recent_crime_oakland$ytd24 <- gsub(",","",recent_crime_oakland$ytd24)
+recent_crime_oakland$ytd25 <- gsub(",","",recent_crime_oakland$ytd25)
 recent_crime_oakland$ytd_change <- gsub(",","",recent_crime_oakland$ytd_change)
 recent_crime_oakland$threeyr_ytd_average <- gsub(",","",recent_crime_oakland$threeyr_ytd_average)
-recent_crime_oakland$ytd23_vs_3yr_avg <- gsub(",","",recent_crime_oakland$ytd23_vs_3yr_avg)
+recent_crime_oakland$ytd25_vs_3yr_avg <- gsub(",","",recent_crime_oakland$ytd25_vs_3yr_avg)
 
 recent_crime_oakland$weekly_total <- as.numeric(recent_crime_oakland$weekly_total)
-recent_crime_oakland$ytd22 <- as.numeric(recent_crime_oakland$ytd22)
-recent_crime_oakland$ytd23 <- as.numeric(recent_crime_oakland$ytd23)
-recent_crime_oakland$ytd24 <- as.numeric(recent_crime_oakland$ytd24)
+recent_crime_oakland$ytd23 <- as.numeric(recent_crime_oakland$ytd22)
+recent_crime_oakland$ytd24 <- as.numeric(recent_crime_oakland$ytd23)
+recent_crime_oakland$ytd25 <- as.numeric(recent_crime_oakland$ytd24)
 recent_crime_oakland$ytd_change <- as.numeric(recent_crime_oakland$ytd_change)
 recent_crime_oakland$threeyr_ytd_average <- as.numeric(recent_crime_oakland$threeyr_ytd_average)
-recent_crime_oakland$ytd23_vs_3yr_avg <- as.numeric(recent_crime_oakland$ytd23_vs_3yr_avg)
+recent_crime_oakland$ytd25_vs_3yr_avg <- as.numeric(recent_crime_oakland$ytd25_vs_3yr_avg)
 
 recent_crime_oakland[is.na(recent_crime_oakland)] <- 0
 
@@ -347,8 +347,8 @@ recent_crime_oakland$rawtext2 <- strsplit(recent_crime_oakland$rawtext, "\\s+\\s
 recent_crime_oakland <- recent_crime_oakland %>% unnest_wider(rawtext2, names_sep = "_")
 # name the columns temporarily
 names(recent_crime_oakland) = c("rawtext","category",
-                                "weekly_total","ytd22","ytd23", "ytd24",
-                                "ytd_change","threeyr_ytd_average","ytd23_vs_3yr_avg")
+                                "weekly_total","ytd23","ytd24", "ytd25",
+                                "ytd_change","threeyr_ytd_average","ytd25_vs_3yr_avg")
 
 recent_crime_oakland <- recent_crime_oakland %>% filter(category %in% 
                                                       c("Homicide – 187(a)PC","Homicide – All Other *",
@@ -373,20 +373,20 @@ recent_crime_oakland <- recent_crime_oakland %>% filter(category %in%
 recent_crime_oakland <- recent_crime_oakland %>% select(2:9)
 
 recent_crime_oakland$weekly_total <- gsub(",","",recent_crime_oakland$weekly_total)
-recent_crime_oakland$ytd22 <- gsub(",","",recent_crime_oakland$ytd22)
 recent_crime_oakland$ytd23 <- gsub(",","",recent_crime_oakland$ytd23)
 recent_crime_oakland$ytd24 <- gsub(",","",recent_crime_oakland$ytd24)
+recent_crime_oakland$ytd25 <- gsub(",","",recent_crime_oakland$ytd25)
 recent_crime_oakland$ytd_change <- gsub(",","",recent_crime_oakland$ytd_change)
 recent_crime_oakland$threeyr_ytd_average <- gsub(",","",recent_crime_oakland$threeyr_ytd_average)
-recent_crime_oakland$ytd23_vs_3yr_avg <- gsub(",","",recent_crime_oakland$ytd23_vs_3yr_avg)
+recent_crime_oakland$ytd25_vs_3yr_avg <- gsub(",","",recent_crime_oakland$ytd25_vs_3yr_avg)
 
 recent_crime_oakland$weekly_total <- as.numeric(recent_crime_oakland$weekly_total)
-recent_crime_oakland$ytd22 <- as.numeric(recent_crime_oakland$ytd22)
 recent_crime_oakland$ytd23 <- as.numeric(recent_crime_oakland$ytd23)
 recent_crime_oakland$ytd24 <- as.numeric(recent_crime_oakland$ytd24)
+recent_crime_oakland$ytd25 <- as.numeric(recent_crime_oakland$ytd25)
 recent_crime_oakland$ytd_change <- as.numeric(recent_crime_oakland$ytd_change)
 recent_crime_oakland$threeyr_ytd_average <- as.numeric(recent_crime_oakland$threeyr_ytd_average)
-recent_crime_oakland$ytd23_vs_3yr_avg <- as.numeric(recent_crime_oakland$ytd23_vs_3yr_avg)
+recent_crime_oakland$ytd25_vs_3yr_avg <- as.numeric(recent_crime_oakland$ytd25_vs_3yr_avg)
 
 recent_crime_oakland[is.na(recent_crime_oakland)] <- 0
 
@@ -472,8 +472,8 @@ recent_crime_oakland$rawtext2 <- strsplit(recent_crime_oakland$rawtext, "\\s+\\s
 recent_crime_oakland <- recent_crime_oakland %>% unnest_wider(rawtext2, names_sep = "_")
 # name the columns temporarily
 names(recent_crime_oakland) = c("rawtext","category",
-                                "weekly_total","ytd22","ytd23", "ytd24",
-                                "ytd_change","threeyr_ytd_average","ytd23_vs_3yr_avg")
+                                "weekly_total","ytd23","ytd24", "ytd25",
+                                "ytd_change","threeyr_ytd_average","ytd25_vs_3yr_avg")
 
 recent_crime_oakland <- recent_crime_oakland %>% filter(category %in% 
                                                       c("Homicide – 187(a)PC","Homicide – All Other *",
@@ -498,20 +498,20 @@ recent_crime_oakland <- recent_crime_oakland %>% filter(category %in%
 recent_crime_oakland <- recent_crime_oakland %>% select(2:9)
 
 recent_crime_oakland$weekly_total <- gsub(",","",recent_crime_oakland$weekly_total)
-recent_crime_oakland$ytd22 <- gsub(",","",recent_crime_oakland$ytd22)
 recent_crime_oakland$ytd23 <- gsub(",","",recent_crime_oakland$ytd23)
 recent_crime_oakland$ytd24 <- gsub(",","",recent_crime_oakland$ytd24)
+recent_crime_oakland$ytd25 <- gsub(",","",recent_crime_oakland$ytd25)
 recent_crime_oakland$ytd_change <- gsub(",","",recent_crime_oakland$ytd_change)
 recent_crime_oakland$threeyr_ytd_average <- gsub(",","",recent_crime_oakland$threeyr_ytd_average)
-recent_crime_oakland$ytd23_vs_3yr_avg <- gsub(",","",recent_crime_oakland$ytd23_vs_3yr_avg)
+recent_crime_oakland$ytd25_vs_3yr_avg <- gsub(",","",recent_crime_oakland$ytd25_vs_3yr_avg)
 
 recent_crime_oakland$weekly_total <- as.numeric(recent_crime_oakland$weekly_total)
-recent_crime_oakland$ytd22 <- as.numeric(recent_crime_oakland$ytd22)
 recent_crime_oakland$ytd23 <- as.numeric(recent_crime_oakland$ytd23)
 recent_crime_oakland$ytd24 <- as.numeric(recent_crime_oakland$ytd24)
+recent_crime_oakland$ytd25 <- as.numeric(recent_crime_oakland$ytd25)
 recent_crime_oakland$ytd_change <- as.numeric(recent_crime_oakland$ytd_change)
 recent_crime_oakland$threeyr_ytd_average <- as.numeric(recent_crime_oakland$threeyr_ytd_average)
-recent_crime_oakland$ytd23_vs_3yr_avg <- as.numeric(recent_crime_oakland$ytd23_vs_3yr_avg)
+recent_crime_oakland$ytd25_vs_3yr_avg <- as.numeric(recent_crime_oakland$ytd25_vs_3yr_avg)
 
 recent_crime_oakland[is.na(recent_crime_oakland)] <- 0
 
@@ -597,8 +597,8 @@ recent_crime_oakland$rawtext2 <- strsplit(recent_crime_oakland$rawtext, "\\s+\\s
 recent_crime_oakland <- recent_crime_oakland %>% unnest_wider(rawtext2, names_sep = "_")
 # name the columns temporarily
 names(recent_crime_oakland) = c("rawtext","category",
-                                "weekly_total","ytd22","ytd23", "ytd24",
-                                "ytd_change","threeyr_ytd_average","ytd23_vs_3yr_avg")
+                                "weekly_total","ytd23","ytd24", "ytd25",
+                                "ytd_change","threeyr_ytd_average","ytd25_vs_3yr_avg")
 
 recent_crime_oakland <- recent_crime_oakland %>% filter(category %in% 
                                                       c("Homicide – 187(a)PC","Homicide – All Other *",
@@ -623,18 +623,20 @@ recent_crime_oakland <- recent_crime_oakland %>% filter(category %in%
 recent_crime_oakland <- recent_crime_oakland %>% select(2:9)
 
 recent_crime_oakland$weekly_total <- gsub(",","",recent_crime_oakland$weekly_total)
-recent_crime_oakland$ytd22 <- gsub(",","",recent_crime_oakland$ytd22)
 recent_crime_oakland$ytd23 <- gsub(",","",recent_crime_oakland$ytd23)
+recent_crime_oakland$ytd24 <- gsub(",","",recent_crime_oakland$ytd24)
+recent_crime_oakland$ytd25 <- gsub(",","",recent_crime_oakland$ytd25)
 recent_crime_oakland$ytd_change <- gsub(",","",recent_crime_oakland$ytd_change)
 recent_crime_oakland$threeyr_ytd_average <- gsub(",","",recent_crime_oakland$threeyr_ytd_average)
-recent_crime_oakland$ytd23_vs_3yr_avg <- gsub(",","",recent_crime_oakland$ytd23_vs_3yr_avg)
+recent_crime_oakland$ytd25_vs_3yr_avg <- gsub(",","",recent_crime_oakland$ytd25_vs_3yr_avg)
 
 recent_crime_oakland$weekly_total <- as.numeric(recent_crime_oakland$weekly_total)
-recent_crime_oakland$ytd22 <- as.numeric(recent_crime_oakland$ytd22)
 recent_crime_oakland$ytd23 <- as.numeric(recent_crime_oakland$ytd23)
+recent_crime_oakland$ytd24 <- as.numeric(recent_crime_oakland$ytd24)
+recent_crime_oakland$ytd25 <- gsub(",","",recent_crime_oakland$ytd25)
 recent_crime_oakland$ytd_change <- as.numeric(recent_crime_oakland$ytd_change)
 recent_crime_oakland$threeyr_ytd_average <- as.numeric(recent_crime_oakland$threeyr_ytd_average)
-recent_crime_oakland$ytd23_vs_3yr_avg <- as.numeric(recent_crime_oakland$ytd23_vs_3yr_avg)
+recent_crime_oakland$ytd25_vs_3yr_avg <- as.numeric(recent_crime_oakland$ytd25_vs_3yr_avg)
 
 recent_crime_oakland[is.na(recent_crime_oakland)] <- 0
 
@@ -725,8 +727,8 @@ recent_crime_oakland$rawtext2 <- strsplit(recent_crime_oakland$rawtext, "\\s+\\s
 recent_crime_oakland <- recent_crime_oakland %>% unnest_wider(rawtext2, names_sep = "_")
 # name the columns temporarily
 names(recent_crime_oakland) = c("rawtext","category",
-                                "weekly_total","ytd22","ytd23", "ytd24",
-                                "ytd_change","threeyr_ytd_average","ytd23_vs_3yr_avg")
+                                "weekly_total","ytd23","ytd24", "ytd25",
+                                "ytd_change","threeyr_ytd_average","ytd25_vs_3yr_avg")
 
 recent_crime_oakland <- recent_crime_oakland %>% filter(category %in% 
                                                       c("Homicide – 187(a)PC","Homicide – All Other *",
@@ -751,20 +753,20 @@ recent_crime_oakland <- recent_crime_oakland %>% filter(category %in%
 recent_crime_oakland <- recent_crime_oakland %>% select(2:9)
 
 recent_crime_oakland$weekly_total <- gsub(",","",recent_crime_oakland$weekly_total)
-recent_crime_oakland$ytd22 <- gsub(",","",recent_crime_oakland$ytd22)
 recent_crime_oakland$ytd23 <- gsub(",","",recent_crime_oakland$ytd23)
 recent_crime_oakland$ytd24 <- gsub(",","",recent_crime_oakland$ytd24)
+recent_crime_oakland$ytd25 <- gsub(",","",recent_crime_oakland$ytd25)
 recent_crime_oakland$ytd_change <- gsub(",","",recent_crime_oakland$ytd_change)
 recent_crime_oakland$threeyr_ytd_average <- gsub(",","",recent_crime_oakland$threeyr_ytd_average)
-recent_crime_oakland$ytd23_vs_3yr_avg <- gsub(",","",recent_crime_oakland$ytd23_vs_3yr_avg)
+recent_crime_oakland$ytd25_vs_3yr_avg <- gsub(",","",recent_crime_oakland$ytd25_vs_3yr_avg)
 
 recent_crime_oakland$weekly_total <- as.numeric(recent_crime_oakland$weekly_total)
-recent_crime_oakland$ytd22 <- as.numeric(recent_crime_oakland$ytd22)
 recent_crime_oakland$ytd23 <- as.numeric(recent_crime_oakland$ytd23)
 recent_crime_oakland$ytd24 <- as.numeric(recent_crime_oakland$ytd24)
+recent_crime_oakland$ytd25 <- as.numeric(recent_crime_oakland$ytd25)
 recent_crime_oakland$ytd_change <- as.numeric(recent_crime_oakland$ytd_change)
 recent_crime_oakland$threeyr_ytd_average <- as.numeric(recent_crime_oakland$threeyr_ytd_average)
-recent_crime_oakland$ytd23_vs_3yr_avg <- as.numeric(recent_crime_oakland$ytd23_vs_3yr_avg)
+recent_crime_oakland$ytd25_vs_3yr_avg <- as.numeric(recent_crime_oakland$ytd25_vs_3yr_avg)
 
 recent_crime_oakland[is.na(recent_crime_oakland)] <- 0
 
