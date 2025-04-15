@@ -60,7 +60,7 @@ districts_geo$placename <- case_when(districts_geo$district == "1"~ "West Oaklan
                                      districts_geo$district == "2"~ "Westlake, Temescal and Rockridge",
                                      districts_geo$district == "3"~ "Highland Park, San Antonio and Glenview",
                                      districts_geo$district == "4"~ "Melrose, Lockwood Gardens and Laurel",
-                                     districts_geo$district == "5"~ "Eastmont and Knowland Park"),
+                                     districts_geo$district == "5"~ "Eastmont and Knowland Park",
                                      districts_geo$district == "6"~ "Elmhurst and Oakland International Airport")
 
   
