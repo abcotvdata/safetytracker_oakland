@@ -13,6 +13,8 @@ oakland_crime <- left_join(annual_crime_all,recent_crime_all %>% select(4,5,9,10
 
 # Extract the last 12 months into a new column
 oakland_crime$ytd24 <- as.numeric(oakland_crime$ytd24)
+oakland_crime$ytd25 <- as.numeric(oakland_crime$ytd25)
+oakland_crime$total24 <- as.numeric(oakland_crime$total24)
 oakland_crime$last12mos <- (oakland_crime$total24-oakland_crime$ytd24)+oakland_crime$ytd25
 oakland_crime <- oakland_crime %>% select(7:9,1:6,11,10,13,12)
 
@@ -24,7 +26,7 @@ write_csv(oakland_crime,"data/output/oakland_crime.csv")
 # likely needs added to the tracker itself
 oakland_population <- 433823
 
-# San Francisco police districts geo file with populations
+# Oakland police districts geo file with populations
 districts_geo <- readRDS("scripts/rds/oakland_districts.rds")
 
 # Divide into citywide_crime and district_crime files
