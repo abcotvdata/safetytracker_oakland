@@ -137,7 +137,7 @@ recent_crime_oakland$ytd24 <- as.numeric(recent_crime_oakland$ytd24)
 recent_crime_oakland$ytd25 <- as.numeric(recent_crime_oakland$ytd25)
 recent_crime_oakland$ytd_change <- as.numeric(recent_crime_oakland$ytd_change)
 recent_crime_oakland$threeyr_ytd_average <- as.numeric(recent_crime_oakland$threeyr_ytd_average)
-recent_crime_oakland$ytd23_vs_3yr_avg <- as.numeric(recent_crime_oakland$ytd23_vs_3yr_avg)
+recent_crime_oakland$ytd25_vs_3yr_avg <- as.numeric(recent_crime_oakland$ytd25_vs_3yr_avg)
 
 recent_crime_oakland[is.na(recent_crime_oakland)] <- 0
 
