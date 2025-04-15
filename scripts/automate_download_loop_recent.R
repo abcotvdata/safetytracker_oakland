@@ -39,7 +39,8 @@ urls <- c(
   "https://cityofoakland2.app.box.com/s/xfa5h508r77eysje2etevwio80e1o0gk",
   "https://cityofoakland2.app.box.com/s/x81lhgwlpsj7o8gn4iiw9oujhpfjgql9",
   "https://cityofoakland2.app.box.com/s/ih1xz8vyo7btuhu8fb5qhy4wzbapy1t8",
-  "https://cityofoakland2.app.box.com/s/yfpjz8dw2zoum7cxoml0h908b6xme8ah"
+  "https://cityofoakland2.app.box.com/s/yfpjz8dw2zoum7cxoml0h908b6xme8ah",
+  "https://cityofoakland2.app.box.com/s/sjiq7usfy27gy9dfe51hp8arz5l1ixad/folder/153744258933"
 )
 
 # Extract files information for each URL
@@ -52,7 +53,8 @@ baseurls <- c(
   "https://cityofoakland2.app.box.com/index.php?rm=box_download_shared_file&shared_name=xfa5h508r77eysje2etevwio80e1o0gk&file_id=f_",
   "https://cityofoakland2.app.box.com/index.php?rm=box_download_shared_file&shared_name=x81lhgwlpsj7o8gn4iiw9oujhpfjgql9&file_id=f_",
   "https://cityofoakland2.app.box.com/index.php?rm=box_download_shared_file&shared_name=ih1xz8vyo7btuhu8fb5qhy4wzbapy1t8&file_id=f_",
-  "https://cityofoakland2.app.box.com/index.php?rm=box_download_shared_file&shared_name=yfpjz8dw2zoum7cxoml0h908b6xme8ah&file_id=f_"
+  "https://cityofoakland2.app.box.com/index.php?rm=box_download_shared_file&shared_name=yfpjz8dw2zoum7cxoml0h908b6xme8ah&file_id=f_",
+  "https://cityofoakland2.app.box.com/index.php?rm=box_download_shared_file&shared_name=sjiq7usfy27gy9dfe51hp8arz5l1ixad&file_id=f_"
 )
 
 # Download files with the same name as they are named online
@@ -62,4 +64,5 @@ download.file(paste0(baseurls[3],files_list[[3]][["file_id"]][[1]]),paste0("data
 download.file(paste0(baseurls[4],files_list[[4]][["file_id"]][[1]]),paste0("data/source/recent/",files_list[[4]][["file_name"]][[1]]))
 download.file(paste0(baseurls[5],files_list[[5]][["file_id"]][[1]]),paste0("data/source/recent/",files_list[[5]][["file_name"]][[1]]))
 download.file(paste0(baseurls[6],files_list[[6]][["file_id"]][[1]]),paste0("data/source/recent/",files_list[[6]][["file_name"]][[1]]))
+download.file(paste0(baseurls[7],files_list[[7]][["file_id"]][[1]]),paste0("data/source/recent/",files_list[[7]][["file_name"]][[1]]))
 
