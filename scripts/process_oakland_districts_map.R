@@ -7,7 +7,7 @@ library(sp)
 library(sf)
 
 # Get Oakland police districts (city interchangeably calls these 'police areas')
-download.file("https://gisapps1.mapoakland.com/oakgis/rest/services/Prod/OPDDistrictsBdrysBeats/MapServer/2/query?where=0%3D0&text=&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&relationParam=&outFields=*&returnGeometry=true&returnTrueCurves=false&maxAllowableOffset=&geometryPrecision=&outSR=&returnIdsOnly=false&returnCountOnly=false&orderByFields=&groupByFieldsForStatistics=&outStatistics=&returnZ=false&returnM=false&gdbVersion=&returnDistinctValues=false&resultOffset=&resultRecordCount=&queryByDistance=&returnExtentsOnly=false&datumTransformation=&parameterValues=&rangeValues=&f=geojson",
+download.file("https://gisapps1.mapoakland.com/oakgis/rest/services/Prod/OPDDistrictsBdrysBeats/MapServer/1/query?where=0%3D0&text=&objectIds=&time=&geometry=&geometryType=esriGeometryEnvelope&inSR=&spatialRel=esriSpatialRelIntersects&relationParam=&outFields=*&returnGeometry=true&returnTrueCurves=false&maxAllowableOffset=&geometryPrecision=&outSR=&returnIdsOnly=false&returnCountOnly=false&orderByFields=&groupByFieldsForStatistics=&outStatistics=&returnZ=false&returnM=false&gdbVersion=&returnDistinctValues=false&resultOffset=&resultRecordCount=&queryByDistance=&returnExtentsOnly=false&datumTransformation=&parameterValues=&rangeValues=&f=geojson",
               "data/source/geo/oakland_police_districts.geojson")
 
 # Read in geojson and then transform to sf format
@@ -59,7 +59,8 @@ districts_geo$placename <- case_when(districts_geo$district == "1"~ "West Oaklan
                                      districts_geo$district == "2"~ "Westlake, Temescal and Rockridge",
                                      districts_geo$district == "3"~ "Highland Park, San Antonio and Glenview",
                                      districts_geo$district == "4"~ "Melrose, Lockwood Gardens and Laurel",
-                                     districts_geo$district == "5"~ "Eastmont, Elmhurst and Oakland International Airport")
+                                     districts_geo$district == "5"~ "Eastmont and Knowland Park"),
+                                     districts_geo$district == "6"~ "Elmhurst and Oakland International Airport")
 
   
 # saving a clean geojson and separate RDS for use in tracker
