@@ -20,9 +20,7 @@ jobs:
         run: |
           brew install gdal
       - name: Install packages
-        run: Rscript -e 'install.packages(c("janitor","tidyverse","tidycensus","leaflet","leaflet.extras","leaflet.providers","sp","sf","remotes"))'
-      - name: Install tigris package from github
-        run: Rscript -e 'remotes::install_github(c("walkerke/tigris, force = TRUE"))'
+        run: Rscript -e 'install.packages(c("janitor","tidyverse","tidycensus","leaflet","leaflet.extras","leaflet.providers","sp","sf","tigris"))'
       - name: Run script
         run: Rscript scripts/process_oakland_districts_map.R
       - name: Commit results
