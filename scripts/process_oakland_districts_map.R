@@ -46,7 +46,7 @@ sum(districts_geo$population) # tally is 441881
 districts_geo$population <- round(districts_geo$population,-3)
 
 # Prep for tracker use
-districts_geo <- districts_geo %>% st_transform(4326)
+districts_geo <- districts_geo %>% st_transform(4326) %>% erase_water(area_threshold = 0.9)
 districts_geo <- st_make_valid(districts_geo)
 districts_geo <- districts_geo %>% select(2,11,12)
 
