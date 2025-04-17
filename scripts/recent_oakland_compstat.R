@@ -763,7 +763,8 @@ recent_crime_oakland$ytd25_vs_3yr_avg <- as.numeric(recent_crime_oakland$ytd25_v
 
 recent_crime_oakland[is.na(recent_crime_oakland)] <- 0
 
-
+recent_crime_oakland$district <- "Area 6"
+recent_crime_area6 <- recent_crime_oakland
 
 ### CITY WIDE ###
 
@@ -895,7 +896,7 @@ recent_crime_oakland$district <- "Citywide"
 recent_crime_citywide <- recent_crime_oakland
 
 # Combine and prepare file for storing and processing for trackers
-recent_crime_all <- rbind(recent_crime_citywide,recent_crime_area1,recent_crime_area2,recent_crime_area3,recent_crime_area4,recent_crime_area5)
+recent_crime_all <- rbind(recent_crime_citywide,recent_crime_area1,recent_crime_area2,recent_crime_area3,recent_crime_area4,recent_crime_area5,recent_crime_area6)
 
 recent_crime_all$description <- recent_crime_all$category
 
