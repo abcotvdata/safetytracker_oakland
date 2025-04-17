@@ -953,4 +953,4 @@ recent_crime_all$updated <- asofdate
 # save the recent YTD annual file and rds archive
 write_csv(recent_crime_all, "data/output/recent/oakland_crime_recent.csv")
 saveRDS(recent_crime_all, "scripts/rds/oakland_crime_recent.rds")
-rm(pdftext,recent_crime_oakland,recent_crime_citywide,recent_crime_area1,recent_crime_area2,recent_crime_area3,recent_crime_area4,recent_crime_area5)
+rm(pdftext,recent_crime_oakland,recent_crime_citywide,recent_crime_area1,recent_crime_area2,recent_crime_area3,recent_crime_area4,recent_crime_area5,recent_crime_area6)
