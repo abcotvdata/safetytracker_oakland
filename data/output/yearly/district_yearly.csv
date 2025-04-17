@@ -74,31 +74,31 @@ district,type,category,total20,total21,total22,total23,total24,last12mos
 1,Property,Larceny,1186,1418,2113,1850,1415,1278
 1,Property,Arson,37,31,38,30,29,29
 1,Total/Subcategory,Total/Subcategory,5350,7193,0,6596,0,-759
-6,Violent,Murder,31,30,25,27,22,0
-6,Total/Subcategory,Total/Subcategory,4,5,0,1,2,0
-6,Violent,Aggravated Assault,707,801,629,714,626,0
-6,Total/Subcategory,Total/Subcategory,129,147,94,116,69,0
-6,Total/Subcategory,Total/Subcategory,164,182,119,144,93,0
-6,Total/Subcategory,Total/Subcategory,111,137,88,101,56,0
-6,Total/Subcategory,Total/Subcategory,66,64,43,42,21,0
-6,Total/Subcategory,Total/Subcategory,401,453,404,455,480,0
-6,Violent,Sexual Assault,29,18,30,27,21,0
-6,Violent,Robbery,389,400,409,512,447,0
-6,Total/Subcategory,Total/Subcategory,171,181,167,228,194,0
-6,Total/Subcategory,Total/Subcategory,17,14,13,29,22,0
-6,Total/Subcategory,Total/Subcategory,112,87,111,122,130,0
-6,Total/Subcategory,Total/Subcategory,9,12,16,15,11,0
-6,Total/Subcategory,Total/Subcategory,20,22,18,8,15,0
-6,Total/Subcategory,Total/Subcategory,60,84,84,110,75,0
-6,Property,Burglary,919,1334,2586,3146,880,0
-6,Total/Subcategory,Total/Subcategory,647,1144,2252,2815,561,0
-6,Total/Subcategory,Total/Subcategory,120,87,111,143,101,0
-6,Total/Subcategory,Total/Subcategory,121,78,180,158,160,0
-6,Total/Subcategory,Total/Subcategory,30,24,39,27,39,0
-6,Property,Motor Vehicle Theft,1691,1832,1864,2377,1494,0
-6,Property,Larceny,796,826,1398,2068,1239,0
-6,Property,Arson,46,43,42,23,20,0
-6,Total/Subcategory,Total/Subcategory,4612,5289,6983,8895,4751,0
+6,Violent,Murder,31,30,25,27,22,23
+6,Total/Subcategory,Total/Subcategory,4,5,0,1,2,1
+6,Violent,Aggravated Assault,707,801,629,714,626,555
+6,Total/Subcategory,Total/Subcategory,129,147,94,116,69,62
+6,Total/Subcategory,Total/Subcategory,164,182,119,144,93,86
+6,Total/Subcategory,Total/Subcategory,111,137,88,101,56,49
+6,Total/Subcategory,Total/Subcategory,66,64,43,42,21,28
+6,Total/Subcategory,Total/Subcategory,401,453,404,455,480,416
+6,Violent,Sexual Assault,29,18,30,27,21,17
+6,Violent,Robbery,389,400,409,512,447,371
+6,Total/Subcategory,Total/Subcategory,171,181,167,228,194,156
+6,Total/Subcategory,Total/Subcategory,17,14,13,29,22,21
+6,Total/Subcategory,Total/Subcategory,112,87,111,122,130,106
+6,Total/Subcategory,Total/Subcategory,9,12,16,15,11,13
+6,Total/Subcategory,Total/Subcategory,20,22,18,8,15,13
+6,Total/Subcategory,Total/Subcategory,60,84,84,110,75,62
+6,Property,Burglary,919,1334,2586,3146,880,640
+6,Total/Subcategory,Total/Subcategory,647,1144,2252,2815,561,361
+6,Total/Subcategory,Total/Subcategory,120,87,111,143,101,87
+6,Total/Subcategory,Total/Subcategory,121,78,180,158,160,141
+6,Total/Subcategory,Total/Subcategory,30,24,39,27,39,31
+6,Property,Motor Vehicle Theft,1691,1832,1864,2377,1494,1226
+6,Property,Larceny,796,826,1398,2068,1239,1024
+6,Property,Arson,46,43,42,23,20,22
+6,Total/Subcategory,Total/Subcategory,4612,5289,6983,8895,4751,3879
 2,Violent,Murder,2,7,5,7,9,12
 2,Total/Subcategory,Total/Subcategory,1,1,0,1,0,0
 2,Violent,Aggravated Assault,252,289,276,423,277,256

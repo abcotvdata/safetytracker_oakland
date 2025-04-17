@@ -149,28 +149,28 @@ Area 5,Motor Vehicle Theft,Property,Motor Vehicle Theft,1863,1945,2112,3030,1762
 Area 5,Larceny,Property,Larceny,841,838,994,1177,1057,240,282,1015,2025-04-13
 Area 5,Arson,Property,Arson,34,32,25,28,19,5,6,18,2025-04-13
 Area 5,Total,Total/Subcategory,Total/Subcategory,4712,4742,4803,6422,4576,875,1559,3892,2025-04-13
-Area 6,Murder,Violent,Murder,31,30,25,27,22,NA,NA,NA,NA
-Area 6,All Other Homicides,Total/Subcategory,Total/Subcategory,4,5,0,1,2,NA,NA,NA,NA
-Area 6,Aggravated Assault,Violent,Aggravated Assault,707,801,629,714,626,NA,NA,NA,NA
-Area 6,Aggravated Assault (Firearm),Total/Subcategory,Total/Subcategory,129,147,94,116,69,NA,NA,NA,NA
-Area 6,Combined subtotal of homicides and firearms-related aggravated assaults,Total/Subcategory,Total/Subcategory,164,182,119,144,93,NA,NA,NA,NA
-Area 6,Aggravated Assault (Shooting occupied home or vehicle),Total/Subcategory,Total/Subcategory,111,137,88,101,56,NA,NA,NA,NA
-Area 6,Aggravated Assault (Shooting unoccupied home or vehicle),Total/Subcategory,Total/Subcategory,66,64,43,42,21,NA,NA,NA,NA
-Area 6,Aggravated Assault (Non Firearm),Total/Subcategory,Total/Subcategory,401,453,404,455,480,NA,NA,NA,NA
-Area 6,Sexual Assault,Violent,Sexual Assault,29,18,30,27,21,NA,NA,NA,NA
-Area 6,Robbery,Violent,Robbery,389,400,409,512,447,NA,NA,NA,NA
-Area 6,Robbery (Firearm),Total/Subcategory,Total/Subcategory,171,181,167,228,194,NA,NA,NA,NA
-Area 6,Robbery (Knife),Total/Subcategory,Total/Subcategory,17,14,13,29,22,NA,NA,NA,NA
-Area 6,Robbery (Strong-arm),Total/Subcategory,Total/Subcategory,112,87,111,122,130,NA,NA,NA,NA
-Area 6,Robbery (other dangerous weapon),Total/Subcategory,Total/Subcategory,9,12,16,15,11,NA,NA,NA,NA
-Area 6,Residential Robbery,Total/Subcategory,Total/Subcategory,20,22,18,8,15,NA,NA,NA,NA
-Area 6,Carjacking,Total/Subcategory,Total/Subcategory,60,84,84,110,75,NA,NA,NA,NA
-Area 6,Burglary,Property,Burglary,919,1334,2586,3146,880,NA,NA,NA,NA
-Area 6,Burglary (Motor Vehicle),Total/Subcategory,Total/Subcategory,647,1144,2252,2815,561,NA,NA,NA,NA
-Area 6,Burglary (Residential),Total/Subcategory,Total/Subcategory,120,87,111,143,101,NA,NA,NA,NA
-Area 6,Burglary (Commercial),Total/Subcategory,Total/Subcategory,121,78,180,158,160,NA,NA,NA,NA
-Area 6,"Burglary (Boats, Aircraft, Other)",Total/Subcategory,Total/Subcategory,30,24,39,27,39,NA,NA,NA,NA
-Area 6,Motor Vehicle Theft,Property,Motor Vehicle Theft,1691,1832,1864,2377,1494,NA,NA,NA,NA
-Area 6,Larceny,Property,Larceny,796,826,1398,2068,1239,NA,NA,NA,NA
-Area 6,Arson,Property,Arson,46,43,42,23,20,NA,NA,NA,NA
-Area 6,Total,Total/Subcategory,Total/Subcategory,4612,5289,6983,8895,4751,NA,NA,NA,NA
+Area 6,Murder,Violent,Murder,31,30,25,27,22,5,4,23,2025-04-13
+Area 6,All Other Homicides,Total/Subcategory,Total/Subcategory,4,5,0,1,2,0,1,1,2025-04-13
+Area 6,Aggravated Assault,Violent,Aggravated Assault,707,801,629,714,626,128,199,555,2025-04-13
+Area 6,Aggravated Assault (Firearm),Total/Subcategory,Total/Subcategory,129,147,94,116,69,15,22,62,2025-04-13
+Area 6,Combined subtotal of homicides and firearms-related aggravated assaults,Total/Subcategory,Total/Subcategory,164,182,119,144,93,20,27,86,2025-04-13
+Area 6,Aggravated Assault (Shooting occupied home or vehicle),Total/Subcategory,Total/Subcategory,111,137,88,101,56,12,19,49,2025-04-13
+Area 6,Aggravated Assault (Shooting unoccupied home or vehicle),Total/Subcategory,Total/Subcategory,66,64,43,42,21,12,5,28,2025-04-13
+Area 6,Aggravated Assault (Non Firearm),Total/Subcategory,Total/Subcategory,401,453,404,455,480,89,153,416,2025-04-13
+Area 6,Sexual Assault,Violent,Sexual Assault,29,18,30,27,21,3,7,17,2025-04-13
+Area 6,Robbery,Violent,Robbery,389,400,409,512,447,84,160,371,2025-04-13
+Area 6,Robbery (Firearm),Total/Subcategory,Total/Subcategory,171,181,167,228,194,34,72,156,2025-04-13
+Area 6,Robbery (Knife),Total/Subcategory,Total/Subcategory,17,14,13,29,22,5,6,21,2025-04-13
+Area 6,Robbery (Strong-arm),Total/Subcategory,Total/Subcategory,112,87,111,122,130,22,46,106,2025-04-13
+Area 6,Robbery (other dangerous weapon),Total/Subcategory,Total/Subcategory,9,12,16,15,11,3,1,13,2025-04-13
+Area 6,Residential Robbery,Total/Subcategory,Total/Subcategory,20,22,18,8,15,3,5,13,2025-04-13
+Area 6,Carjacking,Total/Subcategory,Total/Subcategory,60,84,84,110,75,17,30,62,2025-04-13
+Area 6,Burglary,Property,Burglary,919,1334,2586,3146,880,108,348,640,2025-04-13
+Area 6,Burglary (Motor Vehicle),Total/Subcategory,Total/Subcategory,647,1144,2252,2815,561,62,262,361,2025-04-13
+Area 6,Burglary (Residential),Total/Subcategory,Total/Subcategory,120,87,111,143,101,19,33,87,2025-04-13
+Area 6,Burglary (Commercial),Total/Subcategory,Total/Subcategory,121,78,180,158,160,18,37,141,2025-04-13
+Area 6,"Burglary (Boats, Aircraft, Other)",Total/Subcategory,Total/Subcategory,30,24,39,27,39,4,12,31,2025-04-13
+Area 6,Motor Vehicle Theft,Property,Motor Vehicle Theft,1691,1832,1864,2377,1494,267,535,1226,2025-04-13
+Area 6,Larceny,Property,Larceny,796,826,1398,2068,1239,215,430,1024,2025-04-13
+Area 6,Arson,Property,Arson,46,43,42,23,20,6,4,22,2025-04-13
+Area 6,Total,Total/Subcategory,Total/Subcategory,4612,5289,6983,8895,4751,816,1688,3879,2025-04-13
