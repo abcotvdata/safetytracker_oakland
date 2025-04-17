@@ -48,7 +48,7 @@ districts_geo$population <- round(districts_geo$population,-3)
 # Prep for tracker use
 districts_geo <- districts_geo %>% st_transform(4326)
 districts_geo <- st_make_valid(districts_geo)
-districts_geo <- districts_geo %>% select(2,5,6)
+districts_geo <- districts_geo %>% select(2,11,12)
 
 
 # set names for cols for use in trackers later
