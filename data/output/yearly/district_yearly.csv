@@ -1,151 +1,151 @@
 district,type,category,total20,total21,total22,total23,total24,last12mos
 3,Violent,Murder,12,24,20,18,13,11
 3,Total/Subcategory,Total/Subcategory,0,1,0,0,2,1
-3,Violent,Aggravated Assault,377,389,438,483,507,466
-3,Total/Subcategory,Total/Subcategory,72,95,80,79,73,55
-3,Total/Subcategory,Total/Subcategory,84,120,100,97,88,67
-3,Total/Subcategory,Total/Subcategory,30,39,34,50,36,40
-3,Total/Subcategory,Total/Subcategory,24,29,19,17,12,9
-3,Total/Subcategory,Total/Subcategory,251,226,305,337,386,362
-3,Violent,Sexual Assault,32,32,32,42,26,22
-3,Violent,Robbery,433,587,543,736,595,418
-3,Total/Subcategory,Total/Subcategory,144,220,239,318,236,157
-3,Total/Subcategory,Total/Subcategory,34,22,21,16,33,22
-3,Total/Subcategory,Total/Subcategory,180,185,137,212,184,149
+3,Violent,Aggravated Assault,377,389,438,483,507,454
+3,Total/Subcategory,Total/Subcategory,72,95,80,79,73,50
+3,Total/Subcategory,Total/Subcategory,84,120,100,97,88,62
+3,Total/Subcategory,Total/Subcategory,30,39,34,50,36,38
+3,Total/Subcategory,Total/Subcategory,24,29,19,17,12,8
+3,Total/Subcategory,Total/Subcategory,251,226,305,337,386,358
+3,Violent,Sexual Assault,32,32,32,42,26,23
+3,Violent,Robbery,433,587,543,736,595,415
+3,Total/Subcategory,Total/Subcategory,144,220,239,318,236,149
+3,Total/Subcategory,Total/Subcategory,34,22,21,16,33,24
+3,Total/Subcategory,Total/Subcategory,180,185,137,212,184,151
 3,Total/Subcategory,Total/Subcategory,9,11,13,17,25,13
 3,Total/Subcategory,Total/Subcategory,16,19,11,27,22,15
-3,Total/Subcategory,Total/Subcategory,50,130,122,146,95,62
-3,Property,Burglary,1340,1465,1738,2292,1472,1110
-3,Total/Subcategory,Total/Subcategory,903,1088,1233,1672,1000,754
-3,Total/Subcategory,Total/Subcategory,269,237,216,274,217,171
-3,Total/Subcategory,Total/Subcategory,139,116,257,278,168,140
-3,Total/Subcategory,Total/Subcategory,27,24,29,66,43,31
-3,Property,Motor Vehicle Theft,1436,1383,1523,2400,1873,1450
-3,Property,Larceny,934,1054,1259,1391,1475,1280
-3,Property,Arson,31,25,17,14,16,13
-3,Total/Subcategory,Total/Subcategory,4595,4960,5570,7376,5979,4771
+3,Total/Subcategory,Total/Subcategory,50,130,122,146,95,63
+3,Property,Burglary,1340,1465,1738,2292,1472,1119
+3,Total/Subcategory,Total/Subcategory,903,1088,1233,1672,1000,762
+3,Total/Subcategory,Total/Subcategory,269,237,216,274,217,176
+3,Total/Subcategory,Total/Subcategory,139,116,257,278,168,138
+3,Total/Subcategory,Total/Subcategory,27,24,29,66,43,29
+3,Property,Motor Vehicle Theft,1436,1383,1523,2400,1873,1381
+3,Property,Larceny,934,1054,1259,1391,1475,1273
+3,Property,Arson,31,25,17,14,16,12
+3,Total/Subcategory,Total/Subcategory,4595,4960,5570,7376,5979,4689
 5,Violent,Murder,29,27,19,28,14,17
 5,Total/Subcategory,Total/Subcategory,0,3,1,3,0,1
-5,Violent,Aggravated Assault,867,918,724,793,689,573
+5,Violent,Aggravated Assault,867,918,724,793,689,567
 5,Total/Subcategory,Total/Subcategory,139,132,92,114,82,62
 5,Total/Subcategory,Total/Subcategory,168,162,112,145,96,80
 5,Total/Subcategory,Total/Subcategory,143,183,105,98,60,56
-5,Total/Subcategory,Total/Subcategory,71,87,40,48,28,30
-5,Total/Subcategory,Total/Subcategory,514,516,487,533,519,425
-5,Violent,Sexual Assault,22,23,26,23,20,20
-5,Violent,Robbery,407,455,388,531,391,338
-5,Total/Subcategory,Total/Subcategory,172,185,169,249,170,148
+5,Total/Subcategory,Total/Subcategory,71,87,40,48,28,31
+5,Total/Subcategory,Total/Subcategory,514,516,487,533,519,418
+5,Violent,Sexual Assault,22,23,26,23,20,19
+5,Violent,Robbery,407,455,388,531,391,334
+5,Total/Subcategory,Total/Subcategory,172,185,169,249,170,145
 5,Total/Subcategory,Total/Subcategory,20,23,23,26,10,10
-5,Total/Subcategory,Total/Subcategory,132,127,89,125,111,95
-5,Total/Subcategory,Total/Subcategory,12,12,14,13,6,4
+5,Total/Subcategory,Total/Subcategory,132,127,89,125,111,96
+5,Total/Subcategory,Total/Subcategory,12,12,14,13,6,5
 5,Total/Subcategory,Total/Subcategory,11,16,9,20,9,10
-5,Total/Subcategory,Total/Subcategory,60,92,84,98,85,71
-5,Property,Burglary,649,501,514,809,624,529
-5,Total/Subcategory,Total/Subcategory,382,288,231,413,275,260
-5,Total/Subcategory,Total/Subcategory,137,123,121,134,148,115
-5,Total/Subcategory,Total/Subcategory,112,72,142,197,143,116
-5,Total/Subcategory,Total/Subcategory,17,17,19,62,33,27
-5,Property,Motor Vehicle Theft,1863,1945,2112,3030,1762,1325
-5,Property,Larceny,841,838,994,1177,1057,1008
-5,Property,Arson,34,32,25,28,19,20
-5,Total/Subcategory,Total/Subcategory,4712,4742,4803,6422,4576,3831
-1,Violent,Murder,9,16,30,26,17,15
+5,Total/Subcategory,Total/Subcategory,60,92,84,98,85,68
+5,Property,Burglary,649,501,514,809,624,519
+5,Total/Subcategory,Total/Subcategory,382,288,231,413,275,261
+5,Total/Subcategory,Total/Subcategory,137,123,121,134,148,114
+5,Total/Subcategory,Total/Subcategory,112,72,142,197,143,108
+5,Total/Subcategory,Total/Subcategory,17,17,19,62,33,28
+5,Property,Motor Vehicle Theft,1863,1945,2112,3030,1762,1240
+5,Property,Larceny,841,838,994,1177,1057,985
+5,Property,Arson,34,32,25,28,19,18
+5,Total/Subcategory,Total/Subcategory,4712,4742,4803,6422,4576,3700
+1,Violent,Murder,9,16,30,26,17,14
 1,Total/Subcategory,Total/Subcategory,1,1,1,1,1,1
-1,Violent,Aggravated Assault,561,629,650,708,571,587
-1,Total/Subcategory,Total/Subcategory,64,86,82,80,56,67
-1,Total/Subcategory,Total/Subcategory,74,103,113,107,74,83
-1,Total/Subcategory,Total/Subcategory,55,83,51,65,42,50
+1,Violent,Aggravated Assault,561,629,650,708,571,597
+1,Total/Subcategory,Total/Subcategory,64,86,82,80,56,66
+1,Total/Subcategory,Total/Subcategory,74,103,113,107,74,81
+1,Total/Subcategory,Total/Subcategory,55,83,51,65,42,51
 1,Total/Subcategory,Total/Subcategory,29,39,24,18,18,13
-1,Total/Subcategory,Total/Subcategory,413,421,493,545,455,457
+1,Total/Subcategory,Total/Subcategory,413,421,493,545,455,467
 1,Violent,Sexual Assault,55,45,45,43,29,32
-1,Violent,Robbery,414,372,357,543,404,334
-1,Total/Subcategory,Total/Subcategory,95,133,124,212,124,99
-1,Total/Subcategory,Total/Subcategory,26,15,11,21,14,16
+1,Violent,Robbery,414,372,357,543,404,321
+1,Total/Subcategory,Total/Subcategory,95,133,124,212,124,93
+1,Total/Subcategory,Total/Subcategory,26,15,11,21,14,15
 1,Total/Subcategory,Total/Subcategory,216,142,137,189,175,143
-1,Total/Subcategory,Total/Subcategory,15,11,24,10,23,18
+1,Total/Subcategory,Total/Subcategory,15,11,24,10,23,16
 1,Total/Subcategory,Total/Subcategory,11,14,6,12,9,5
-1,Total/Subcategory,Total/Subcategory,51,57,55,99,59,53
-1,Property,Burglary,1967,3441,4280,4810,2301,1980
-1,Total/Subcategory,Total/Subcategory,1474,2989,3642,4077,1732,1465
-1,Total/Subcategory,Total/Subcategory,204,188,210,213,145,150
-1,Total/Subcategory,Total/Subcategory,229,205,374,432,325,281
-1,Total/Subcategory,Total/Subcategory,54,56,49,87,57,49
-1,Property,Motor Vehicle Theft,1120,1240,1549,2441,1829,1577
-1,Property,Larceny,1186,1418,2113,1850,1415,1290
-1,Property,Arson,37,31,38,30,29,29
-1,Total/Subcategory,Total/Subcategory,5350,7193,0,6596,0,-751
-6,Violent,Murder,31,30,25,27,22,19
-6,Total/Subcategory,Total/Subcategory,4,5,0,1,2,1
-6,Violent,Aggravated Assault,707,801,629,714,626,525
-6,Total/Subcategory,Total/Subcategory,129,147,94,116,69,56
-6,Total/Subcategory,Total/Subcategory,164,182,119,144,93,76
+1,Total/Subcategory,Total/Subcategory,51,57,55,99,59,49
+1,Property,Burglary,1967,3441,4280,4810,2301,1985
+1,Total/Subcategory,Total/Subcategory,1474,2989,3642,4077,1732,1466
+1,Total/Subcategory,Total/Subcategory,204,188,210,213,145,155
+1,Total/Subcategory,Total/Subcategory,229,205,374,432,325,278
+1,Total/Subcategory,Total/Subcategory,54,56,49,87,57,50
+1,Property,Motor Vehicle Theft,1120,1240,1549,2441,1829,1515
+1,Property,Larceny,1186,1418,2113,1850,1415,1292
+1,Property,Arson,37,31,38,30,29,33
+1,Total/Subcategory,Total/Subcategory,5350,7193,0,6596,0,-806
+6,Violent,Murder,31,30,25,27,22,17
+6,Total/Subcategory,Total/Subcategory,4,5,0,1,2,0
+6,Violent,Aggravated Assault,707,801,629,714,626,519
+6,Total/Subcategory,Total/Subcategory,129,147,94,116,69,55
+6,Total/Subcategory,Total/Subcategory,164,182,119,144,93,72
 6,Total/Subcategory,Total/Subcategory,111,137,88,101,56,46
 6,Total/Subcategory,Total/Subcategory,66,64,43,42,21,24
-6,Total/Subcategory,Total/Subcategory,401,453,404,455,480,399
-6,Violent,Sexual Assault,29,18,30,27,21,15
-6,Violent,Robbery,389,400,409,512,447,360
-6,Total/Subcategory,Total/Subcategory,171,181,167,228,194,149
-6,Total/Subcategory,Total/Subcategory,17,14,13,29,22,16
-6,Total/Subcategory,Total/Subcategory,112,87,111,122,130,106
+6,Total/Subcategory,Total/Subcategory,401,453,404,455,480,394
+6,Violent,Sexual Assault,29,18,30,27,21,14
+6,Violent,Robbery,389,400,409,512,447,354
+6,Total/Subcategory,Total/Subcategory,171,181,167,228,194,144
+6,Total/Subcategory,Total/Subcategory,17,14,13,29,22,17
+6,Total/Subcategory,Total/Subcategory,112,87,111,122,130,105
 6,Total/Subcategory,Total/Subcategory,9,12,16,15,11,15
 6,Total/Subcategory,Total/Subcategory,20,22,18,8,15,13
-6,Total/Subcategory,Total/Subcategory,60,84,84,110,75,61
-6,Property,Burglary,919,1334,2586,3146,880,594
-6,Total/Subcategory,Total/Subcategory,647,1144,2252,2815,561,348
-6,Total/Subcategory,Total/Subcategory,120,87,111,143,101,88
-6,Total/Subcategory,Total/Subcategory,121,78,180,158,160,116
-6,Total/Subcategory,Total/Subcategory,30,24,39,27,39,29
-6,Property,Motor Vehicle Theft,1691,1832,1864,2377,1494,1194
-6,Property,Larceny,796,826,1398,2068,1239,1004
-6,Property,Arson,46,43,42,23,20,23
-6,Total/Subcategory,Total/Subcategory,4612,5289,6983,8895,4751,3735
-2,Violent,Murder,2,7,5,7,9,11
+6,Total/Subcategory,Total/Subcategory,60,84,84,110,75,60
+6,Property,Burglary,919,1334,2586,3146,880,569
+6,Total/Subcategory,Total/Subcategory,647,1144,2252,2815,561,326
+6,Total/Subcategory,Total/Subcategory,120,87,111,143,101,86
+6,Total/Subcategory,Total/Subcategory,121,78,180,158,160,109
+6,Total/Subcategory,Total/Subcategory,30,24,39,27,39,32
+6,Property,Motor Vehicle Theft,1691,1832,1864,2377,1494,1098
+6,Property,Larceny,796,826,1398,2068,1239,983
+6,Property,Arson,46,43,42,23,20,24
+6,Total/Subcategory,Total/Subcategory,4612,5289,6983,8895,4751,3578
+2,Violent,Murder,2,7,5,7,9,10
 2,Total/Subcategory,Total/Subcategory,1,1,0,1,0,0
-2,Violent,Aggravated Assault,252,289,276,423,277,252
-2,Total/Subcategory,Total/Subcategory,26,43,32,43,18,12
-2,Total/Subcategory,Total/Subcategory,29,51,37,51,27,23
-2,Total/Subcategory,Total/Subcategory,14,18,8,17,13,12
+2,Violent,Aggravated Assault,252,289,276,423,277,264
+2,Total/Subcategory,Total/Subcategory,26,43,32,43,18,14
+2,Total/Subcategory,Total/Subcategory,29,51,37,51,27,24
+2,Total/Subcategory,Total/Subcategory,14,18,8,17,13,14
 2,Total/Subcategory,Total/Subcategory,2,9,3,4,3,1
-2,Total/Subcategory,Total/Subcategory,210,219,233,359,243,227
+2,Total/Subcategory,Total/Subcategory,210,219,233,359,243,235
 2,Violent,Sexual Assault,27,19,14,31,24,13
-2,Violent,Robbery,258,247,259,414,346,269
-2,Total/Subcategory,Total/Subcategory,67,89,95,148,84,65
+2,Violent,Robbery,258,247,259,414,346,259
+2,Total/Subcategory,Total/Subcategory,67,89,95,148,84,62
 2,Total/Subcategory,Total/Subcategory,31,11,7,19,14,15
-2,Total/Subcategory,Total/Subcategory,128,93,107,152,194,145
+2,Total/Subcategory,Total/Subcategory,128,93,107,152,194,139
 2,Total/Subcategory,Total/Subcategory,9,16,8,17,10,8
 2,Total/Subcategory,Total/Subcategory,8,8,5,18,9,11
-2,Total/Subcategory,Total/Subcategory,15,30,37,60,35,25
-2,Property,Burglary,2089,2259,3250,5016,2564,2702
-2,Total/Subcategory,Total/Subcategory,1539,1776,2528,4019,1938,2130
-2,Total/Subcategory,Total/Subcategory,331,300,317,427,231,309
-2,Total/Subcategory,Total/Subcategory,180,149,364,475,297,208
-2,Total/Subcategory,Total/Subcategory,38,33,40,95,65,40
-2,Property,Motor Vehicle Theft,969,1240,1334,2356,1560,1200
-2,Property,Larceny,1148,1269,1930,1668,1479,1329
-2,Property,Arson,21,16,18,11,5,7
-2,Total/Subcategory,Total/Subcategory,4767,5347,7086,9927,6264,5783
+2,Total/Subcategory,Total/Subcategory,15,30,37,60,35,24
+2,Property,Burglary,2089,2259,3250,5016,2564,2751
+2,Total/Subcategory,Total/Subcategory,1539,1776,2528,4019,1938,2189
+2,Total/Subcategory,Total/Subcategory,331,300,317,427,231,315
+2,Total/Subcategory,Total/Subcategory,180,149,364,475,297,194
+2,Total/Subcategory,Total/Subcategory,38,33,40,95,65,36
+2,Property,Motor Vehicle Theft,969,1240,1334,2356,1560,1177
+2,Property,Larceny,1148,1269,1930,1668,1479,1312
+2,Property,Arson,21,16,18,11,5,6
+2,Total/Subcategory,Total/Subcategory,4767,5347,7086,9927,6264,5792
 4,Violent,Murder,19,18,21,13,6,7
 4,Total/Subcategory,Total/Subcategory,1,1,0,1,0,1
-4,Violent,Aggravated Assault,542,586,493,573,515,427
-4,Total/Subcategory,Total/Subcategory,56,88,58,76,50,35
-4,Total/Subcategory,Total/Subcategory,76,107,79,90,56,43
-4,Total/Subcategory,Total/Subcategory,68,80,61,46,36,30
-4,Total/Subcategory,Total/Subcategory,29,38,29,21,11,8
-4,Total/Subcategory,Total/Subcategory,389,380,345,430,418,354
+4,Violent,Aggravated Assault,542,586,493,573,515,435
+4,Total/Subcategory,Total/Subcategory,56,88,58,76,50,39
+4,Total/Subcategory,Total/Subcategory,76,107,79,90,56,47
+4,Total/Subcategory,Total/Subcategory,68,80,61,46,36,28
+4,Total/Subcategory,Total/Subcategory,29,38,29,21,11,10
+4,Total/Subcategory,Total/Subcategory,389,380,345,430,418,358
 4,Violent,Sexual Assault,34,21,19,21,29,14
-4,Violent,Robbery,515,639,632,974,686,534
-4,Total/Subcategory,Total/Subcategory,152,301,276,516,321,234
+4,Violent,Robbery,515,639,632,974,686,526
+4,Total/Subcategory,Total/Subcategory,152,301,276,516,321,229
 4,Total/Subcategory,Total/Subcategory,46,28,25,39,28,20
-4,Total/Subcategory,Total/Subcategory,205,155,178,237,190,177
-4,Total/Subcategory,Total/Subcategory,23,11,13,14,21,13
-4,Total/Subcategory,Total/Subcategory,25,18,17,25,32,24
-4,Total/Subcategory,Total/Subcategory,64,126,123,143,94,66
-4,Property,Burglary,1199,891,709,1332,1155,1028
-4,Total/Subcategory,Total/Subcategory,783,539,312,667,540,534
-4,Total/Subcategory,Total/Subcategory,181,178,167,281,239,186
+4,Total/Subcategory,Total/Subcategory,205,155,178,237,190,175
+4,Total/Subcategory,Total/Subcategory,23,11,13,14,21,15
+4,Total/Subcategory,Total/Subcategory,25,18,17,25,32,23
+4,Total/Subcategory,Total/Subcategory,64,126,123,143,94,64
+4,Property,Burglary,1199,891,709,1332,1155,1025
+4,Total/Subcategory,Total/Subcategory,783,539,312,667,540,523
+4,Total/Subcategory,Total/Subcategory,181,178,167,281,239,189
 4,Total/Subcategory,Total/Subcategory,192,138,203,321,289,258
-4,Total/Subcategory,Total/Subcategory,39,35,24,62,54,37
-4,Property,Motor Vehicle Theft,1557,1614,1681,2498,1796,1402
-4,Property,Larceny,1046,1134,1287,1243,1268,1253
-4,Property,Arson,25,26,22,14,21,19
-4,Total/Subcategory,Total/Subcategory,4938,4930,4864,6669,5476,4685
+4,Total/Subcategory,Total/Subcategory,39,35,24,62,54,43
+4,Property,Motor Vehicle Theft,1557,1614,1681,2498,1796,1303
+4,Property,Larceny,1046,1134,1287,1243,1268,1240
+4,Property,Arson,25,26,22,14,21,20
+4,Total/Subcategory,Total/Subcategory,4938,4930,4864,6669,5476,4571

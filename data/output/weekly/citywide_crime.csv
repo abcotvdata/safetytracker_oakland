@@ -1,26 +1,26 @@
 district,description,type,category,total20,total21,total22,total23,total24,ytd25,ytd24,last12mos,updated,total_prior3years,avg_prior3years,inc_21to24,inc_21tolast12,inc_24tolast12,inc_prior3yearavgtolast12,rate21,rate22,rate23,rate24,rate_last12,rate_prior3years
-Citywide,Murder,Violent,Murder,102,122,120,119,81,31,32,80,2025-06-01,320,106.7,-33.6,-34.4,-1.2,-25,28.1,27.7,27.4,18.7,18.4,24.6
-Citywide,All Other Homicides,Total/Subcategory,Total/Subcategory,7,12,2,7,5,4,4,5,2025-06-01,14,4.7,-58.3,-58.3,0,6,2.8,0.5,1.6,1.2,1.2,1.1
-Citywide,Aggravated Assault,Violent,Aggravated Assault,3381,3686,3294,3785,3231,1160,1500,2891,2025-06-01,10310,3436.7,-12.3,-21.6,-10.5,-16,849.7,759.3,872.5,744.8,666.4,792.2
-Citywide,Aggravated Assault (Firearm),Total/Subcategory,Total/Subcategory,503,609,461,526,354,107,164,297,2025-06-01,1341,447,-41.9,-51.2,-16.1,-34,140.4,106.3,121.2,81.6,68.5,103
-Citywide,Combined subtotal of homicides and firearms-related aggravated assaults,Total/Subcategory,Total/Subcategory,612,743,583,652,440,142,200,382,2025-06-01,1675,558.3,-40.8,-48.6,-13.2,-32,171.3,134.4,150.3,101.4,88.1,128.7
-Citywide,Aggravated Assault (Shooting occupied home or vehicle),Total/Subcategory,Total/Subcategory,427,544,347,383,246,97,105,238,2025-06-01,976,325.3,-54.8,-56.2,-3.3,-27,125.4,80,88.3,56.7,54.9,75
-Citywide,Aggravated Assault (Shooting unoccupied home or vehicle),Total/Subcategory,Total/Subcategory,222,271,160,150,93,39,47,85,2025-06-01,403,134.3,-65.7,-68.6,-8.6,-37,62.5,36.9,34.6,21.4,19.6,31
-Citywide,Aggravated Assault (Non Firearm),Total/Subcategory,Total/Subcategory,2229,2262,2326,2726,2538,917,1184,2271,2025-06-01,7590,2530,12.2,0.4,-10.5,-10,521.4,536.2,628.4,585,523.5,583.2
-Citywide,Sexual Assault,Violent,Sexual Assault,223,174,184,204,172,58,88,142,2025-06-01,560,186.7,-1.1,-18.4,-17.4,-24,40.1,42.4,47,39.6,32.7,43
-Citywide,Robbery,Violent,Robbery,2440,2753,2697,3792,2877,793,1370,2300,2025-06-01,9366,3122,4.5,-16.5,-20.1,-26,634.6,621.7,874.1,663.2,530.2,719.6
-Citywide,Robbery (Firearm),Total/Subcategory,Total/Subcategory,815,1136,1126,1709,1136,283,546,873,2025-06-01,3971,1323.7,0,-23.2,-23.2,-34,261.9,259.6,393.9,261.9,201.2,305.1
-Citywide,Robbery (Knife),Total/Subcategory,Total/Subcategory,174,114,105,152,120,35,53,102,2025-06-01,377,125.7,5.3,-10.5,-15,-19,26.3,24.2,35,27.7,23.5,29
-Citywide,Robbery (Strong-arm),Total/Subcategory,Total/Subcategory,976,801,786,1055,985,307,466,826,2025-06-01,2826,942,23,3.1,-16.1,-12,184.6,181.2,243.2,227.1,190.4,217.1
-Citywide,Robbery (other dangerous weapon),Total/Subcategory,Total/Subcategory,79,73,90,88,95,21,45,71,2025-06-01,273,91,30.1,-2.7,-25.3,-22,16.8,20.7,20.3,21.9,16.4,21
-Citywide,Residential Robbery,Total/Subcategory,Total/Subcategory,93,99,66,111,96,24,42,78,2025-06-01,273,91,-3,-21.2,-18.8,-14,22.8,15.2,25.6,22.1,18,21
-Citywide,Carjacking,Total/Subcategory,Total/Subcategory,303,530,524,677,445,123,218,350,2025-06-01,1646,548.7,-16,-34,-21.3,-36,122.2,120.8,156.1,102.6,80.7,126.5
-Citywide,Burglary,Property,Burglary,8703,10602,14034,18881,9811,3578,4542,8847,2025-06-01,42726,14242,-7.5,-16.6,-9.8,-38,2443.9,3235,4352.2,2261.5,2039.3,3282.9
-Citywide,Burglary (Motor Vehicle),Total/Subcategory,Total/Subcategory,6231,8496,11104,15086,6798,2676,3158,6316,2025-06-01,32988,10996,-20,-25.7,-7.1,-43,1958.4,2559.6,3477.5,1567,1455.9,2534.7
-Citywide,Burglary (Residential),Total/Subcategory,Total/Subcategory,1266,1132,1165,1498,1111,464,518,1057,2025-06-01,3774,1258,-1.9,-6.6,-4.9,-16,260.9,268.5,345.3,256.1,243.6,290
-Citywide,Burglary (Commercial),Total/Subcategory,Total/Subcategory,981,771,1538,1876,1400,316,580,1136,2025-06-01,4814,1604.7,81.6,47.3,-18.9,-29,177.7,354.5,432.4,322.7,261.9,369.9
-Citywide,"Burglary (Boats, Aircraft, Other)",Total/Subcategory,Total/Subcategory,210,196,209,411,300,70,142,228,2025-06-01,920,306.7,53.1,16.3,-24,-26,45.2,48.2,94.7,69.2,52.6,70.7
-Citywide,Motor Vehicle Theft,Property,Motor Vehicle Theft,8760,9399,10346,15391,10439,2941,5018,8362,2025-06-01,36176,12058.7,11.1,-11,-19.9,-31,2166.6,2384.8,3547.8,2406.3,1927.5,2779.6
-Citywide,Larceny,Property,Larceny,6147,6785,9576,9975,8368,3034,3796,7606,2025-06-01,27919,9306.3,23.3,12.1,-9.1,-18,1564,2207.4,2299.3,1928.9,1753.2,2145.2
-Citywide,Arson,Property,Arson,196,173,166,123,112,47,44,115,2025-06-01,401,133.7,-35.3,-33.5,2.7,-14,39.9,38.3,28.4,25.8,26.5,30.8
-Citywide,Total,Total/Subcategory,Total/Subcategory,29959,33706,40419,52277,35096,11646,16394,30348,2025-06-01,127792,42597.3,4.1,-10,-13.5,-29,7769.5,9316.9,12050.3,8089.9,6995.5,9819.1
+Citywide,Murder,Violent,Murder,102,122,120,119,81,31,36,76,2025-06-15,320,106.7,-33.6,-37.7,-6.2,-29,28.1,27.7,27.4,18.7,17.5,24.6
+Citywide,All Other Homicides,Total/Subcategory,Total/Subcategory,7,12,2,7,5,4,5,4,2025-06-15,14,4.7,-58.3,-66.7,-20,-15,2.8,0.5,1.6,1.2,0.9,1.1
+Citywide,Aggravated Assault,Violent,Aggravated Assault,3381,3686,3294,3785,3231,1294,1626,2899,2025-06-15,10310,3436.7,-12.3,-21.4,-10.3,-16,849.7,759.3,872.5,744.8,668.2,792.2
+Citywide,Aggravated Assault (Firearm),Total/Subcategory,Total/Subcategory,503,609,461,526,354,117,175,296,2025-06-15,1341,447,-41.9,-51.4,-16.4,-34,140.4,106.3,121.2,81.6,68.2,103
+Citywide,Combined subtotal of homicides and firearms-related aggravated assaults,Total/Subcategory,Total/Subcategory,612,743,583,652,440,152,216,376,2025-06-15,1675,558.3,-40.8,-49.4,-14.5,-33,171.3,134.4,150.3,101.4,86.7,128.7
+Citywide,Aggravated Assault (Shooting occupied home or vehicle),Total/Subcategory,Total/Subcategory,427,544,347,383,246,108,117,237,2025-06-15,976,325.3,-54.8,-56.4,-3.7,-27,125.4,80,88.3,56.7,54.6,75
+Citywide,Aggravated Assault (Shooting unoccupied home or vehicle),Total/Subcategory,Total/Subcategory,222,271,160,150,93,44,50,87,2025-06-15,403,134.3,-65.7,-67.9,-6.5,-35,62.5,36.9,34.6,21.4,20.1,31
+Citywide,Aggravated Assault (Non Firearm),Total/Subcategory,Total/Subcategory,2229,2262,2326,2726,2538,1025,1284,2279,2025-06-15,7590,2530,12.2,0.8,-10.2,-10,521.4,536.2,628.4,585,525.3,583.2
+Citywide,Sexual Assault,Violent,Sexual Assault,223,174,184,204,172,63,95,140,2025-06-15,560,186.7,-1.1,-19.5,-18.6,-25,40.1,42.4,47,39.6,32.3,43
+Citywide,Robbery,Violent,Robbery,2440,2753,2697,3792,2877,860,1481,2256,2025-06-15,9366,3122,4.5,-18.1,-21.6,-28,634.6,621.7,874.1,663.2,520,719.6
+Citywide,Robbery (Firearm),Total/Subcategory,Total/Subcategory,815,1136,1126,1709,1136,310,604,842,2025-06-15,3971,1323.7,0,-25.9,-25.9,-36,261.9,259.6,393.9,261.9,194.1,305.1
+Citywide,Robbery (Knife),Total/Subcategory,Total/Subcategory,174,114,105,152,120,39,55,104,2025-06-15,377,125.7,5.3,-8.8,-13.3,-17,26.3,24.2,35,27.7,24,29
+Citywide,Robbery (Strong-arm),Total/Subcategory,Total/Subcategory,976,801,786,1055,985,326,491,820,2025-06-15,2826,942,23,2.4,-16.8,-13,184.6,181.2,243.2,227.1,189,217.1
+Citywide,Robbery (other dangerous weapon),Total/Subcategory,Total/Subcategory,79,73,90,88,95,26,49,72,2025-06-15,273,91,30.1,-1.4,-24.2,-21,16.8,20.7,20.3,21.9,16.6,21
+Citywide,Residential Robbery,Total/Subcategory,Total/Subcategory,93,99,66,111,96,26,45,77,2025-06-15,273,91,-3,-22.2,-19.8,-15,22.8,15.2,25.6,22.1,17.7,21
+Citywide,Carjacking,Total/Subcategory,Total/Subcategory,303,530,524,677,445,133,237,341,2025-06-15,1646,548.7,-16,-35.7,-23.4,-38,122.2,120.8,156.1,102.6,78.6,126.5
+Citywide,Burglary,Property,Burglary,8703,10602,14034,18881,9811,3884,4827,8868,2025-06-15,42726,14242,-7.5,-16.4,-9.6,-38,2443.9,3235,4352.2,2261.5,2044.2,3282.9
+Citywide,Burglary (Motor Vehicle),Total/Subcategory,Total/Subcategory,6231,8496,11104,15086,6798,2888,3335,6351,2025-06-15,32988,10996,-20,-25.2,-6.6,-42,1958.4,2559.6,3477.5,1567,1464,2534.7
+Citywide,Burglary (Residential),Total/Subcategory,Total/Subcategory,1266,1132,1165,1498,1111,506,545,1072,2025-06-15,3774,1258,-1.9,-5.3,-3.5,-15,260.9,268.5,345.3,256.1,247.1,290
+Citywide,Burglary (Commercial),Total/Subcategory,Total/Subcategory,981,771,1538,1876,1400,340,639,1101,2025-06-15,4814,1604.7,81.6,42.8,-21.4,-31,177.7,354.5,432.4,322.7,253.8,369.9
+Citywide,"Burglary (Boats, Aircraft, Other)",Total/Subcategory,Total/Subcategory,210,196,209,411,300,85,152,233,2025-06-15,920,306.7,53.1,18.9,-22.3,-24,45.2,48.2,94.7,69.2,53.7,70.7
+Citywide,Motor Vehicle Theft,Property,Motor Vehicle Theft,8760,9399,10346,15391,10439,2945,5464,7920,2025-06-15,36176,12058.7,11.1,-15.7,-24.1,-34,2166.6,2384.8,3547.8,2406.3,1825.6,2779.6
+Citywide,Larceny,Property,Larceny,6147,6785,9576,9975,8368,3309,4158,7519,2025-06-15,27919,9306.3,23.3,10.8,-10.1,-19,1564,2207.4,2299.3,1928.9,1733.2,2145.2
+Citywide,Arson,Property,Arson,196,173,166,123,112,54,49,117,2025-06-15,401,133.7,-35.3,-32.4,4.5,-12,39.9,38.3,28.4,25.8,27,30.8
+Citywide,Total,Total/Subcategory,Total/Subcategory,29959,33706,40419,52277,35096,12444,17741,29799,2025-06-15,127792,42597.3,4.1,-11.6,-15.1,-30,7769.5,9316.9,12050.3,8089.9,6868.9,9819.1
