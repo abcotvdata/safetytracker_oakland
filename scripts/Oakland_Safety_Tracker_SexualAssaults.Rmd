@@ -354,7 +354,7 @@ oakland_sexassault_map <- leaflet(sexassaults_district, options = leafletOptions
 L.control.zoom({ position: 'topright' }).addTo(this)
 }") %>%
   setView(-122.25, 37.79, zoom = 11.5) %>% 
-  addProviderTiles(provider = "CartoDB.Positron") %>%
+  addTiles(urlTemplate = "https://pmtiles-raster.launch.studioshare.wds.io/styles/white-abc/{z}/{x}/{y}.png") %>%
   addPolygons(color = "white", 
               popup = sexassaultlabel,
               popupOptions = popupOptions(maxWidth ="200", 
