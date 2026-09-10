@@ -355,7 +355,7 @@ oakland_robbery_map <- leaflet(robberies_district, options = leafletOptions(zoom
 L.control.zoom({ position: 'topright' }).addTo(this)
 }") %>%
   setView(-122.25, 37.79, zoom = 11.5) %>% 
-  addProviderTiles(provider = "CartoDB.Positron") %>%
+  addTiles(urlTemplate = "https://pmtiles-raster.launch.studioshare.wds.io/styles/white-abc/{z}/{x}/{y}.png") %>%
   addPolygons(color = "white", 
               popup = robberylabel,
               popupOptions = popupOptions(maxWidth ="200", 
