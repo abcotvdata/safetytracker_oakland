@@ -1,176 +1,176 @@
 category,weekly_total,ytd23,ytd24,ytd25,ytd_change,threeyr_ytd_average,ytd25_vs_3yr_avg,district,description,type,updated
-Murder,0,64,45,37,0,49,0,Citywide,Murder,Violent,NA
+Murder,1,64,45,38,0,49,0,Citywide,Murder,Violent,NA
 Total/Subcategory,0,7,10,4,0,7,0,Citywide,All Other Homicides,Total/Subcategory,NA
-Aggravated Assault,35,2763,2515,2264,0,2514,0,Citywide,Aggravated Assault,Violent,NA
-Total/Subcategory,3,299,225,178,0,234,0,Citywide,Aggravated Assault (Firearm),Total/Subcategory,NA
-Total/Subcategory,3,370,280,219,0,290,0,Citywide,Combined subtotal of homicides and firearms-related aggravated assaults,Total/Subcategory,NA
-Total/Subcategory,1,223,178,77,0,159,0,Citywide,Aggravated Assault (Shooting occupied home or vehicle),Total/Subcategory,NA
-Total/Subcategory,0,81,72,38,0,64,0,Citywide,Aggravated Assault (Shooting unoccupied home or vehicle),Total/Subcategory,NA
-Total/Subcategory,31,2160,2040,1971,0,2057,0,Citywide,Aggravated Assault (Non Firearm),Total/Subcategory,NA
-Sexual Assault,0,162,132,107,0,134,0,Citywide,Sexual Assault,Violent,NA
-Robbery,19,2441,1470,1094,0,1668,0,Citywide,Robbery,Violent,NA
-Total/Subcategory,7,1000,509,297,0,602,0,Citywide,Robbery (Firearm),Total/Subcategory,NA
-Total/Subcategory,2,96,71,51,0,73,0,Citywide,Robbery (Knife),Total/Subcategory,NA
-Total/Subcategory,6,816,591,508,0,638,0,Citywide,Robbery (Strong-arm),Total/Subcategory,NA
-Total/Subcategory,3,76,53,65,0,65,0,Citywide,Robbery (other dangerous weapon),Total/Subcategory,NA
-Total/Subcategory,1,79,47,31,0,52,0,Citywide,Residential Robbery,Total/Subcategory,NA
-Total/Subcategory,0,374,199,142,0,238,0,Citywide,Carjacking,Total/Subcategory,NA
-Burglary,33,8114,7070,5170,0,6785,0,Citywide,Burglary,Property,NA
-Total/Subcategory,22,5584,5253,3533,0,4790,0,Citywide,Burglary (Motor Vehicle),Total/Subcategory,NA
-Total/Subcategory,3,926,942,824,0,897,0,Citywide,Burglary (Residential),Total/Subcategory,NA
-Total/Subcategory,4,1192,687,538,0,806,0,Citywide,Burglary (Commercial),Total/Subcategory,NA
-Total/Subcategory,1,258,185,156,0,200,0,Citywide,"Burglary (Boats, Aircraft, Other)",Total/Subcategory,NA
-Motor Vehicle Theft,72,8818,5265,5261,0,6448,0,Citywide,Motor Vehicle Theft,Property,NA
-Larceny,81,7013,6133,6441,0,6529,0,Citywide,Larceny,Property,NA
-Arson,0,94,100,52,0,82,0,Citywide,Arson,Property,NA
-Total/Subcategory,240,29476,22740,20430,0,0,0,Citywide,Total,Total/Subcategory,NA
+Aggravated Assault,29,2807,2567,2320,0,2565,0,Citywide,Aggravated Assault,Violent,NA
+Total/Subcategory,3,302,231,183,0,239,0,Citywide,Aggravated Assault (Firearm),Total/Subcategory,NA
+Total/Subcategory,4,373,286,225,0,295,0,Citywide,Combined subtotal of homicides and firearms-related aggravated assaults,Total/Subcategory,NA
+Total/Subcategory,1,229,180,81,0,163,0,Citywide,Aggravated Assault (Shooting occupied home or vehicle),Total/Subcategory,NA
+Total/Subcategory,0,82,72,40,0,65,0,Citywide,Aggravated Assault (Shooting unoccupied home or vehicle),Total/Subcategory,NA
+Total/Subcategory,25,2194,2084,2016,0,2098,0,Citywide,Aggravated Assault (Non Firearm),Total/Subcategory,NA
+Sexual Assault,4,164,138,111,0,138,0,Citywide,Sexual Assault,Violent,NA
+Robbery,16,2497,1490,1114,0,1700,0,Citywide,Robbery,Violent,NA
+Total/Subcategory,5,1019,512,304,0,612,0,Citywide,Robbery (Firearm),Total/Subcategory,NA
+Total/Subcategory,1,100,74,52,0,75,0,Citywide,Robbery (Knife),Total/Subcategory,NA
+Total/Subcategory,9,838,601,520,0,653,0,Citywide,Robbery (Strong-arm),Total/Subcategory,NA
+Total/Subcategory,0,79,54,64,0,66,0,Citywide,Robbery (other dangerous weapon),Total/Subcategory,NA
+Total/Subcategory,1,84,47,32,0,54,0,Citywide,Residential Robbery,Total/Subcategory,NA
+Total/Subcategory,0,377,202,142,0,240,0,Citywide,Carjacking,Total/Subcategory,NA
+Burglary,37,8283,7238,5264,0,6928,0,Citywide,Burglary,Property,NA
+Total/Subcategory,26,5707,5377,3595,0,4893,0,Citywide,Burglary (Motor Vehicle),Total/Subcategory,NA
+Total/Subcategory,5,944,971,838,0,918,0,Citywide,Burglary (Residential),Total/Subcategory,NA
+Total/Subcategory,2,1219,699,555,0,824,0,Citywide,Burglary (Commercial),Total/Subcategory,NA
+Total/Subcategory,0,259,188,153,0,200,0,Citywide,"Burglary (Boats, Aircraft, Other)",Total/Subcategory,NA
+Motor Vehicle Theft,62,8952,5398,5376,0,6575,0,Citywide,Motor Vehicle Theft,Property,NA
+Larceny,55,7168,6267,6565,0,6667,0,Citywide,Larceny,Property,NA
+Arson,0,101,104,52,0,86,0,Citywide,Arson,Property,NA
+Total/Subcategory,204,30043,23257,20844,0,0,0,Citywide,Total,Total/Subcategory,NA
 Murder,0,13,9,12,0,11,0,Area 1,Murder,Violent,NA
 Total/Subcategory,0,1,3,1,0,2,0,Area 1,All Other Homicides,Total/Subcategory,NA
-Aggravated Assault,9,462,551,522,0,512,0,Area 1,Aggravated Assault,Violent,NA
-Total/Subcategory,1,46,52,37,0,45,0,Area 1,Aggravated Assault (Firearm),Total/Subcategory,NA
-Total/Subcategory,1,60,64,50,0,58,0,Area 1,Combined subtotal of homicides and firearms-related aggravated assaults,Total/Subcategory,NA
-Total/Subcategory,0,36,35,16,0,29,0,Area 1,Aggravated Assault (Shooting occupied home or vehicle),Total/Subcategory,NA
-Total/Subcategory,0,13,11,0,0,8,0,Area 1,Aggravated Assault (Shooting unoccupied home or vehicle),Total/Subcategory,NA
-Total/Subcategory,8,367,453,469,0,430,0,Area 1,Aggravated Assault (Non Firearm),Total/Subcategory,NA
-Sexual Assault,0,25,32,23,0,27,0,Area 1,Sexual Assault,Violent,NA
-Robbery,3,346,220,226,0,264,0,Area 1,Robbery,Violent,NA
-Total/Subcategory,0,113,63,43,0,73,0,Area 1,Robbery (Firearm),Total/Subcategory,NA
-Total/Subcategory,0,10,12,12,0,11,0,Area 1,Robbery (Knife),Total/Subcategory,NA
-Total/Subcategory,2,146,104,128,0,126,0,Area 1,Robbery (Strong-arm),Total/Subcategory,NA
+Aggravated Assault,6,467,566,535,0,523,0,Area 1,Aggravated Assault,Violent,NA
+Total/Subcategory,0,46,53,38,0,46,0,Area 1,Aggravated Assault (Firearm),Total/Subcategory,NA
+Total/Subcategory,0,60,65,51,0,59,0,Area 1,Combined subtotal of homicides and firearms-related aggravated assaults,Total/Subcategory,NA
+Total/Subcategory,0,37,35,16,0,29,0,Area 1,Aggravated Assault (Shooting occupied home or vehicle),Total/Subcategory,NA
+Total/Subcategory,0,14,11,0,0,8,0,Area 1,Aggravated Assault (Shooting unoccupied home or vehicle),Total/Subcategory,NA
+Total/Subcategory,6,370,467,481,0,439,0,Area 1,Aggravated Assault (Non Firearm),Total/Subcategory,NA
+Sexual Assault,0,26,33,23,0,27,0,Area 1,Sexual Assault,Violent,NA
+Robbery,1,357,225,227,0,270,0,Area 1,Robbery,Violent,NA
+Total/Subcategory,0,114,63,43,0,73,0,Area 1,Robbery (Firearm),Total/Subcategory,NA
+Total/Subcategory,0,12,13,12,0,12,0,Area 1,Robbery (Knife),Total/Subcategory,NA
+Total/Subcategory,1,153,106,129,0,129,0,Area 1,Robbery (Strong-arm),Total/Subcategory,NA
 Total/Subcategory,0,21,8,16,0,15,0,Area 1,Robbery (other dangerous weapon),Total/Subcategory,NA
-Total/Subcategory,1,7,4,3,0,5,0,Area 1,Residential Robbery,Total/Subcategory,NA
-Total/Subcategory,0,49,29,24,0,34,0,Area 1,Carjacking,Total/Subcategory,NA
-Burglary,7,1940,1588,1296,0,1608,0,Area 1,Burglary,Property,NA
-Total/Subcategory,5,1500,1263,931,0,1231,0,Area 1,Burglary (Motor Vehicle),Total/Subcategory,NA
-Total/Subcategory,0,108,121,130,0,120,0,Area 1,Burglary (Residential),Total/Subcategory,NA
-Total/Subcategory,2,260,167,171,0,199,0,Area 1,Burglary (Commercial),Total/Subcategory,NA
-Total/Subcategory,0,45,37,34,0,39,0,Area 1,"Burglary (Boats, Aircraft, Other)",Total/Subcategory,NA
-Motor Vehicle Theft,10,1534,1060,903,0,1166,0,Area 1,Motor Vehicle Theft,Property,NA
-Larceny,14,1195,1214,1314,0,1241,0,Area 1,Larceny,Property,NA
+Total/Subcategory,0,7,4,3,0,5,0,Area 1,Residential Robbery,Total/Subcategory,NA
+Total/Subcategory,0,50,31,24,0,35,0,Area 1,Carjacking,Total/Subcategory,NA
+Burglary,8,1980,1618,1320,0,1639,0,Area 1,Burglary,Property,NA
+Total/Subcategory,5,1533,1291,946,0,1257,0,Area 1,Burglary (Motor Vehicle),Total/Subcategory,NA
+Total/Subcategory,1,110,121,132,0,121,0,Area 1,Burglary (Residential),Total/Subcategory,NA
+Total/Subcategory,2,264,168,177,0,203,0,Area 1,Burglary (Commercial),Total/Subcategory,NA
+Total/Subcategory,0,46,38,33,0,39,0,Area 1,"Burglary (Boats, Aircraft, Other)",Total/Subcategory,NA
+Motor Vehicle Theft,12,1553,1080,922,0,1185,0,Area 1,Motor Vehicle Theft,Property,NA
+Larceny,5,1216,1237,1336,0,1263,0,Area 1,Larceny,Property,NA
 Arson,0,28,31,18,0,26,0,Area 1,Arson,Property,NA
-Total/Subcategory,43,5544,4708,4315,0,4856,0,Area 1,Total,Total/Subcategory,NA
+Total/Subcategory,32,5641,4802,4394,0,4946,0,Area 1,Total,Total/Subcategory,NA
 Murder,0,7,5,4,0,5,0,Area 2,Murder,Violent,NA
 Total/Subcategory,0,0,0,1,0,0,0,Area 2,All Other Homicides,Total/Subcategory,NA
-Aggravated Assault,1,245,228,208,0,227,0,Area 2,Aggravated Assault,Violent,NA
+Aggravated Assault,3,248,231,213,0,231,0,Area 2,Aggravated Assault,Violent,NA
 Total/Subcategory,0,17,13,8,0,13,0,Area 2,Aggravated Assault (Firearm),Total/Subcategory,NA
 Total/Subcategory,0,24,18,13,0,18,0,Area 2,Combined subtotal of homicides and firearms-related aggravated assaults,Total/Subcategory,NA
-Total/Subcategory,0,13,16,6,0,12,0,Area 2,Aggravated Assault (Shooting occupied home or vehicle),Total/Subcategory,NA
+Total/Subcategory,1,13,16,7,0,12,0,Area 2,Aggravated Assault (Shooting occupied home or vehicle),Total/Subcategory,NA
 Total/Subcategory,0,3,1,3,0,2,0,Area 2,Aggravated Assault (Shooting unoccupied home or vehicle),Total/Subcategory,NA
-Total/Subcategory,1,212,198,191,0,200,0,Area 2,Aggravated Assault (Non Firearm),Total/Subcategory,NA
-Sexual Assault,0,27,13,16,0,19,0,Area 2,Sexual Assault,Violent,NA
-Robbery,3,301,135,93,0,176,0,Area 2,Robbery,Violent,NA
-Total/Subcategory,1,76,33,20,0,43,0,Area 2,Robbery (Firearm),Total/Subcategory,NA
-Total/Subcategory,0,11,8,4,0,8,0,Area 2,Robbery (Knife),Total/Subcategory,NA
-Total/Subcategory,1,167,67,54,0,96,0,Area 2,Robbery (Strong-arm),Total/Subcategory,NA
-Total/Subcategory,1,7,6,3,0,5,0,Area 2,Robbery (other dangerous weapon),Total/Subcategory,NA
+Total/Subcategory,2,215,201,195,0,204,0,Area 2,Aggravated Assault (Non Firearm),Total/Subcategory,NA
+Sexual Assault,0,27,14,16,0,19,0,Area 2,Sexual Assault,Violent,NA
+Robbery,2,309,137,95,0,180,0,Area 2,Robbery,Violent,NA
+Total/Subcategory,0,78,33,20,0,44,0,Area 2,Robbery (Firearm),Total/Subcategory,NA
+Total/Subcategory,1,11,9,5,0,8,0,Area 2,Robbery (Knife),Total/Subcategory,NA
+Total/Subcategory,1,172,68,55,0,98,0,Area 2,Robbery (Strong-arm),Total/Subcategory,NA
+Total/Subcategory,0,8,6,3,0,6,0,Area 2,Robbery (other dangerous weapon),Total/Subcategory,NA
 Total/Subcategory,0,8,8,4,0,7,0,Area 2,Residential Robbery,Total/Subcategory,NA
 Total/Subcategory,0,32,13,8,0,18,0,Area 2,Carjacking,Total/Subcategory,NA
-Burglary,5,2065,2543,1850,0,2153,0,Area 2,Burglary,Property,NA
-Total/Subcategory,5,1534,2090,1605,0,1743,0,Area 2,Burglary (Motor Vehicle),Total/Subcategory,NA
-Total/Subcategory,0,185,307,123,0,205,0,Area 2,Burglary (Residential),Total/Subcategory,NA
-Total/Subcategory,0,260,125,89,0,158,0,Area 2,Burglary (Commercial),Total/Subcategory,NA
+Burglary,12,2104,2609,1884,0,2199,0,Area 2,Burglary,Property,NA
+Total/Subcategory,10,1564,2148,1632,0,1781,0,Area 2,Burglary (Motor Vehicle),Total/Subcategory,NA
+Total/Subcategory,1,189,313,127,0,210,0,Area 2,Burglary (Residential),Total/Subcategory,NA
+Total/Subcategory,0,265,127,91,0,161,0,Area 2,Burglary (Commercial),Total/Subcategory,NA
 Total/Subcategory,0,61,21,11,0,31,0,Area 2,"Burglary (Boats, Aircraft, Other)",Total/Subcategory,NA
-Motor Vehicle Theft,8,1301,750,652,0,901,0,Area 2,Motor Vehicle Theft,Property,NA
-Larceny,16,1221,1009,1168,0,1133,0,Area 2,Larceny,Property,NA
-Arson,0,4,5,6,0,5,0,Area 2,Arson,Property,NA
-Total/Subcategory,33,5171,4688,3998,0,4619,0,Area 2,Total,Total/Subcategory,NA
-Murder,0,11,8,4,0,8,0,Area 3,Murder,Violent,NA
+Motor Vehicle Theft,9,1313,768,667,0,916,0,Area 2,Motor Vehicle Theft,Property,NA
+Larceny,13,1247,1035,1198,0,1160,0,Area 2,Larceny,Property,NA
+Arson,0,5,6,6,0,6,0,Area 2,Arson,Property,NA
+Total/Subcategory,39,5260,4805,4084,0,4716,0,Area 2,Total,Total/Subcategory,NA
+Murder,1,11,8,5,0,8,0,Area 3,Murder,Violent,NA
 Total/Subcategory,0,1,1,0,0,1,0,Area 3,All Other Homicides,Total/Subcategory,NA
-Aggravated Assault,2,424,376,306,0,369,0,Area 3,Aggravated Assault,Violent,NA
+Aggravated Assault,6,429,382,313,0,375,0,Area 3,Aggravated Assault,Violent,NA
 Total/Subcategory,0,60,26,29,0,38,0,Area 3,Aggravated Assault (Firearm),Total/Subcategory,NA
-Total/Subcategory,0,72,35,33,0,47,0,Area 3,Combined subtotal of homicides and firearms-related aggravated assaults,Total/Subcategory,NA
+Total/Subcategory,1,72,35,34,0,47,0,Area 3,Combined subtotal of homicides and firearms-related aggravated assaults,Total/Subcategory,NA
 Total/Subcategory,0,32,31,10,0,24,0,Area 3,Aggravated Assault (Shooting occupied home or vehicle),Total/Subcategory,NA
 Total/Subcategory,0,11,5,8,0,8,0,Area 3,Aggravated Assault (Shooting unoccupied home or vehicle),Total/Subcategory,NA
-Total/Subcategory,2,321,314,259,0,298,0,Area 3,Aggravated Assault (Non Firearm),Total/Subcategory,NA
-Sexual Assault,0,24,20,14,0,19,0,Area 3,Sexual Assault,Violent,NA
-Robbery,4,518,276,228,0,341,0,Area 3,Robbery,Violent,NA
-Total/Subcategory,3,210,93,67,0,123,0,Area 3,Robbery (Firearm),Total/Subcategory,NA
-Total/Subcategory,0,27,12,6,0,15,0,Area 3,Robbery (Knife),Total/Subcategory,NA
-Total/Subcategory,1,160,134,113,0,136,0,Area 3,Robbery (Strong-arm),Total/Subcategory,NA
-Total/Subcategory,0,22,9,17,0,16,0,Area 3,Robbery (other dangerous weapon),Total/Subcategory,NA
-Total/Subcategory,0,17,5,4,0,9,0,Area 3,Residential Robbery,Total/Subcategory,NA
+Total/Subcategory,6,326,320,266,0,304,0,Area 3,Aggravated Assault (Non Firearm),Total/Subcategory,NA
+Sexual Assault,2,24,21,16,0,20,0,Area 3,Sexual Assault,Violent,NA
+Robbery,3,523,277,233,0,344,0,Area 3,Robbery,Violent,NA
+Total/Subcategory,3,211,94,72,0,126,0,Area 3,Robbery (Firearm),Total/Subcategory,NA
+Total/Subcategory,0,28,12,6,0,15,0,Area 3,Robbery (Knife),Total/Subcategory,NA
+Total/Subcategory,0,160,134,113,0,136,0,Area 3,Robbery (Strong-arm),Total/Subcategory,NA
+Total/Subcategory,0,23,9,17,0,16,0,Area 3,Robbery (other dangerous weapon),Total/Subcategory,NA
+Total/Subcategory,0,19,5,4,0,9,0,Area 3,Residential Robbery,Total/Subcategory,NA
 Total/Subcategory,0,82,23,21,0,42,0,Area 3,Carjacking,Total/Subcategory,NA
-Burglary,7,1221,853,551,0,875,0,Area 3,Burglary,Property,NA
-Total/Subcategory,1,821,570,261,0,551,0,Area 3,Burglary (Motor Vehicle),Total/Subcategory,NA
-Total/Subcategory,2,182,160,202,0,181,0,Area 3,Burglary (Residential),Total/Subcategory,NA
-Total/Subcategory,2,144,98,54,0,99,0,Area 3,Burglary (Commercial),Total/Subcategory,NA
-Total/Subcategory,1,37,25,18,0,27,0,Area 3,"Burglary (Boats, Aircraft, Other)",Total/Subcategory,NA
-Motor Vehicle Theft,8,1596,938,860,0,1131,0,Area 3,Motor Vehicle Theft,Property,NA
-Larceny,4,1212,1032,1003,0,1082,0,Area 3,Larceny,Property,NA
-Arson,0,14,10,4,0,9,0,Area 3,Arson,Property,NA
-Total/Subcategory,25,5021,3514,2970,0,3835,0,Area 3,Total,Total/Subcategory,NA
+Burglary,7,1245,873,569,0,896,0,Area 3,Burglary,Property,NA
+Total/Subcategory,4,836,582,271,0,563,0,Area 3,Burglary (Motor Vehicle),Total/Subcategory,NA
+Total/Subcategory,2,187,166,206,0,186,0,Area 3,Burglary (Residential),Total/Subcategory,NA
+Total/Subcategory,0,148,100,58,0,102,0,Area 3,Burglary (Commercial),Total/Subcategory,NA
+Total/Subcategory,0,37,25,17,0,26,0,Area 3,"Burglary (Boats, Aircraft, Other)",Total/Subcategory,NA
+Motor Vehicle Theft,8,1619,962,873,0,1151,0,Area 3,Motor Vehicle Theft,Property,NA
+Larceny,8,1240,1055,1022,0,1106,0,Area 3,Larceny,Property,NA
+Arson,0,15,10,4,0,10,0,Area 3,Arson,Property,NA
+Total/Subcategory,35,5107,3589,3035,0,3910,0,Area 3,Total,Total/Subcategory,NA
 Murder,0,5,6,3,0,5,0,Area 4,Murder,Violent,NA
 Total/Subcategory,0,1,1,1,0,1,0,Area 4,All Other Homicides,Total/Subcategory,NA
-Aggravated Assault,6,455,396,363,0,405,0,Area 4,Aggravated Assault,Violent,NA
-Total/Subcategory,0,43,33,26,0,34,0,Area 4,Aggravated Assault (Firearm),Total/Subcategory,NA
-Total/Subcategory,0,49,40,30,0,40,0,Area 4,Combined subtotal of homicides and firearms-related aggravated assaults,Total/Subcategory,NA
-Total/Subcategory,0,32,23,18,0,24,0,Area 4,Aggravated Assault (Shooting occupied home or vehicle),Total/Subcategory,NA
-Total/Subcategory,0,11,13,9,0,11,0,Area 4,Aggravated Assault (Shooting unoccupied home or vehicle),Total/Subcategory,NA
-Total/Subcategory,6,369,327,310,0,335,0,Area 4,Aggravated Assault (Non Firearm),Total/Subcategory,NA
-Sexual Assault,0,26,10,16,0,17,0,Area 4,Sexual Assault,Violent,NA
-Robbery,5,579,318,201,0,366,0,Area 4,Robbery,Violent,NA
-Total/Subcategory,1,284,125,69,0,159,0,Area 4,Robbery (Firearm),Total/Subcategory,NA
-Total/Subcategory,1,22,15,13,0,17,0,Area 4,Robbery (Knife),Total/Subcategory,NA
-Total/Subcategory,1,149,120,75,0,115,0,Area 4,Robbery (Strong-arm),Total/Subcategory,NA
-Total/Subcategory,2,16,11,11,0,13,0,Area 4,Robbery (other dangerous weapon),Total/Subcategory,NA
-Total/Subcategory,0,28,9,7,0,15,0,Area 4,Residential Robbery,Total/Subcategory,NA
-Total/Subcategory,0,80,38,26,0,48,0,Area 4,Carjacking,Total/Subcategory,NA
-Burglary,4,943,729,490,0,721,0,Area 4,Burglary,Property,NA
-Total/Subcategory,3,418,412,157,0,329,0,Area 4,Burglary (Motor Vehicle),Total/Subcategory,NA
-Total/Subcategory,0,205,154,167,0,175,0,Area 4,Burglary (Residential),Total/Subcategory,NA
-Total/Subcategory,0,247,130,105,0,161,0,Area 4,Burglary (Commercial),Total/Subcategory,NA
+Aggravated Assault,6,462,404,372,0,413,0,Area 4,Aggravated Assault,Violent,NA
+Total/Subcategory,1,43,34,27,0,35,0,Area 4,Aggravated Assault (Firearm),Total/Subcategory,NA
+Total/Subcategory,1,49,41,31,0,40,0,Area 4,Combined subtotal of homicides and firearms-related aggravated assaults,Total/Subcategory,NA
+Total/Subcategory,0,33,23,19,0,25,0,Area 4,Aggravated Assault (Shooting occupied home or vehicle),Total/Subcategory,NA
+Total/Subcategory,0,11,13,10,0,11,0,Area 4,Aggravated Assault (Shooting unoccupied home or vehicle),Total/Subcategory,NA
+Total/Subcategory,5,375,334,316,0,342,0,Area 4,Aggravated Assault (Non Firearm),Total/Subcategory,NA
+Sexual Assault,1,26,11,17,0,18,0,Area 4,Sexual Assault,Violent,NA
+Robbery,3,593,324,205,0,374,0,Area 4,Robbery,Violent,NA
+Total/Subcategory,0,290,126,69,0,162,0,Area 4,Robbery (Firearm),Total/Subcategory,NA
+Total/Subcategory,0,22,15,13,0,17,0,Area 4,Robbery (Knife),Total/Subcategory,NA
+Total/Subcategory,3,156,124,80,0,120,0,Area 4,Robbery (Strong-arm),Total/Subcategory,NA
+Total/Subcategory,0,16,11,10,0,12,0,Area 4,Robbery (other dangerous weapon),Total/Subcategory,NA
+Total/Subcategory,0,29,9,7,0,15,0,Area 4,Residential Robbery,Total/Subcategory,NA
+Total/Subcategory,0,80,39,26,0,48,0,Area 4,Carjacking,Total/Subcategory,NA
+Burglary,2,963,743,497,0,734,0,Area 4,Burglary,Property,NA
+Total/Subcategory,0,428,417,160,0,335,0,Area 4,Burglary (Motor Vehicle),Total/Subcategory,NA
+Total/Subcategory,0,207,161,170,0,179,0,Area 4,Burglary (Residential),Total/Subcategory,NA
+Total/Subcategory,0,255,132,107,0,165,0,Area 4,Burglary (Commercial),Total/Subcategory,NA
 Total/Subcategory,0,45,33,42,0,40,0,Area 4,"Burglary (Boats, Aircraft, Other)",Total/Subcategory,NA
-Motor Vehicle Theft,12,1530,908,1031,0,1156,0,Area 4,Motor Vehicle Theft,Property,NA
-Larceny,6,1063,1016,1000,0,1026,0,Area 4,Larceny,Property,NA
-Arson,0,15,14,6,0,12,0,Area 4,Arson,Property,NA
-Total/Subcategory,33,4617,3398,3111,0,3709,0,Area 4,Total,Total/Subcategory,NA
+Motor Vehicle Theft,8,1560,936,1054,0,1183,0,Area 4,Motor Vehicle Theft,Property,NA
+Larceny,7,1087,1033,1023,0,1048,0,Area 4,Larceny,Property,NA
+Arson,0,17,15,6,0,13,0,Area 4,Arson,Property,NA
+Total/Subcategory,27,4714,3473,3178,0,3788,0,Area 4,Total,Total/Subcategory,NA
 Murder,0,9,7,7,0,8,0,Area 5,Murder,Violent,NA
 Total/Subcategory,0,1,3,-,0,1,0,Area 5,All Other Homicides,Total/Subcategory,NA
-Aggravated Assault,7,603,462,429,0,498,0,Area 5,Aggravated Assault,Violent,NA
-Total/Subcategory,2,69,47,43,0,53,0,Area 5,Aggravated Assault (Firearm),Total/Subcategory,NA
-Total/Subcategory,2,79,57,50,0,62,0,Area 5,Combined subtotal of homicides and firearms-related aggravated assaults,Total/Subcategory,NA
-Total/Subcategory,1,54,35,15,0,35,0,Area 5,Aggravated Assault (Shooting occupied home or vehicle),Total/Subcategory,NA
+Aggravated Assault,4,614,471,441,0,509,0,Area 5,Aggravated Assault,Violent,NA
+Total/Subcategory,2,70,49,46,0,55,0,Area 5,Aggravated Assault (Firearm),Total/Subcategory,NA
+Total/Subcategory,2,80,59,53,0,64,0,Area 5,Combined subtotal of homicides and firearms-related aggravated assaults,Total/Subcategory,NA
+Total/Subcategory,0,56,37,16,0,36,0,Area 5,Aggravated Assault (Shooting occupied home or vehicle),Total/Subcategory,NA
 Total/Subcategory,0,24,21,9,0,18,0,Area 5,Aggravated Assault (Shooting unoccupied home or vehicle),Total/Subcategory,NA
-Total/Subcategory,4,456,359,362,0,392,0,Area 5,Aggravated Assault (Non Firearm),Total/Subcategory,NA
-Sexual Assault,0,19,18,10,0,16,0,Area 5,Sexual Assault,Violent,NA
-Robbery,3,329,247,153,0,243,0,Area 5,Robbery,Violent,NA
-Total/Subcategory,2,147,103,44,0,98,0,Area 5,Robbery (Firearm),Total/Subcategory,NA
-Total/Subcategory,1,8,10,8,0,9,0,Area 5,Robbery (Knife),Total/Subcategory,NA
-Total/Subcategory,0,94,77,59,0,77,0,Area 5,Robbery (Strong-arm),Total/Subcategory,NA
-Total/Subcategory,0,3,6,9,0,6,0,Area 5,Robbery (other dangerous weapon),Total/Subcategory,NA
-Total/Subcategory,0,8,11,4,0,8,0,Area 5,Residential Robbery,Total/Subcategory,NA
-Total/Subcategory,0,69,40,29,0,46,0,Area 5,Carjacking,Total/Subcategory,NA
-Burglary,0,533,412,320,0,422,0,Area 5,Burglary,Property,NA
-Total/Subcategory,0,224,189,132,0,182,0,Area 5,Burglary (Motor Vehicle),Total/Subcategory,NA
-Total/Subcategory,0,130,95,91,0,105,0,Area 5,Burglary (Residential),Total/Subcategory,NA
-Total/Subcategory,0,130,89,58,0,92,0,Area 5,Burglary (Commercial),Total/Subcategory,NA
-Total/Subcategory,0,27,37,28,0,31,0,Area 5,"Burglary (Boats, Aircraft, Other)",Total/Subcategory,NA
-Motor Vehicle Theft,24,1513,845,972,0,1110,0,Area 5,Motor Vehicle Theft,Property,NA
-Larceny,7,897,830,857,0,861,0,Area 5,Larceny,Property,NA
-Arson,0,13,21,7,0,14,0,Area 5,Arson,Property,NA
-Total/Subcategory,41,3917,2845,2755,0,3172,0,Area 5,Total,Total/Subcategory,NA
+Total/Subcategory,2,464,364,370,0,399,0,Area 5,Aggravated Assault (Non Firearm),Total/Subcategory,NA
+Sexual Assault,0,19,19,10,0,16,0,Area 5,Sexual Assault,Violent,NA
+Robbery,4,338,250,157,0,248,0,Area 5,Robbery,Violent,NA
+Total/Subcategory,1,150,104,45,0,100,0,Area 5,Robbery (Firearm),Total/Subcategory,NA
+Total/Subcategory,0,8,10,8,0,9,0,Area 5,Robbery (Knife),Total/Subcategory,NA
+Total/Subcategory,2,96,78,61,0,78,0,Area 5,Robbery (Strong-arm),Total/Subcategory,NA
+Total/Subcategory,0,4,7,9,0,7,0,Area 5,Robbery (other dangerous weapon),Total/Subcategory,NA
+Total/Subcategory,1,9,11,5,0,8,0,Area 5,Residential Robbery,Total/Subcategory,NA
+Total/Subcategory,0,71,40,29,0,47,0,Area 5,Carjacking,Total/Subcategory,NA
+Burglary,0,545,435,323,0,434,0,Area 5,Burglary,Property,NA
+Total/Subcategory,0,233,200,133,0,189,0,Area 5,Burglary (Motor Vehicle),Total/Subcategory,NA
+Total/Subcategory,0,133,102,92,0,109,0,Area 5,Burglary (Residential),Total/Subcategory,NA
+Total/Subcategory,0,130,93,60,0,94,0,Area 5,Burglary (Commercial),Total/Subcategory,NA
+Total/Subcategory,0,27,38,27,0,31,0,Area 5,"Burglary (Boats, Aircraft, Other)",Total/Subcategory,NA
+Motor Vehicle Theft,17,1542,873,1000,0,1138,0,Area 5,Motor Vehicle Theft,Property,NA
+Larceny,3,913,848,874,0,878,0,Area 5,Larceny,Property,NA
+Arson,0,16,22,7,0,15,0,Area 5,Arson,Property,NA
+Total/Subcategory,28,3997,2928,2819,0,3248,0,Area 5,Total,Total/Subcategory,NA
 Murder,0,19,10,7,0,12,0,Area 6,Murder,Violent,NA
 Total/Subcategory,0,3,2,1,0,2,0,Area 6,All Other Homicides,Total/Subcategory,NA
-Aggravated Assault,10,530,434,371,0,445,0,Area 6,Aggravated Assault,Violent,NA
-Total/Subcategory,0,59,47,26,0,44,0,Area 6,Aggravated Assault (Firearm),Total/Subcategory,NA
-Total/Subcategory,0,81,59,34,0,58,0,Area 6,Combined subtotal of homicides and firearms-related aggravated assaults,Total/Subcategory,NA
-Total/Subcategory,0,53,34,9,0,32,0,Area 6,Aggravated Assault (Shooting occupied home or vehicle),Total/Subcategory,NA
-Total/Subcategory,0,19,21,8,0,16,0,Area 6,Aggravated Assault (Shooting unoccupied home or vehicle),Total/Subcategory,NA
-Total/Subcategory,10,399,332,328,0,353,0,Area 6,Aggravated Assault (Non Firearm),Total/Subcategory,NA
-Sexual Assault,0,18,15,11,0,15,0,Area 6,Sexual Assault,Violent,NA
-Robbery,0,366,231,165,0,254,0,Area 6,Robbery,Violent,NA
-Total/Subcategory,0,166,81,47,0,98,0,Area 6,Robbery (Firearm),Total/Subcategory,NA
-Total/Subcategory,0,19,10,7,0,12,0,Area 6,Robbery (Knife),Total/Subcategory,NA
-Total/Subcategory,0,100,74,62,0,79,0,Area 6,Robbery (Strong-arm),Total/Subcategory,NA
+Aggravated Assault,4,540,443,381,0,455,0,Area 6,Aggravated Assault,Violent,NA
+Total/Subcategory,0,60,49,26,0,45,0,Area 6,Aggravated Assault (Firearm),Total/Subcategory,NA
+Total/Subcategory,0,82,61,34,0,59,0,Area 6,Combined subtotal of homicides and firearms-related aggravated assaults,Total/Subcategory,NA
+Total/Subcategory,0,55,34,10,0,33,0,Area 6,Aggravated Assault (Shooting occupied home or vehicle),Total/Subcategory,NA
+Total/Subcategory,0,19,21,9,0,16,0,Area 6,Aggravated Assault (Shooting unoccupied home or vehicle),Total/Subcategory,NA
+Total/Subcategory,4,406,339,336,0,360,0,Area 6,Aggravated Assault (Non Firearm),Total/Subcategory,NA
+Sexual Assault,1,19,15,12,0,15,0,Area 6,Sexual Assault,Violent,NA
+Robbery,3,375,232,169,0,259,0,Area 6,Robbery,Violent,NA
+Total/Subcategory,1,172,81,48,0,100,0,Area 6,Robbery (Firearm),Total/Subcategory,NA
+Total/Subcategory,0,20,11,7,0,13,0,Area 6,Robbery (Knife),Total/Subcategory,NA
+Total/Subcategory,2,101,74,65,0,80,0,Area 6,Robbery (Strong-arm),Total/Subcategory,NA
 Total/Subcategory,0,7,12,8,0,9,0,Area 6,Robbery (other dangerous weapon),Total/Subcategory,NA
-Total/Subcategory,0,11,10,8,0,10,0,Area 6,Residential Robbery,Total/Subcategory,NA
+Total/Subcategory,0,12,10,8,0,10,0,Area 6,Residential Robbery,Total/Subcategory,NA
 Total/Subcategory,0,63,44,33,0,47,0,Area 6,Carjacking,Total/Subcategory,NA
-Burglary,4,773,371,268,0,471,0,Area 6,Burglary,Property,NA
-Total/Subcategory,4,497,193,113,0,268,0,Area 6,Burglary (Motor Vehicle),Total/Subcategory,NA
-Total/Subcategory,0,89,77,79,0,82,0,Area 6,Burglary (Residential),Total/Subcategory,NA
-Total/Subcategory,0,138,74,50,0,87,0,Area 6,Burglary (Commercial),Total/Subcategory,NA
-Total/Subcategory,0,36,26,17,0,26,0,Area 6,"Burglary (Boats, Aircraft, Other)",Total/Subcategory,NA
-Motor Vehicle Theft,8,1249,622,665,0,845,0,Area 6,Motor Vehicle Theft,Property,NA
-Larceny,10,1073,760,605,0,813,0,Area 6,Larceny,Property,NA
-Arson,0,19,18,7,0,15,0,Area 6,Arson,Property,NA
-Total/Subcategory,32,4050,2463,2100,0,2871,0,Area 6,Total,Total/Subcategory,NA
+Burglary,2,785,378,270,0,478,0,Area 6,Burglary,Property,NA
+Total/Subcategory,1,502,195,114,0,270,0,Area 6,Burglary (Motor Vehicle),Total/Subcategory,NA
+Total/Subcategory,1,91,80,80,0,84,0,Area 6,Burglary (Residential),Total/Subcategory,NA
+Total/Subcategory,0,143,75,51,0,90,0,Area 6,Burglary (Commercial),Total/Subcategory,NA
+Total/Subcategory,0,36,27,17,0,27,0,Area 6,"Burglary (Boats, Aircraft, Other)",Total/Subcategory,NA
+Motor Vehicle Theft,6,1266,634,678,0,859,0,Area 6,Motor Vehicle Theft,Property,NA
+Larceny,8,1102,775,619,0,832,0,Area 6,Larceny,Property,NA
+Arson,0,19,19,7,0,15,0,Area 6,Arson,Property,NA
+Total/Subcategory,24,4128,2508,2144,0,2927,0,Area 6,Total,Total/Subcategory,NA
